@@ -1,0 +1,57 @@
+<?xml version='1.0' standalone='no'?>
+<svg width='346' height='100' version='1.1' xmlns='http://www.w3.org/2000/svg' contentScriptType='text/javascript'>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="10" y="15" font-family="Courier New" font-size="12.0" font-weight="bold" fill="#000000">Subject</text>
+<text x="100" y="15" font-family="Courier New" font-size="12.0" font-weight="bold" fill="#000000">Future</text>
+<text x="152" y="15" font-family="Courier New" font-size="12.0" font-weight="bold" fill="#000000">Stem</text>
+<text x="190" y="15" font-family="Courier New" font-size="12.0" font-weight="bold" fill="#000000">Future</text>
+<text x="242" y="15" font-family="Courier New" font-size="12.0" font-weight="bold" fill="#000000">Object</text>
+
+<text x="10" y="35" font-family="Charis SIL" font-size="12.0" fill="#0000ff">no-</text>
+<text x="40" y="35" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">1.sbj</text>
+
+<text x="105" y="35" font-family="Charis SIL" font-size="12.0" fill="#0000ff">N-</text>
+<text x="123" y="35" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">fut</text>
+
+<text x="192" y="35" font-family="Charis SIL" font-size="12.0" fill="#0000ff">-e</text>
+<text x="210" y="35" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">fut</text>
+
+<text x="244" y="35" font-family="Charis SIL" font-size="12.0" fill="#0000ff">-na</text>
+<text x="275" y="35" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">1.obj</text>
+
+<text x="244" y="50" font-family="Charis SIL" font-size="12.0" fill="#0000ff">-ahi</text>
+<text x="275" y="50" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">1incl.obj</text>
+
+<text x="244" y="65" font-family="Charis SIL" font-size="12.0" fill="#0000ff">-Npi</text>
+<text x="275" y="65" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">2.obj</text>
+
+<text x="244" y="80" font-family="Charis SIL" font-size="12.0" fill="#0000ff">-ri</text>
+<text x="275" y="80" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">3m.obj</text>
+
+<text x="244" y="95" font-family="Charis SIL" font-size="12.0" fill="#0000ff">-ro</text>
+<text x="275" y="95" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">3f.obj</text>
+
+<text x="10" y="50" font-family="Charis SIL" font-size="12.0" fill="#0000ff">a-</text>
+<text x="40" y="50" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">1incl.sbj</text>
+
+<text x="10" y="65" font-family="Charis SIL" font-size="12.0" fill="#0000ff">pi-</text>
+<text x="40" y="65" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">2.sbj</text>
+
+<text x="10" y="80" font-family="Charis SIL" font-size="12.0" fill="#0000ff">i-</text>
+<text x="40" y="80" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">3m.sbj</text>
+
+<text x="10" y="95" font-family="Charis SIL" font-size="12.0" fill="#0000ff">o-</text>
+<text x="40" y="95" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">3f.sbj</text>
+
+<line x1="6" y1="1" x2="340" y2="1" stroke="#400040" stroke-width="1.0"/>
+<line x1="6" y1="20" x2="340" y2="20" stroke="#400040" stroke-width="1.0"/>
+<line x1="6" y1="99" x2="340" y2="99" stroke="#400040" stroke-width="1.0"/>
+
+<line x1="6" y1="1" x2="6" y2="99" stroke="#400040" stroke-width="1.0"/>
+<line x1="98" y1="1" x2="98" y2="99" stroke="#400040" stroke-width="1.0"/>
+<line x1="147" y1="1" x2="147" y2="99" stroke="#400040" stroke-width="1.0"/>
+<line x1="185" y1="1" x2="185" y2="99" stroke="#400040" stroke-width="1.0"/>
+<line x1="238" y1="1" x2="238" y2="99" stroke="#400040" stroke-width="1.0"/>
+<line x1="340" y1="1" x2="340" y2="99" stroke="#400040" stroke-width="1.0"/>
+
+</svg>

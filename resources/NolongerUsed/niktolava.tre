@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lingTreeTree dbversion="2">
+    <backgroundColor>#ffffff</backgroundColor>
+    <description>(Word (Subject (\L ni- (\G 1sg.sbj))) (Object (\L k- (\G 3.obj))) (Stem[vt] (root (\L tolova (\G to.swallow)))) )</description>
+    <emptyElementFontInfo>
+        <color>#0000ff</color>
+        <fontFamily>Courier New</fontFamily>
+        <fontSize>12.0</fontSize>
+        <fontType>Regular</fontType>
+    </emptyElementFontInfo>
+    <glossFontInfo>
+        <color>#008000</color>
+        <fontFamily>Courier New</fontFamily>
+        <fontSize>12.0</fontSize>
+        <fontType>Regular</fontType>
+    </glossFontInfo>
+    <horizontalGap>17.83</horizontalGap>
+    <horizontalOffset>225.056953125</horizontalOffset>
+    <initialXCoordinate>5.94</initialXCoordinate>
+    <initialYCoordinate>14.94</initialYCoordinate>
+    <lexGlossGapAdjustment>0.0</lexGlossGapAdjustment>
+    <lexicalFontInfo>
+        <color>#0000ff</color>
+        <fontFamily>Courier New</fontFamily>
+        <fontSize>12.0</fontSize>
+        <fontType>Regular</fontType>
+    </lexicalFontInfo>
+    <lineColor>#400040</lineColor>
+    <lineWidth>1.0</lineWidth>
+    <nonTerminalFontInfo>
+        <color>#ff0000</color>
+        <fontFamily>Courier New</fontFamily>
+        <fontSize>12.0</fontSize>
+        <fontType>Regular</fontType>
+    </nonTerminalFontInfo>
+    <saveAsPng>false</saveAsPng>
+    <saveAsSVG>true</saveAsSVG>
+    <showFlatView>false</showFlatView>
+    <useRightToLeftOrientation>false</useRightToLeftOrientation>
+    <verticalGap>17.83</verticalGap>
+</lingTreeTree>

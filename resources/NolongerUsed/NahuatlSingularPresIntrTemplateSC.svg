@@ -1,0 +1,21 @@
+<?xml version='1.0' standalone='no'?>
+<svg width='146' height='55' version='1.1' xmlns='http://www.w3.org/2000/svg' contentScriptType='text/javascript'>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="10" y="15" font-family="Courier New" font-size="12.0" font-weight="bold" fill="#000000">SgSubject</text>
+<text x="100" y="15" font-family="Courier New" font-size="12.0" font-weight="bold" fill="#000000">Stem</text>
+
+<text x="10" y="35" font-family="Charis SIL" font-size="12.0" fill="#0000ff">ni-</text>
+<text x="40" y="35" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">1sg.sbj</text>
+
+<text x="10" y="50" font-family="Charis SIL" font-size="12.0" fill="#0000ff">ti-</text>
+<text x="40" y="50" font-family="Charis SIL Small Caps" font-size="12.0" fill="#008000">2sg.sbj</text>
+
+<line x1="6" y1="1" x2="140" y2="1" stroke="#400040" stroke-width="1.0"/>
+<line x1="6" y1="20" x2="140" y2="20" stroke="#400040" stroke-width="1.0"/>
+<line x1="6" y1="55" x2="140" y2="55" stroke="#400040" stroke-width="1.0"/>
+
+<line x1="6" y1="1" x2="6" y2="55" stroke="#400040" stroke-width="1.0"/>
+<line x1="98" y1="1" x2="98" y2="55" stroke="#400040" stroke-width="1.0"/>
+<line x1="140" y1="1" x2="140" y2="55" stroke="#400040" stroke-width="1.0"/>
+
+</svg>

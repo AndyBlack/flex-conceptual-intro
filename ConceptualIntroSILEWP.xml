@@ -3108,6 +3108,10 @@ table="ntNahuatlPossessedPluralNounTemplate"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >Once we have done this, we will have successfully set up the inflectional morphotactics for possessed nominals in Orizaba Nahuatl.</p
 ></section3
@@ -3712,6 +3716,10 @@ begin="bOrizabaInflection"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section3
 ><section3
 id="sInflAffixDiscontinuous"
@@ -4486,7 +4494,7 @@ lang="lYalalag"
 ><p
 >This means that to model these inflection classes, we will need to do the following:</p
 ><example
-num="xYalalagInflectionClassHowTo"
+num="xYalalagInflepctionClassHowTo"
 ><chart
 type="HowTo"
 ><ol
@@ -4511,6 +4519,10 @@ lang="lYalalag"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >Now consider the following <indexedItem
 term="iLatin"
@@ -4748,6 +4760,10 @@ lang="lLatin"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 ><indexedRangeBegin
 id="bDefaultInflectionClass"
@@ -6062,6 +6078,10 @@ begin="bIsthmusZapotec"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >In general terms, here is how the <object
 type="WordWorks"
@@ -6098,6 +6118,10 @@ begin="bInflectionSubclass"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 ><indexedRangeBegin
 id="bInflSubClassesEnv"
@@ -6753,6 +6777,10 @@ type="WordWorks"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section3
 ><section3
 id="sInflAffixInflectionClassVsInflectionFeature"
@@ -7338,6 +7366,10 @@ sec="sDervAffixPOSConsiderations"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section3
 ><section3
 id="sDervAffixSubCatChanging"
@@ -7813,7 +7845,7 @@ type="WordWorks"
 ></object
 >? We need to do the following:</p
 ><example
-num="xSubCatChangingHowTo"
+num="xSubCaptChangingHowTo"
 ><chart
 type="HowTo"
 ><ol
@@ -7832,6 +7864,10 @@ sec="sDervAffixPOSConsiderations"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section3
 ><section3
 id="sDervAffixNonCatChanging"
@@ -8089,6 +8125,10 @@ sec="sDervAffixPOSConsiderations"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >Notice that in this case the from‑ and to‑ categories will be the same, but we do need to deal with the change in inflection class. This leads us to the next topic below.</p
 ></section3
@@ -8131,6 +8171,10 @@ type="HowTo"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >Note that rarely, if ever, does one need to indicate the “from inflection class” information. We include it in case you do find that you need it.</p
 ></section4
@@ -8371,6 +8415,10 @@ begin="bInflectionClassAndDerivation"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section4
 ></section3
 ><section3
@@ -8627,6 +8675,10 @@ term="iCategoryInflectableFeatures"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section3
 ><section3
 id="sDervAffixPOSConsiderations"
@@ -9000,6 +9052,10 @@ type="WordWorks"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section2
 ><section2
 id="sDerivationVsInflection"
@@ -9676,6 +9732,10 @@ begin="bAffixes"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section2
 ></section1
 ><section1
@@ -10305,6 +10365,10 @@ type="HowTo"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section2
 ><section2
 id="sCompoundsExocentric"
@@ -10453,6 +10517,10 @@ sec="sInflAffixInflectionClasses"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section2
 ><section2
 id="sCompoundIncorporation"
@@ -11957,6 +12025,10 @@ type="WordWorks"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 ><object
 type="WordWorks"
@@ -12137,6 +12209,10 @@ table="ntAdhocMorphAdjacency"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section2
 ><section2
 id="sAdhocMorphProhibitionsGroups"
@@ -12430,6 +12506,10 @@ num="xAdhocMorphHowTo"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >Finally, note that <object
 type="WordWorks"
@@ -13296,6 +13376,10 @@ num="xInitialSetOfPhonemes"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><section3
 id="sPhonemeSetsDigraphs"
 ><secTitle
@@ -13421,6 +13505,10 @@ num="xPhonemesHowTo"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >We highly recommend that you seek to give unique <indexedItem
 main="yes"
@@ -13520,6 +13608,10 @@ type="WordWorks"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >Example <exampleRef
 equal="no"
@@ -14447,6 +14539,10 @@ type="TT"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section3
 ></section2
 ><section2
@@ -14661,6 +14757,10 @@ type="TT"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><section3
 id="sReduplicationPartialPatternStage1"
 ><secTitle
@@ -14719,6 +14819,10 @@ type="TT"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >Suppose we have a natural class for consonants with an abbreviation of <object
 type="TT"
@@ -14938,6 +15042,10 @@ sec="sInfixationEnvironments"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >Note that infix allomorphs may be conditioned by <indexedItem
 term="iAlloEnvironments"
@@ -15138,6 +15246,10 @@ table="ntSiltiTemplate"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><example
 num="xSiltiAnalysis"
 ><interlinear
@@ -15392,6 +15504,10 @@ type="HowTo"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >The advisability of the use of the first method is debatable. If the epenthetic segment is rather common, then one might want to model it as a pseudo-morpheme. Such an approach allows you to use the output of <object
 type="WordWorks"
@@ -15518,6 +15634,10 @@ type="TT"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section1
 ><section1
 id="sMorphemeNotSurface"
@@ -15738,6 +15858,10 @@ lang="lCaquinte"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section1
 ><section1
 id="sNonPhonologicallyConditionedAllomorphy"
@@ -16185,6 +16309,10 @@ sec="sInflectionalAffixes"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >To summarize, one should use Stem Names to control stem allomorphy that is dependent not on phonological issues, but on the presence of certain inflection features. Note that Stem Names can only be used for stem allomorphs (not affix allomorphs).</p
 ><p
@@ -16708,6 +16836,10 @@ type="HowTo"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >For the Axininca Campa data above, the verbal inflection features are for perfect aspect and for first person object agreement. We would need to create the appropriate inflectional suffixes and assign perfect aspect to the perfect ‑<langData
 lang="lAxinincaCampa"
@@ -17173,6 +17305,10 @@ begin="bCoalescence"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section1
 ><section1
 id="sAdhocAlloProhibitions"
@@ -17449,6 +17585,10 @@ table="ntAdhocAlloAdjacency"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >By the way, when you are indicating the allomorph, be sure that the particular allomorph is for the correct morpheme, too. <object
 type="WordWorks"
@@ -17490,6 +17630,10 @@ num="xAdhocAlloHowTo"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >Finally, note that <object
 type="WordWorks"
@@ -17566,6 +17710,10 @@ term="iEmptySetSymbol"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ></section2
 ><section2
 id="sAllomorphOrder"
@@ -17923,6 +18071,10 @@ term="iAlloEnvironments"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >Note the following characteristics about circumfix entries created this way:</p
 ><ol
@@ -20405,6 +20557,10 @@ type="TT"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >Here is how the docking rule might look:<indexedItem
 term="iPhonRuleExamples"
@@ -21572,6 +21728,10 @@ lang="lBahasaIndonesia"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >How might we deal with such an intricate combination of arguably unexpected factors and successfully implement them in <object
 type="WordWorks"
@@ -21596,6 +21756,10 @@ type="HowTo"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >How might we do the first step? Given that there appear to be some orthographic conventions employed in the practical orthography, one way to deal with some of the unusual assimilations is to create a special “orthographic place” feature and assign the phonemes to use the place involved in the practical orthography.</p
 ><p
@@ -23904,6 +24068,10 @@ figure="fIndonesianUnspecifiedVoicelessObstruentDeletionRule"
 ></ol
 ></chart
 ></example
+><pc
+> <comment
+>force extra space after an ol in a example</comment
+></pc
 ><p
 >When the <object
 type="HermitCrab"

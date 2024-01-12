@@ -280,6 +280,7 @@ textalign="left"
 verticalfillbefore="2"
 ></publishingBlurbLayout
 ><abstractLayout
+font-size="14pt"
 font-weight="bold"
 spaceafter=".25in"
 spacebefore=".0625in"
@@ -288,6 +289,7 @@ useemptyheaderfooter="yes"
 ></abstractLayout
 ><contentsLayout
 betweentitleandnumber="space"
+font-size="14pt"
 font-weight="bold"
 pagebreakbefore="yes"
 showpagenumber="no"

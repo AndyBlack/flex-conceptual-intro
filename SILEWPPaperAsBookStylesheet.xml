@@ -43,6 +43,7 @@ contentBetweenFootnoteNumberAndFootnoteContent=" "
 ><footnoteIndent
 >0pt</footnoteIndent
 ><footnoteLine
+forcefootnotestobottomofpage="yes"
 leaderlength="2in"
 leaderpattern="rule"
 textalign="left"

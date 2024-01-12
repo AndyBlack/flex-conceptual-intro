@@ -3469,6 +3469,7 @@ lang="lNahuatl"
 >anmiki</langData
 >), we can create two inflectional templates: one for singular and one for plural. The singular one will be like this:</p
 ><tablenumbered
+XeLaTeXSpecial="pagebreak"
 id="ntNahuatlSingularPresIntrTemplate"
 ><table
 align="center"
@@ -4824,6 +4825,7 @@ num="xIZFuture"
 ></exampleRef
 >, paying attention to the aspect prefixes.</p
 ><table
+XeLaTeXSpecial="pagebreak"
 ><tr
 ><td
 >    Habitual</td
@@ -5438,6 +5440,7 @@ num="xIZFuture"
 ></exampleRef
 >:</p
 ><table
+XeLaTeXSpecial="pagebreak"
 ><tr
 ><td
 >    Completive</td
@@ -6012,6 +6015,7 @@ abbr="vPRF"
 ></listInterlinear
 ></example
 ><p
+XeLaTeXSpecial="pagebreak"
 >To model this Isthmus Zapotec data in <object
 type="WordWorks"
 ></object
@@ -6627,11 +6631,12 @@ term="iInflFeatAgreement"
 ><indexedItem
 term="iInflFeatRuleOutParses"
 ></indexedItem
->The Spanish data illustrates how we can use gender inflection features to rule out incorrect parses when a gender affix shows up incorrectly on a root. Some possible situations where inflection features could play a similar role in ruling out incorrect parses include those shown in <tablenumberedRef
+>The Spanish data illustrates how we can use gender inflection features to rule out incorrect parses when a gender affix shows up incorrectly on a root. Some possible situations where inflection features could play a similar role in ruling out incorrect parses include those shown in table <tablenumberedRef
 table="ntInflectionFeaturesToRuleOutIncorrectParses"
 ></tablenumberedRef
 >.</p
 ><tablenumbered
+XeLaTeXSpecial="pagebreak"
 id="ntInflectionFeaturesToRuleOutIncorrectParses"
 ><table
 align="center"
@@ -6800,9 +6805,8 @@ term="iInflectionClass"
 term="iInflectionFeature"
 ></indexedItem
 >When modeling a given language, one may well wonder if a given phenomenon should be handled by inflection classes or by inflection features. Here are some guidelines to help one decide:</p
-><p
->Look at the various affixes involved.</p
 ><tablenumbered
+XeLaTeXSpecial="pagebreak"
 id="ntInflectionClassesVsInflectionFeatures"
 ><table
 align="center"
@@ -6814,7 +6818,7 @@ type="leftOffset"
 ><th
 align="left"
 valign="top"
->If they …</th
+>If the various affixes involved …</th
 ><th
 align="left"
 valign="top"
@@ -8294,6 +8298,7 @@ abbr="vACT"
 ></listInterlinear
 ></example
 ><example
+XeLaTeXSpecial="pagebreak"
 num="xPopoloca2"
 ><listInterlinear
 letter="xPopoloca2a"
@@ -17351,6 +17356,7 @@ table="ntAdhocAlloAdjacency"
 ></tablenumberedRef
 >.</p
 ><tablenumbered
+XeLaTeXSpecial="pagebreak"
 id="ntAdhocAlloAdjacency"
 ><table
 border="1"
@@ -20382,7 +20388,7 @@ term="iPhonRuleExamples"
 id="fSelaruGVRule"
 ><chart
 ><img
-XeLaTeXSpecial="width='2in'"
+XeLaTeXSpecial="width='2.25in'"
 src="resources/SelaruGVRule.svg"
 ></img
 ></chart
@@ -21211,6 +21217,7 @@ abbr="vAV"
 ></lineGroup
 ></listInterlinear
 ><listInterlinear
+XeLaTeXSpecial="pagebreak"
 letter="xIndonesianMenyanyi"
 ><lineGroup
 ><line
@@ -21540,6 +21547,7 @@ abbr="vAV"
 ></lineGroup
 ></listInterlinear
 ><listInterlinear
+XeLaTeXSpecial="pagebreak"
 letter="xIndonesianMensyaratkan2"
 ><lineGroup
 ><line
@@ -23622,6 +23630,7 @@ abbr="vCONT"
 ></lineGroup
 ></listInterlinear
 ><listInterlinear
+XeLaTeXSpecial="pagebreak"
 letter="xIndonesianMenulis-nulis"
 ><lineGroup
 ><line
@@ -24618,6 +24627,7 @@ abbr="vART"
 ></listInterlinear
 ></example
 ><example
+XeLaTeXSpecial="pagebreak"
 num="xSelaruDog"
 ><listInterlinear
 letter="xSelaruDogBase"
@@ -24775,6 +24785,7 @@ type="tFSBrackets"
 ><p
 >The following table shows a phoneme-feature matrix one might use for Selaru:</p
 ><example
+XeLaTeXSpecial="pagebreak"
 num="xSelaruPhonemeFeatureMatrix"
 ><table
 border="1"

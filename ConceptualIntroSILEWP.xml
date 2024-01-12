@@ -2431,18 +2431,19 @@ num="xNahuatlNominalInflection"
 ><example
 num="xNahuatlNominalPossSingluar"
 ><table
+border="1"
 ><tr
-><td
+><th
 align="left"
 valign="top"
 ><gloss
 lang="lGloss"
 >house</gloss
-></td
-><td
+></th
+><th
 align="left"
 valign="top"
->singular possessed noun</td
+>singular possessed noun</th
 ></tr
 ><tr
 ><td
@@ -2708,17 +2709,17 @@ num="xNahuatlNominalPossPlural"
 ><table
 border="1"
 ><tr
-><td
+><th
 align="left"
 valign="top"
 ><gloss
 lang="lGloss"
 >house</gloss
-></td
-><td
+></th
+><th
 align="left"
 valign="top"
->plural possessed noun</td
+>plural possessed noun</th
 ></tr
 ><tr
 ><td
@@ -3131,25 +3132,25 @@ num="xNahuatlVerbalParadigmPres"
 ><table
 border="1"
 ><tr
-><td
+><th
 align="left"
 valign="top"
 ><gloss
 lang="lGloss"
 >die, present tense</gloss
-></td
-><td
+></th
+><th
 align="left"
 valign="top"
->1st Person Subject</td
-><td
+>1st Person Subject</th
+><th
 align="left"
 valign="top"
->2nd Person Subject</td
-><td
+>2nd Person Subject</th
+><th
 align="left"
 valign="top"
->3rd Person Subject</td
+>3rd Person Subject</th
 ></tr
 ><tr
 ><td
@@ -4806,10 +4807,19 @@ letterOnly="no"
 num="xIZFuture"
 ></exampleRef
 >, paying attention to the aspect prefixes.</p
+><table
+><tr
+><td
+>    Habitual</td
+><td
+> </td
+><td
+>    Progressive</td
+></tr
+><tr
+><td
 ><example
 num="xIZHabitual"
-><exampleHeading
->Habitual aspect</exampleHeading
 ><listInterlinear
 letter="xIZHabitualClass2"
 ><lineGroup
@@ -4927,10 +4937,12 @@ abbr="vHAB"
 ></lineGroup
 ></listInterlinear
 ></example
+></td
+><td
+> </td
+><td
 ><example
 num="xIZProgressive"
-><exampleHeading
->Progressive aspect</exampleHeading
 ><listInterlinear
 letter="xIZProgressiveClass2"
 ><lineGroup
@@ -5048,10 +5060,20 @@ abbr="vPROG"
 ></lineGroup
 ></listInterlinear
 ></example
+></td
+></tr
+><tr
+><td
+>    Unreal</td
+><td
+> </td
+><td
+>    Future</td
+></tr
+><tr
+><td
 ><example
 num="xIZUnreal"
-><exampleHeading
->Unreal aspect</exampleHeading
 ><listInterlinear
 letter="xIZUnrealClass2"
 ><lineGroup
@@ -5169,10 +5191,12 @@ abbr="vUN"
 ></lineGroup
 ></listInterlinear
 ></example
+></td
+><td
+> </td
+><td
 ><example
 num="xIZFuture"
-><exampleHeading
->Future aspect</exampleHeading
 ><listInterlinear
 letter="xIZFutureClass2"
 ><lineGroup
@@ -5290,6 +5314,9 @@ abbr="vFUT"
 ></lineGroup
 ></listInterlinear
 ></example
+></td
+></tr
+></table
 ><p
 >Notice that based on this data, there are two inflection classes as summarized in <exampleRef
 letter="xIZ2Classes"
@@ -5394,8 +5421,17 @@ letterOnly="no"
 num="xIZFuture"
 ></exampleRef
 >:</p
-><p
->Completive aspect:</p
+><table
+><tr
+><td
+>    Completive</td
+><td
+> </td
+><td
+>    Potential</td
+></tr
+><tr
+><td
 ><example
 num="xIZCompletive"
 ><listInterlinear
@@ -5515,8 +5551,10 @@ abbr="vCOMPL"
 ></lineGroup
 ></listInterlinear
 ></example
-><p
->Potential aspect:</p
+></td
+><td
+> </td
+><td
 ><example
 num="xIZPotential"
 ><listInterlinear
@@ -5636,6 +5674,9 @@ abbr="vPOT"
 ></lineGroup
 ></listInterlinear
 ></example
+></td
+></tr
+></table
 ><p
 >For example, while the habitual prefix in <exampleRef
 letter="xIZHabitualClass1A"
@@ -6216,7 +6257,6 @@ abbr="vF"
 ></lineGroup
 ></listInterlinear
 ><listInterlinear
-XeLaTeXSpecial="pagebreak"
 letter="xSpanishGenderCasito"
 ><lineGroup
 ><line
@@ -9187,7 +9227,6 @@ term="iOrizabaNahuatl"
 ><example
 num="xOrizabaDerivTl"
 ><table
-border="1"
 ><tr
 ><td
 align="left"
@@ -9290,6 +9329,16 @@ lang="lGloss"
 ><td
 align="left"
 valign="top"
+> </td
+><td
+align="left"
+valign="top"
+> </td
+></tr
+><tr
+><td
+align="left"
+valign="top"
 ><table
 ><tr
 ><td
@@ -9382,7 +9431,6 @@ lang="lGloss"
 ><example
 num="xOrizabaDerivTlBad"
 ><table
-border="1"
 ><tr
 ><td
 align="left"
@@ -9474,6 +9522,16 @@ lang="lGloss"
 ></tr
 ></table
 ></td
+></tr
+><tr
+><td
+align="left"
+valign="top"
+> </td
+><td
+align="left"
+valign="top"
+> </td
 ></tr
 ><tr
 ><td
@@ -9829,6 +9887,20 @@ lang="lGloss"
 ><td
 align="left"
 valign="top"
+> </td
+><td
+align="left"
+valign="top"
+> </td
+><td
+align="left"
+valign="top"
+> </td
+></tr
+><tr
+><td
+align="left"
+valign="top"
 ><table
 ><tr
 ><td
@@ -9940,6 +10012,20 @@ lang="lGloss"
 ></tr
 ></table
 ></td
+></tr
+><tr
+><td
+align="left"
+valign="top"
+> </td
+><td
+align="left"
+valign="top"
+> </td
+><td
+align="left"
+valign="top"
+> </td
 ></tr
 ><tr
 ><td
@@ -10071,7 +10157,6 @@ num="xNahuatlCompoundAdjNoun"
 ><example
 num="xNahuatlCompoundNounAdj"
 ><table
-border="1"
 ><tr
 ><td
 align="left"
@@ -10118,6 +10203,12 @@ lang="lGloss"
 ></tr
 ></table
 ></td
+></tr
+><tr
+><td
+align="left"
+valign="top"
+> </td
 ></tr
 ><tr
 ><td
@@ -10279,6 +10370,20 @@ lang="lSpanish"
 lang="lGloss"
 >falls</gloss
 >’</td
+></tr
+><tr
+><td
+align="left"
+valign="top"
+> </td
+><td
+align="left"
+valign="top"
+> </td
+><td
+align="left"
+valign="top"
+> </td
 ></tr
 ><tr
 ><td
@@ -10618,6 +10723,9 @@ ref="rTuggyCurso"
 >.</p
 ></endnote
 ></p
+><table
+><tr
+><td
 ><example
 num="xNahuatlNounIncorporation1"
 ><listInterlinear
@@ -10737,81 +10845,53 @@ type="InFocus"
 >I medicine-swallow</free
 ></listInterlinear
 ></example
+></td
+><td
 ><example
 num="xNahuatlNounIncorporation2"
 ><listInterlinear
 letter="xNahuatlNounIncorporation2a"
 ><lineGroup
 ><line
-><wrd
 ><langData
 lang="lNahuatl"
 >nakatl</langData
-></wrd
 ></line
 ><line
-><wrd
 ><langData
 lang="lNahuatl"
 >naka-tl</langData
-></wrd
 ></line
 ><line
-><wrd
 ><gloss
 lang="lGloss"
->meat-<abbrRef
-abbr="vABS"
-></abbrRef
-></gloss
-></wrd
+>meat-Abs</gloss
 ></line
 ></lineGroup
 ><free
->meat</free
+>‘meat’</free
 ></listInterlinear
 ><listInterlinear
 letter="xNahuatlNounIncorporation2b"
 ><lineGroup
 ><line
-><wrd
 ><langData
 lang="lNahuatl"
 >nikkua</langData
-></wrd
 ></line
 ><line
-><wrd
 ><langData
 lang="lNahuatl"
 >ni-k-kua</langData
-></wrd
 ></line
 ><line
-><wrd
 ><gloss
 lang="lGloss"
-><abbrRef
-abbr="v1"
-></abbrRef
-><abbrRef
-abbr="vSG"
-></abbrRef
->.<abbrRef
-abbr="vSBJ"
-></abbrRef
->-<abbrRef
-abbr="v3"
-></abbrRef
->.<abbrRef
-abbr="vOBJ"
-></abbrRef
->-eat</gloss
-></wrd
+>1SgSubj-3Obj-to.eat</gloss
 ></line
 ></lineGroup
 ><free
->I eat it</free
+>‘I eat it’</free
 ></listInterlinear
 ><listInterlinear
 letter="xNahuatlNounIncorporation2c"
@@ -10834,28 +10914,25 @@ type="InFocus"
 ><line
 ><wrd
 lang="lGloss"
-><gloss
-lang="lGloss"
-><abbrRef
-abbr="v1"
-></abbrRef
-><abbrRef
-abbr="vSG"
-></abbrRef
->.<abbrRef
-abbr="vSBJ"
-></abbrRef
->-<object
+>1SgSubj-<object
 type="InFocus"
 >meat</object
->-eat</gloss
-></wrd
+>-to.eat</wrd
 ></line
 ></lineGroup
 ><free
->I meat-eat</free
+>‘I meat-eat’</free
 ></listInterlinear
 ></example
+></td
+></tr
+><tr
+><td
+></td
+><td
+></td
+></tr
+></table
 ><p
 >What is happening here? Notice how the nouns in <exampleRef
 equal="no"
@@ -11033,10 +11110,17 @@ lang="lWanca"
 >n</langData
 > that is crucial here.</p
 ><p
->There are three varieties of interfixes:</p
+>There are three varieties of interfixes as shown in table <tablenumberedRef
+table="ntInterixTypes"
+></tablenumberedRef
+>.</p
+><tablenumbered
+id="ntInterixTypes"
 ><table
 border="1"
 type="leftOffset"
+><caption
+>Types of Interfixes</caption
 ><tr
 ><th
 align="left"
@@ -11078,6 +11162,7 @@ valign="top"
 >A suffixing interfix is an suffix that can occur between two roots or stems.</td
 ></tr
 ></table
+></tablenumbered
 ><p
 >If the language you are modeling has these kinds of compounds and you want the parser to analyze them via a compound rule, then you will need to mark any affixes which can appear between roots with these special morpheme types.</p
 ></section2
@@ -11944,10 +12029,12 @@ term="iAdhocKeyMorpheme"
 term="iAdhocOtherMorphemes"
 ></indexedItem
 >other morphemes that cannot co-occur with the key one. One can constrain these other morphemes to never occur in one of the following ways with respect to the key morpheme:</p
-><example
-num="xAdhocMorphAdjacency"
+><tablenumbered
+id="ntAdhocMorphAdjacency"
 ><table
 border="1"
+><caption
+>Morpheme Ad-hoc Rule</caption
 ><tr
 ><th
 align="left"
@@ -12009,7 +12096,7 @@ valign="top"
 >The key morpheme is constrained from appearing immediately after the other morphemes in the same word.</td
 ></tr
 ></table
-></example
+></tablenumbered
 ><p
 >Note that when there are two or more morphemes listed for “other morphemes,” the rule only applies when all of them co-occur in the same word with the key morpheme. In addition, their relative order is significant. They should be listed in the same linear order they occur in a word.</p
 ><p
@@ -12025,11 +12112,9 @@ type="HowTo"
 ><li
 >Determine the morphemes involved.</li
 ><li
->Determine the most appropriate way to constrain them (see <exampleRef
-equal="no"
-letterOnly="no"
-num="xAdhocMorphAdjacency"
-></exampleRef
+>Determine the most appropriate way to constrain them (see table <tablenumberedRef
+table="ntAdhocMorphAdjacency"
+></tablenumberedRef
 >).<endnote
 id="nAdhocMorphHowTo"
 ><p
@@ -12041,11 +12126,9 @@ id="nAdhocMorphHowTo"
 ><li
 >Indicate the key morpheme involved.</li
 ><li
->Indicate the way or manner in which to constrain this morpheme (see <exampleRef
-equal="no"
-letterOnly="no"
-num="xAdhocMorphAdjacency"
-></exampleRef
+>Indicate the way or manner in which to constrain this morpheme (see table <tablenumberedRef
+table="ntAdhocMorphAdjacency"
+></tablenumberedRef
 >).</li
 ><li
 >Indicate the non-key morpheme(s) involved.</li
@@ -13734,7 +13817,6 @@ type="TT"
 ><example
 num="xSyllableFinalEnvironment"
 ><table
-border="1"
 ><tr
 ><td
 align="left"
@@ -13805,6 +13887,9 @@ letterOnly="no"
 num="xAlloOrderImplicit2"
 ></exampleRef
 >.</p
+><table
+><tr
+><td
 ><example
 num="xAlloOrderOvert1"
 ><table
@@ -13843,6 +13928,8 @@ lang="lNahuatl"
 ></tr
 ></table
 ></example
+></td
+><td
 ><example
 num="xAlloOrderOvert2"
 ><table
@@ -13881,6 +13968,8 @@ lang="lNahuatl"
 ></tr
 ></table
 ></example
+></td
+><td
 ><example
 num="xAlloOrderImplicit1"
 ><table
@@ -13919,6 +14008,8 @@ lang="lNahuatl"
 ></tr
 ></table
 ></example
+></td
+><td
 ><example
 num="xAlloOrderImplicit2"
 ><table
@@ -13957,6 +14048,9 @@ lang="lNahuatl"
 ></tr
 ></table
 ></example
+></td
+></tr
+></table
 ><p
 >Note in particular that for the two implicit methods, one does not have to overtly state the environment for the last allomorph. This is because each allomorph automatically inherits the negation of the environments of any preceding allomorphs. Thus, for the Implicit 1 method, the <langData
 lang="lNahuatl"
@@ -15686,21 +15780,21 @@ num="xNahuatlStemName"
 ><table
 border="1"
 ><tr
-><td
+><th
 align="left"
 valign="top"
 ><gloss
 lang="lGloss"
 >want</gloss
-></td
-><td
+></th
+><th
 align="left"
 valign="top"
->1st Person Singular Subject</td
-><td
+>1st Person Singular Subject</th
+><th
 align="left"
 valign="top"
->1st Person Plural Subject</td
+>1st Person Plural Subject</th
 ></tr
 ><tr
 ><td
@@ -17116,11 +17210,16 @@ term="iAdhocKeyAllo"
 >key allomorph and then to list one or more <indexedItem
 term="iAdhocOtherAllomorphs"
 ></indexedItem
->other allomorphs that cannot co-occur with the key one. One can constrain these other allomorphs to never occur in one of the following ways with respect to the key allomorph:</p
-><example
-num="xAdhocAlloAdjacency"
+>other allomorphs that cannot co-occur with the key one. One can constrain these other allomorphs to never occur in one of the following ways with respect to the key allomorph as shown in table <tablenumberedRef
+table="ntAdhocAlloAdjacency"
+></tablenumberedRef
+>.</p
+><tablenumbered
+id="ntAdhocAlloAdjacency"
 ><table
 border="1"
+><caption
+>Allomorph Ad-hoc Rule</caption
 ><tr
 ><th
 align="left"
@@ -17182,7 +17281,7 @@ valign="top"
 >The key allomorph is constrained from appearing immediately after the other allomorphs in the same word.</td
 ></tr
 ></table
-></example
+></tablenumbered
 ><p
 >Note that when there are two or more allomorphs listed for “other allomorphs,” the rule only applies when all of them co-occur in the same word with the key allomorph. In addition, their relative order is significant. They should be listed in the same linear order they occur in a word.</p
 ><p
@@ -17325,11 +17424,9 @@ type="HowTo"
 ><li
 >Determine the allomorphs involved.</li
 ><li
->Determine the most appropriate way to constrain them (see <exampleRef
-equal="no"
-letterOnly="no"
-num="xAdhocAlloAdjacency"
-></exampleRef
+>Determine the most appropriate way to constrain them (see table <tablenumberedRef
+table="ntAdhocAlloAdjacency"
+></tablenumberedRef
 >).<endnote
 id="nAdhocAlloHowTo"
 ><p
@@ -17341,11 +17438,9 @@ id="nAdhocAlloHowTo"
 ><li
 >Indicate the key allomorph involved.</li
 ><li
->Indicate the way or manner in which to constrain this allomorph (see <exampleRef
-equal="no"
-letterOnly="no"
-num="xAdhocAlloAdjacency"
-></exampleRef
+>Indicate the way or manner in which to constrain this allomorph (see table <tablenumberedRef
+table="ntAdhocAlloAdjacency"
+></tablenumberedRef
 >).</li
 ><li
 >Indicate the non-key allomorph(s) involved.</li
@@ -26882,7 +26977,7 @@ lang="lSalar"
 >b,  c,  ç,  ch,  d,  f,  g,  ğ,  h,  k,  l,  m,  n,  ñ,  p,  q,  r,  s,  ş,  sh,  t,  v,  x,  y,  z,  zh</langData
 ></single
 ></example
-><p
+><pc
 >and there was an affix process rule whose match portion ended in two consonants. One naturally would expect that only those phonemes defined in the consonant natural class would be considered. But this is not how the <object
 type="HermitCrab"
 ></object
@@ -26892,7 +26987,7 @@ lang="lSalar"
 > ended in two consonants, it said “yes, it does.” How did this happen? How could it think that the final <langData
 lang="lSalar"
 >i</langData
-> was a consonant?</p
+> was a consonant?</pc
 ><p
 >The answer is primarily related to the multi-valued nature of the art feature. Since the various phonemes that are part of the consonant natural class (see <exampleRef
 letter="xSalarC"

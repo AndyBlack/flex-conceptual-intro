@@ -2546,7 +2546,7 @@ lang="lNahuatl"
 >What are the inflectional affixes here? Given that every form has the sequence <langData
 lang="lNahuatl"
 >kal</langData
->, it appears that there are six possessor prefixes which occur before the noun stem. Similar paradigms for other singular possessed nouns would show the same situation (ignoring any morphophonology). Therefore we could posit that the singular possessed noun has an inflectional template that consists of a possessor prefix followed by the stem. We could diagram this as in table <tablenumberedRef
+>, it appears that there are six possessor prefixes which occur before the noun stem. Similar paradigms for other singular possessed nouns would show the same situation (ignoring any morphophonology). Therefore we could posit that the singular possessed noun has an inflectional template that consists of a possessor prefix followed by the stem. We could diagram this as in <tablenumberedRef
 table="ntNahuatlPossessedSingularNounTemplate"
 ></tablenumberedRef
 >.</p
@@ -2835,7 +2835,7 @@ id="bInflectionalTemplate"
 main="yes"
 term="iInflectionalTemplate"
 ></indexedRangeBegin
->Therefore we could posit that the plural possessed noun has an inflectional template that consists of a possessor prefix followed by the stem which, in turn, is followed by a plural suffix. Since plural is an instance of the notion of number, we could diagram this as an inflectional template as shown in table <tablenumberedRef
+>Therefore we could posit that the plural possessed noun has an inflectional template that consists of a possessor prefix followed by the stem which, in turn, is followed by a plural suffix. Since plural is an instance of the notion of number, we could diagram this as an inflectional template as shown in <tablenumberedRef
 table="ntNahuatlPossessedPluralNounTemplate"
 ></tablenumberedRef
 > .</p
@@ -3036,7 +3036,7 @@ id="bInflectionalSlot"
 main="yes"
 term="iInflectionalSlot"
 ></indexedRangeBegin
->we have an inflectional template with one prefix slot (for possessor) and one suffix slot (for number). The possessor slot can be filled by any of the inflectional prefixes listed in table <tablenumberedRef
+>we have an inflectional template with one prefix slot (for possessor) and one suffix slot (for number). The possessor slot can be filled by any of the inflectional prefixes listed in <tablenumberedRef
 table="ntNahuatlPossessedPluralNounTemplate"
 ></tablenumberedRef
 >. The number slot can be filled by the plural suffix.</p
@@ -3051,7 +3051,7 @@ id="sInflAffixOptionalSlots"
 ><indexedItem
 term="iInflSlotOptional"
 ></indexedItem
->Now you may well have noticed that there is a potential problem here with the template in table <tablenumberedRef
+>Now you may well have noticed that there is a potential problem here with the template in <tablenumberedRef
 table="ntNahuatlPossessedPluralNounTemplate"
 ></tablenumberedRef
 >. If we treat each slot in the template as being obligatory, then the template says we must have a number suffix in order for the template to be satisfied. This means that a possessed singular noun will not meet the requirements of this template because it does not have a suffix in the number slot. It turns out that <object
@@ -3116,7 +3116,7 @@ type="HowTo"
 ><li
 >Mark the number suffix slot as optional.</li
 ><li
->For the possessor prefix slot, put in it the six possessor prefixes listed in the first column of table <tablenumberedRef
+>For the possessor prefix slot, put in it the six possessor prefixes listed in the first column of <tablenumberedRef
 table="ntNahuatlPossessedPluralNounTemplate"
 ></tablenumberedRef
 >. If these possessor prefixes do not already exist, then we need to create the lexical entries and mark them as inflectional.</li
@@ -3376,7 +3376,7 @@ XeLaTeXSpecial="border-right='1'"
 ></table
 ></tablenumbered
 ><p
->At first glance, this is very much like what we saw for possessed nominals in table <tablenumberedRef
+>At first glance, this is very much like what we saw for possessed nominals in <tablenumberedRef
 table="ntNahuatlPossessedPluralNounTemplate"
 ></tablenumberedRef
 > above. We might think initially that we can do exactly what we did for possessed nominals and merely mark the Number slot as optional for these intransitive verbs. If we were to do that, however, notice what would happen for a form like <langData
@@ -6493,7 +6493,7 @@ type="WordWorks"
 ></object
 > parser will only produce the correct parses.</p
 ><p
->Many languages will use one or more of the inflection features listed in the chart shown in table<tablenumberedRef
+>Many languages will use one or more of the inflection features listed in the chart shown in <tablenumberedRef
 table="ntInflectionFeatures"
 ></tablenumberedRef
 > below.</p
@@ -6632,7 +6632,7 @@ type="WordWorks"
 ><indexedItem
 term="iInflFeatComplex"
 ></indexedItem
->The features shown in table <tablenumberedRef
+>The features shown in <tablenumberedRef
 table="ntInflectionFeatures"
 ></tablenumberedRef
 > are all simple features. There are times when a given word could contain more than one such set of simple features. This is where complex features are important. For example, for cases where a noun has <indexedItem
@@ -6648,7 +6648,7 @@ term="iInflFeatAgreement"
 ><indexedItem
 term="iInflFeatRuleOutParses"
 ></indexedItem
->The Spanish data illustrates how we can use gender inflection features to rule out incorrect parses when a gender affix shows up incorrectly on a root. Some possible situations where inflection features could play a similar role in ruling out incorrect parses include those shown in table <tablenumberedRef
+>The Spanish data illustrates how we can use gender inflection features to rule out incorrect parses when a gender affix shows up incorrectly on a root. Some possible situations where inflection features could play a similar role in ruling out incorrect parses include those shown in <tablenumberedRef
 table="ntInflectionFeaturesToRuleOutIncorrectParses"
 ></tablenumberedRef
 >.</p
@@ -9006,7 +9006,7 @@ abbr="vOBJ"
 > is ill-formed. Thus, the verbal <indexedItem
 term="iInflectionalTemplate"
 ></indexedItem
->inflectional template given in table <tablenumberedRef
+>inflectional template given in <tablenumberedRef
 table="ntQuechuaNonfinalInflTemplate"
 ></tablenumberedRef
 > is a special kind of template. It does not represent a fully inflected form. Rather, it requires that there be a derivational affix attached outside of the template in order for the word to be well-formed. When you have such templates, you will need to mark them as requiring additional derivation. The default situation is for the <object
@@ -11202,7 +11202,7 @@ lang="lWanca"
 >n</langData
 > that is crucial here.</p
 ><p
->There are three varieties of interfixes as shown in table <tablenumberedRef
+>There are three varieties of interfixes as shown in <tablenumberedRef
 table="ntInterixTypes"
 ></tablenumberedRef
 >.</p
@@ -12213,7 +12213,7 @@ type="HowTo"
 ><li
 >Determine the morphemes involved.</li
 ><li
->Determine the most appropriate way to constrain them (see table <tablenumberedRef
+>Determine the most appropriate way to constrain them (see <tablenumberedRef
 table="ntAdhocMorphAdjacency"
 ></tablenumberedRef
 >).<endnote
@@ -12227,7 +12227,7 @@ id="nAdhocMorphHowTo"
 ><li
 >Indicate the key morpheme involved.</li
 ><li
->Indicate the way or manner in which to constrain this morpheme (see table <tablenumberedRef
+>Indicate the way or manner in which to constrain this morpheme (see <tablenumberedRef
 table="ntAdhocMorphAdjacency"
 ></tablenumberedRef
 >).</li
@@ -12268,7 +12268,7 @@ ref="rYalalagVerbBook"
 >). In Yalálag Zapotec, a verb may have both a subject and an object person suffix on it. Being a VSO language, the subject occurs before the object. What is different here is that there is a <indexedItem
 term="iPronominalHierarchy"
 ></indexedItem
->pronominal hierarchy among these dependent pronominal suffixes. Given the subject suffix, the only dependent object suffixes which may follow are those that are lower down on the person hierarchy. This is illustrated in table <tablenumberedRef
+>pronominal hierarchy among these dependent pronominal suffixes. Given the subject suffix, the only dependent object suffixes which may follow are those that are lower down on the person hierarchy. This is illustrated in <tablenumberedRef
 table="ntYalalagPronominalHierarchy"
 ></tablenumberedRef
 >.</p
@@ -15268,7 +15268,7 @@ num="xSiltiAnalysis"
 >Assuming that perfective aspect is inflectional, then one would build an <indexedItem
 term="iInflectionalTemplate"
 ></indexedItem
->inflectional template that had both parts as slots in the template. The template might look like the one in table <tablenumberedRef
+>inflectional template that had both parts as slots in the template. The template might look like the one in <tablenumberedRef
 table="ntSiltiTemplate"
 ></tablenumberedRef
 >.</li
@@ -16270,7 +16270,7 @@ term="iInflFeatType"
 ></indexedItem
 >We recommend using only two types: “Agr” for agreement features and “Infl” (= Inflection) for all others.</p
 ></endnote
-> name, and possible values. (You may want to look at table <tablenumberedRef
+> name, and possible values. (You may want to look at <tablenumberedRef
 table="ntInflectionFeatures"
 ></tablenumberedRef
 > or possibly check with a linguistic consultant.)<ol
@@ -17375,7 +17375,7 @@ term="iAdhocKeyAllo"
 >key allomorph and then to list one or more <indexedItem
 term="iAdhocOtherAllomorphs"
 ></indexedItem
->other allomorphs that cannot co-occur with the key one. One can constrain these other allomorphs to never occur in one of the following ways with respect to the key allomorph as shown in table <tablenumberedRef
+>other allomorphs that cannot co-occur with the key one. One can constrain these other allomorphs to never occur in one of the following ways with respect to the key allomorph as shown in <tablenumberedRef
 table="ntAdhocAlloAdjacency"
 ></tablenumberedRef
 >.</p
@@ -17590,7 +17590,7 @@ type="HowTo"
 ><li
 >Determine the allomorphs involved.</li
 ><li
->Determine the most appropriate way to constrain them (see table <tablenumberedRef
+>Determine the most appropriate way to constrain them (see <tablenumberedRef
 table="ntAdhocAlloAdjacency"
 ></tablenumberedRef
 >).<endnote
@@ -17604,7 +17604,7 @@ id="nAdhocAlloHowTo"
 ><li
 >Indicate the key allomorph involved.</li
 ><li
->Indicate the way or manner in which to constrain this allomorph (see table <tablenumberedRef
+>Indicate the way or manner in which to constrain this allomorph (see <tablenumberedRef
 table="ntAdhocAlloAdjacency"
 ></tablenumberedRef
 >).</li
@@ -18545,7 +18545,7 @@ lang="lBahasaIndonesia"
 > in this case), and then a copy of the stem (indicated by the index number <object
 type="TT"
 >1</object
->). Note that in order to include the orthographic hyphen in this process rule, we have to define it as a phoneme. See table <tablenumberedRef
+>). Note that in order to include the orthographic hyphen in this process rule, we have to define it as a phoneme. See <tablenumberedRef
 table="ntIndoFeatureChart"
 ></tablenumberedRef
 > and the discussion before it for more on this “phoneme;” also see <sectionRef
@@ -19467,7 +19467,7 @@ type="WordWorks"
 letter="xSiltiAnalysis-1"
 num="xSiltiAnalysis-1"
 ></exampleRef
->, assuming the inflectional template given in table <tablenumberedRef
+>, assuming the inflectional template given in <tablenumberedRef
 table="ntSiltiTemplate-1"
 ></tablenumberedRef
 >.</p
@@ -21839,7 +21839,7 @@ type="TT"
 >-</object
 > value.</p
 ><p
->The phoneme-feature matrix shown in table <tablenumberedRef
+>The phoneme-feature matrix shown in <tablenumberedRef
 table="ntIndoFeatureChart"
 ></tablenumberedRef
 > illustrates one way that the first three steps of <exampleRef

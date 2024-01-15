@@ -43,7 +43,7 @@ id="nJonathanCoombs"
 ></endnote
 ></author
 ><date
->12 January 2024</date
+>15 January 2024</date
 ><contents
 showLevel="5"
 ></contents
@@ -9098,12 +9098,28 @@ page="139"
 paren="none"
 ref="rBickford"
 ></citation
->, including the note on productivity).</p
-><example
-num="xDerivationVsInflection"
+>, including the note on productivity).<endnote
+id="nConventionalizedSemantics"
+><p
+><citation
+author="yes"
+page="138"
+ref="rBickford"
+></citation
+> uses the term “Conventionalized semantics” and explains this term as follows:</p
+><blockquote
+>In semantics, when the meaning of the whole is not fully predictable from the meaning of its parts, we say that the meaning is conventionalized. One characteristic of derivational morphology is that its meaning is often conventionalized, while the meaning of inflectional morphology is almost always fully predictable.</blockquote
+><pc
+>Here in this table, I've chosen to use “meaning predictable from parts” instead in order to avoid a double negative.</pc
+></endnote
+></p
+><tablenumbered
+id="ntDerivationVsInflection"
 ><table
-border="1"
+><caption
+>Inflection vs. Derivation</caption
 ><tr
+XeLaTeXSpecial="line-before"
 ><th
 align="left"
 valign="top"
@@ -9118,6 +9134,7 @@ valign="top"
 >Derivational</th
 ></tr
 ><tr
+XeLaTeXSpecial="line-before"
 ><td
 align="left"
 valign="top"
@@ -9153,18 +9170,9 @@ valign="top"
 ><td
 align="left"
 valign="top"
->virtually total<endnote
-id="nBickfordProductivity"
-><p
->Although some words may be inflected irregularly, they will almost always have some form for every position in the inflectional paradigm. On rare occasions, there may be words whose paradigms are defective, or missing certain forms, such as English <langData
-lang="lEng"
->troops</langData
-> <gloss
-lang="lGloss"
-textafter="​"
->soldiers</gloss
->,’ a noun which has only a plural form with no singular.</p
-></endnote
+>virtually total<object
+type="tFootnoteSymbolInTable"
+>a</object
 ></td
 ><td
 align="left"
@@ -9217,21 +9225,7 @@ valign="top"
 ><td
 align="left"
 valign="top"
->Meaning predictable from parts<endnote
-id="nConventionalizedSemantics"
-><p
-><citation
-author="yes"
-page="138"
-ref="rBickford"
-></citation
-> uses the term “Conventionalized semantics” and explains this term as follows:</p
-><blockquote
->In semantics, when the meaning of the whole is not fully predictable from the meaning of its parts, we say that the meaning is conventionalized. One characteristic of derivational morphology is that its meaning is often conventionalized, while the meaning of inflectional morphology is almost always fully predictable.</blockquote
-><pc
->Here in this table, I've chosen to use “meaning predictable from parts” instead in order to avoid a double negative.</pc
-></endnote
-></td
+>Meaning predictable from parts</td
 ><td
 align="left"
 valign="top"
@@ -9242,6 +9236,7 @@ valign="top"
 >often not</td
 ></tr
 ><tr
+XeLaTeXSpecial="line-after"
 ><td
 align="left"
 valign="top"
@@ -9261,8 +9256,27 @@ begin="bDerivation"
 ></indexedRangeEnd
 ></td
 ></tr
+><tr
+><td
+align="left"
+colspan="3"
+type="tFootnoteInTable"
+valign="top"
+width="5in"
+><object
+type="tFootnoteSymbolInTable"
+>a</object
+>Although some words may be inflected irregularly, they will almost always have some form for every position in the inflectional paradigm. On rare occasions, there may be words whose paradigms are defective, or missing certain forms, such as English <langData
+lang="lEng"
+>troops</langData
+> <gloss
+lang="lGloss"
+textafter="​"
+>soldiers</gloss
+>,’ a noun which has only a plural form with no singular.</td
+></tr
 ></table
-></example
+></tablenumbered
 ><p
 >Tom Payne also has some suggestions about characteristics of derivational affixes. The following quote is taken from <citation
 page="42"
@@ -12280,7 +12294,7 @@ border="1"
 ><caption
 align="center"
 valign="top"
->Subject and Object Dependent Suffix Co-occurrence</caption
+>Yalálag Zapotec Subject and Object Dependent Suffix Co-occurrence</caption
 ><tr
 ><td
 align="left"
@@ -19729,7 +19743,7 @@ align="center"
 border="0"
 ><caption
 >Silt'e Template with <object
-type="HermitCrab"
+type="HermitCrabCap"
 ></object
 ></caption
 ><tr
@@ -21907,7 +21921,7 @@ align="center"
 border="1"
 type="tTableSmaller"
 ><caption
->Phonological features for Bahasa Indonesian implementation</caption
+>Phonological Features for Bahasa Indonesian Implementation</caption
 ><tr
 ><th
 > <indexedItem
@@ -24814,11 +24828,12 @@ type="tFSBrackets"
 > features. The following vowel is indicated by the V in the right environment. Notice how the two middle column contents are switched in the final row (the result).</p
 ><p
 >The following table shows a phoneme-feature matrix one might use for Selaru:</p
-><example
-XeLaTeXSpecial="pagebreak"
-num="xSelaruPhonemeFeatureMatrix"
+><tablenumbered
+id="ntSelaruPhonemeFeatureMatrix"
 ><table
 border="1"
+><caption
+>Phonological Features for Selaru Implementation</caption
 ><tr
 ><th
 > <indexedItem
@@ -25668,7 +25683,7 @@ align="center"
 >-</td
 ></tr
 ></table
-></example
+></tablenumbered
 ></section3
 ></section2
 ></section1
@@ -29249,6 +29264,11 @@ color="navy"
 id="HermitCrab"
 ></type
 ><type
+after="Phonological Rule-based Parser"
+color="navy"
+id="HermitCrabCap"
+></type
+><type
 cssSpecial="background-color: #fffccc;"
 id="HowTo"
 xsl-foSpecial="background-color=&quot;#fffccc&quot;"
@@ -29405,6 +29425,16 @@ id="tISOCode"
 before="∅"
 font-family="Charis SIL"
 id="tNull"
+></type
+><type
+XeLaTeXSpecial="superscript"
+cssSpecial="vertical-align:super;"
+id="tFootnoteSymbolInTable"
+xsl-foSpecial="baseline-shift='super'"
+></type
+><type
+font-size="10pt"
+id="tFootnoteInTable"
 ></type
 ></types
 ><indexTerms

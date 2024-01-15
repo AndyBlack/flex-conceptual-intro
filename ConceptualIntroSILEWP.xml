@@ -6,6 +6,21 @@ version="2.24.0"
 ><styledPaper
 ><lingPaper
 automaticallywrapinterlinears="yes"
+figureRefCapitalizedPluralLabel="Figures "
+figureRefCapitalizedSingularLabel="Figure "
+figureRefDefault="singular"
+figureRefPluralLabel="figures "
+figureRefSingularLabel="figure "
+sectionRefCapitalizedPluralLabel="Sections "
+sectionRefCapitalizedSingularLabel="Section "
+sectionRefDefault="singular"
+sectionRefPluralLabel="sections "
+sectionRefSingularLabel="section "
+tablenumberedRefCapitalizedPluralLabel="Tables "
+tablenumberedRefCapitalizedSingularLabel="Table "
+tablenumberedRefDefault="singular"
+tablenumberedRefPluralLabel="tables "
+tablenumberedRefSingularLabel="table "
 useImageWidthSetToWidthOfExampleFigureOrChart="yes"
 version="3.8.0"
 ><frontMatter
@@ -115,7 +130,7 @@ type="defaultParser"
 > that has been available since day one of <object
 type="WordWorks"
 ></object
->. Both parsers are robust as far as we know. Please do report to us anything that you notice about this parser that may help us make it be more effective. See appendix <sectionRef
+>. Both parsers are robust as far as we know. Please do report to us anything that you notice about this parser that may help us make it be more effective. See <sectionRef
 sec="cHermitCrab"
 ></sectionRef
 > for more on this parser, as well as the <genericRef
@@ -2315,16 +2330,16 @@ id="nAllomorphVsForm"
 ></endnote
 > in the entry is(are) set to a root or stem type.</p
 ><p
->This section has four major sub-sections. The first deals with handling affixation to stems (section <sectionRef
+>This section has four major sub-sections. The first deals with handling affixation to stems (<sectionRef
 sec="sAffixation"
 ></sectionRef
->). The second deals with stem compounding (section <sectionRef
+>). The second deals with stem compounding (<sectionRef
 sec="sCompounding"
 ></sectionRef
->). The third discusses issues related to clitics (section <sectionRef
+>). The third discusses issues related to clitics (<sectionRef
 sec="sClitics"
 ></sectionRef
->). The fourth is for those cases where the parser is producing parses that are incorrect, but the parser mechanisms do not allow any other way to eliminate the false parses (section <sectionRef
+>). The fourth is for those cases where the parser is producing parses that are incorrect, but the parser mechanisms do not allow any other way to eliminate the false parses (<sectionRef
 sec="sAdhocMorphProhibitions"
 ></sectionRef
 >).</p
@@ -2379,15 +2394,17 @@ term="iAffixUnclassified"
 >unclassified” affixes by the <object
 type="WordWorks"
 ></object
-> parser. See sections <sectionRef
+> parser. See <sectionRef
 sec="sInflAffixUnderspecified"
+textBefore="plural"
 ></sectionRef
 > and <sectionRef
 sec="sDervAffixUnderspecified"
+textBefore="none"
 ></sectionRef
 >.</p
 ></endnote
-> so it will only show up where it should. See section <sectionRef
+> so it will only show up where it should. See <sectionRef
 sec="sDerivationVsInflection"
 ></sectionRef
 > for more on how to determine if an affix is derivational or inflectional.</p
@@ -3730,7 +3747,7 @@ id="sInflAffixDiscontinuous"
 ><indexedItem
 term="iCooccurrenceConstraint"
 ></indexedItem
->In section <sectionRef
+>In <sectionRef
 sec="sIssueDiscontinuousMorphemes"
 ></sectionRef
 > above, we noted that in <indexedItem
@@ -4089,7 +4106,7 @@ abbr="vOBJ"
 >Another possible way to treat discontinuous morphemes when one part appears before the stem and the other appears after the stem is to treat them as a single <indexedItem
 term="iCircumfix"
 ></indexedItem
->circumfix entry. See section <sectionRef
+>circumfix entry. See <sectionRef
 sec="sCircumfixes"
 ></sectionRef
 >.</p
@@ -4482,7 +4499,7 @@ type="category"
 > and all sub-categories of <object
 type="category"
 >verb</object
->; see section <sectionRef
+>; see <sectionRef
 sec="sInflAffixInflectionClassesAndCategoryHierarchy"
 ></sectionRef
 >). One class would be for stems that select the <langData
@@ -4782,7 +4799,7 @@ begin="bDefaultInflectionClass"
 id="bInflClassesEnv"
 term="iInflClassEnvironments"
 ></indexedRangeBegin
->In addition, if an affix entry has any inflection classes and at least some of the allomorphs are constrained with environments (as described in section <sectionRef
+>In addition, if an affix entry has any inflection classes and at least some of the allomorphs are constrained with environments (as described in <sectionRef
 sec="sEnvironments"
 ></sectionRef
 >), one should be careful to tag all allomorphs in the entry with the inflection class(es) they go on. Otherwise, some allomorphs without environments may be incorrectly constrained.<indexedRangeEnd
@@ -6155,7 +6172,7 @@ id="sInflAffixInflectionClassesAndCategoryHierarchy"
 ><indexedItem
 term="iCategoryHierarchy"
 ></indexedItem
->As we noted in section <sectionRef
+>As we noted in <sectionRef
 sec="sInflAffixPOSConsiderations"
 ></sectionRef
 >, the categories in <object
@@ -6766,7 +6783,7 @@ term="iCategoryInflectableFeatures"
 ><li
 >Add the feature to the category's set of inflectable features.</li
 ><li
->Make sure that the category has appropriate affix templates (see section <sectionRef
+>Make sure that the category has appropriate affix templates (see <sectionRef
 sec="sInflectionalAffixes"
 ></sectionRef
 >). If there are no templates for the category, then the <object
@@ -6921,7 +6938,7 @@ type="WordWorks"
 > parser will treat such underspecified inflectional affixes just like it does for “<indexedItem
 term="iAffixUnclassified"
 ></indexedItem
->unclassified” affixes (see section <sectionRef
+>unclassified” affixes (see <sectionRef
 sec="sUnclassifiedAffixes"
 ></sectionRef
 >)<indexedRangeEnd
@@ -7358,12 +7375,12 @@ type="HowTo"
 ><li
 >Add each affix as a lexical entry and mark it as being derivational.</li
 ><li
->For the “attaches to category” piece of information, use the category of the stem to which this affix attaches (see section <sectionRef
+>For the “attaches to category” piece of information, use the category of the stem to which this affix attaches (see <sectionRef
 sec="sDervAffixPOSConsiderations"
 ></sectionRef
 > for more on this).</li
 ><li
->For the “changes to category” piece of information, use the category of the stem that results when this affix is attached (see section <sectionRef
+>For the “changes to category” piece of information, use the category of the stem that results when this affix is attached (see <sectionRef
 sec="sDervAffixPOSConsiderations"
 ></sectionRef
 > for more on this).</li
@@ -7856,12 +7873,12 @@ type="HowTo"
 ><li
 >Add each affix as a lexical entry and mark it as being derivational.</li
 ><li
->For the “attaches to category” piece of information, use the (sub-)category of the stem to which this affix attaches (see section <sectionRef
+>For the “attaches to category” piece of information, use the (sub-)category of the stem to which this affix attaches (see <sectionRef
 sec="sDervAffixPOSConsiderations"
 ></sectionRef
 > for more on this).</li
 ><li
->For the “changes to category” piece of information, use the (sub-)category of the stem that results when this affix is attached (see section <sectionRef
+>For the “changes to category” piece of information, use the (sub-)category of the stem that results when this affix is attached (see <sectionRef
 sec="sDervAffixPOSConsiderations"
 ></sectionRef
 > for more on this).</li
@@ -8084,7 +8101,7 @@ term="iDerivationInflClass"
 ><indexedItem
 term="iInflectionClass"
 ></indexedItem
->inflection class of the resulting stem. As we saw in section <sectionRef
+>inflection class of the resulting stem. As we saw in <sectionRef
 sec="sInflAffixInflectionClasses"
 ></sectionRef
 >, Yalálag Zapotec verbs have two inflection classes. In <exampleRef
@@ -8120,7 +8137,7 @@ type="HowTo"
 ><li
 >Add each affix as a lexical entry and mark it as being derivational.</li
 ><li
->For the “attaches to category” piece of information, use the category of the stem to which this affix attaches (see section <sectionRef
+>For the “attaches to category” piece of information, use the category of the stem to which this affix attaches (see <sectionRef
 sec="sDervAffixPOSConsiderations"
 ></sectionRef
 > for more on this).</li
@@ -8149,7 +8166,7 @@ term="iDerivationInflClass"
 id="bInflectionClassInDerivation"
 term="iInflectionClass"
 ></indexedRangeBegin
->If the language you are studying has inflection classes (see section <sectionRef
+>If the language you are studying has inflection classes (see <sectionRef
 sec="sInflAffixInflectionClasses"
 ></sectionRef
 >), then what happens when derivational affixes are attached? Does the inflection class of the stem stay the same or does it change?</p
@@ -8437,7 +8454,7 @@ term="iInflectionFeature"
 ><indexedItem
 term="iDerivationInflFeature"
 ></indexedItem
->inflection features (see section <sectionRef
+>inflection features (see <sectionRef
 sec="sInflectionFeatures"
 ></sectionRef
 >), then what happens when derivational affixes are attached to a stem with, say, <indexedItem
@@ -8602,7 +8619,7 @@ lang="lSpanish"
 >) and a noun derived from that verb (e.g., <langData
 lang="lSpanish"
 >apretón</langData
->). Recall from section <sectionRef
+>). Recall from <sectionRef
 sec="sInflectionFeatures"
 ></sectionRef
 > that Spanish nouns are marked for <indexedItem
@@ -8696,11 +8713,13 @@ term="iDerivationCatChanging"
 ><indexedItem
 term="iCategoryHierarchy"
 ></indexedItem
->As we noted in sections <sectionRef
+>As we noted in <sectionRef
 sec="sInflAffixPOSConsiderations"
+textBefore="plural"
 ></sectionRef
 > and <sectionRef
 sec="sInflAffixInflectionClassesAndCategoryHierarchy"
+textBefore="none"
 ></sectionRef
 >, the categories in <object
 type="WordWorks"
@@ -8844,7 +8863,7 @@ type="WordWorks"
 > parser will treat such an underspecified derivational affix just like it does an “<indexedItem
 term="iAffixUnclassified"
 ></indexedItem
->unclassified” affix (see section <sectionRef
+>unclassified” affix (see <sectionRef
 sec="sUnclassifiedAffixes"
 ></sectionRef
 >). If, on the other hand, you do not say what category it attaches to, but do say what the resulting category is, the <object
@@ -9766,19 +9785,19 @@ lang="lEng"
 ></endnote
 ></p
 ><p
->There are two basic kinds of compounds: headed compounds (section <sectionRef
+>There are two basic kinds of compounds: headed compounds (<sectionRef
 sec="sCompoundsEndocentric"
 ></sectionRef
->) and non-headed compounds (section <sectionRef
+>) and non-headed compounds (<sectionRef
 sec="sCompoundsExocentric"
 ></sectionRef
->). We also discuss issues relating to incorporation (section <sectionRef
+>). We also discuss issues relating to incorporation (<sectionRef
 sec="sCompoundIncorporation"
 ></sectionRef
->), issues relating to compounding when stems contain affixes (section <sectionRef
+>), issues relating to compounding when stems contain affixes (<sectionRef
 sec="sCompoundInterfixes"
 ></sectionRef
->), and issues relating to the organization of categories (section <sectionRef
+>), and issues relating to the organization of categories (<sectionRef
 sec="sCompoundPOS"
 ></sectionRef
 >).</p
@@ -11247,14 +11266,17 @@ id="sCompoundPOS"
 ><indexedItem
 term="iCategoryHierarchy"
 ></indexedItem
->As we noted in sections <sectionRef
+>As we noted in <sectionRef
 sec="sInflAffixPOSConsiderations"
+textBefore="plural"
 ></sectionRef
 >, <sectionRef
 sec="sInflAffixInflectionClassesAndCategoryHierarchy"
+textBefore="none"
 ></sectionRef
 > and <sectionRef
 sec="sDervAffixPOSConsiderations"
+textBefore="none"
 ></sectionRef
 > above, the categories in <object
 type="WordWorks"
@@ -12038,11 +12060,13 @@ type="WordWorks"
 ><object
 type="WordWorks"
 ></object
-> will do the rest: such morphemes will be allowed to appear at the end (for enclitics which attach) or at the beginning (for proclitics which attach) of words. More than one clitic may appear on a single word. There is no ordering restriction between sequences of attached clitics (other than ad hoc rules; see sections <sectionRef
+> will do the rest: such morphemes will be allowed to appear at the end (for enclitics which attach) or at the beginning (for proclitics which attach) of words. More than one clitic may appear on a single word. There is no ordering restriction between sequences of attached clitics (other than ad hoc rules; see <sectionRef
 sec="sAdhocMorphProhibitions"
+textBefore="plural"
 ></sectionRef
 > and <sectionRef
 sec="sAdhocAlloProhibitions"
+textBefore="none"
 ></sectionRef
 >).</p
 ><p
@@ -12096,7 +12120,7 @@ id="sAdhocMorphProhibitionsCreating"
 ><secTitle
 >Creating morpheme-oriented ad hoc rules</secTitle
 ><p
->There are two main types of ad hoc rules: morpheme-oriented ones and allomorph-oriented ones. This section deals with morpheme-oriented ones (see section <sectionRef
+>There are two main types of ad hoc rules: morpheme-oriented ones and allomorph-oriented ones. This section deals with morpheme-oriented ones (see <sectionRef
 sec="sAdhocAlloProhibitions"
 ></sectionRef
 > for allomorph-oriented ones). The basic idea is to list a <indexedItem
@@ -12794,7 +12818,7 @@ lang="lNahuatl"
 >t</langData
 >, respectively) that would be conditioned to have an environment saying that it must be followed by a vowel.</p
 ><p
->As noted in section <sectionRef
+>As noted in <sectionRef
 sec="sIntro"
 ></sectionRef
 >, we now also have the <indexedItem
@@ -12803,7 +12827,7 @@ term="iHermitCrab"
 ><object
 type="HermitCrab"
 ></object
-> which allows for both item and arrangement and item and process. See appendix <sectionRef
+> which allows for both item and arrangement and item and process. See <sectionRef
 sec="cHermitCrab"
 ></sectionRef
 > for more.</p
@@ -14155,7 +14179,7 @@ lang="lNahuatl"
 > is automatically treated as having an environment of "not before a consonant." Similarly, for the Implicit 2 method, the <langData
 lang="lNahuatl"
 >ni</langData
-> is automatically treated as having an environment of "not before a vowel." For more on this, see section <sectionRef
+> is automatically treated as having an environment of "not before a vowel." For more on this, see <sectionRef
 sec="sAllomorphOrder"
 ></sectionRef
 >.</p
@@ -14179,7 +14203,7 @@ id="sReduplication"
 ><secTitle
 >Reduplication</secTitle
 ><p
->In the next five sections, we will address five issues brought up in section <sectionRef
+>In the next five sections, we will address five issues brought up in <sectionRef
 sec="sKeyIssues"
 ></sectionRef
 >. First, we deal with <indexedRangeBegin
@@ -14463,7 +14487,7 @@ type="HowTo"
 >Determine that the reduplication is indeed full reduplication. <indexedItem
 term="iRedupPartial"
 ></indexedItem
->Note that if both prefixes and suffixes attach to a reduplicated sequence, then you will need to use partial reduplication (see section <sectionRef
+>Note that if both prefixes and suffixes attach to a reduplicated sequence, then you will need to use partial reduplication (see <sectionRef
 sec="sReduplicationPartial"
 ></sectionRef
 >).</li
@@ -14568,7 +14592,7 @@ equal="no"
 letterOnly="no"
 num="xTagalogReduplication"
 ></exampleRef
-> from section <sectionRef
+> from <sectionRef
 sec="sIssueReduplication"
 ></sectionRef
 >, it is not always the case that the entire stem is reduplicated. The Tagalog data is repeated here.</p
@@ -14727,17 +14751,17 @@ type="HowTo"
 ><li
 >Determine whether the reduplication morpheme is derivational or inflectional.</li
 ><li
->Determine what the reduplication pattern is (see section <sectionRef
+>Determine what the reduplication pattern is (see <sectionRef
 sec="sReduplicationPartialPatternStage1"
 ></sectionRef
 >).</li
 ><li
->Create any needed natural classes of segments that are in the pattern (see section <sectionRef
+>Create any needed natural classes of segments that are in the pattern (see <sectionRef
 sec="sNatClasses"
 ></sectionRef
 >).</li
 ><li
->Create an environment that has the reduplication pattern either before or after the reduplication morpheme (depending, of course, on whether what is reduplicated comes after or before the “stem”). See section <sectionRef
+>Create an environment that has the reduplication pattern either before or after the reduplication morpheme (depending, of course, on whether what is reduplicated comes after or before the “stem”). See <sectionRef
 sec="sEnvironments"
 ></sectionRef
 >.</li
@@ -14948,7 +14972,7 @@ id="bInfixation"
 main="yes"
 term="iInfixation"
 ></indexedRangeBegin
->We now address another issue from section <sectionRef
+>We now address another issue from <sectionRef
 sec="sKeyIssues"
 ></sectionRef
 >: infixation. We repeat here the <indexedItem
@@ -14959,7 +14983,7 @@ equal="no"
 letterOnly="no"
 num="xTagalogInfixation"
 ></exampleRef
-> in section <sectionRef
+> in <sectionRef
 sec="sIssueInfixation"
 ></sectionRef
 >.</p
@@ -15055,7 +15079,7 @@ sec="sInfixationEnvironments"
 >Note that infix allomorphs may be conditioned by <indexedItem
 term="iAlloEnvironments"
 ></indexedItem
->regular environments just like any other allomorph. See section <sectionRef
+>regular environments just like any other allomorph. See <sectionRef
 sec="sEnvironments"
 ></sectionRef
 >. With <object
@@ -15126,7 +15150,7 @@ term="iRootAndPatternMorphology"
 ><indexedItem
 term="iSemitic"
 ></indexedItem
->In section <sectionRef
+>In <sectionRef
 sec="sIssueRootAndPatternMorphology"
 ></sectionRef
 > we noted the <indexedItem
@@ -15403,7 +15427,7 @@ id="sEpenthesis"
 ><indexedItem
 term="iEpenthesis"
 ></indexedItem
->In section <sectionRef
+>In <sectionRef
 sec="sIssueEpenthesis"
 ></sectionRef
 > we noted the <indexedItem
@@ -15535,7 +15559,7 @@ id="sMetathesis"
 main="yes"
 term="iMetathesis"
 ></indexedItem
->Another morphophonemic issue we noted in section <sectionRef
+>Another morphophonemic issue we noted in <sectionRef
 sec="sKeyIssues"
 ></sectionRef
 > was metathesis. We repeat the <indexedItem
@@ -15546,7 +15570,7 @@ equal="no"
 letterOnly="no"
 num="xCaquinteMetathesis"
 ></exampleRef
-> given in section <sectionRef
+> given in <sectionRef
 sec="sIssuesMetathesis"
 ></sectionRef
 >.</p
@@ -15652,7 +15676,7 @@ id="sMorphemeNotSurface"
 ><indexedItem
 term="iNullAllomorph"
 ></indexedItem
->Recall that in section <sectionRef
+>Recall that in <sectionRef
 sec="sIssuesMorphemeNotSurface"
 ></sectionRef
 > we noted some other <indexedItem
@@ -15846,7 +15870,7 @@ type="HowTo"
 ><li
 >In each one, create two forms:<ol
 ><li
->Create one for the null allomorph (see section <sectionRef
+>Create one for the null allomorph (see <sectionRef
 sec="sAllomorphsNull"
 ></sectionRef
 >) and condition it as occurring before a vowel (i.e., use the “before a vowel” environment). This should be in an allomorph form.</li
@@ -15873,7 +15897,7 @@ id="sNonPhonologicallyConditionedAllomorphy"
 ><secTitle
 >Non-phonologically conditioned allomorphy</secTitle
 ><p
->Sometimes there is unpredictable allomorphy in either stems or in affixes. How does one deal with these? We have already seen how to deal with affix allomorphy determined by inflection classes in section <sectionRef
+>Sometimes there is unpredictable allomorphy in either stems or in affixes. How does one deal with these? We have already seen how to deal with affix allomorphy determined by inflection classes in <sectionRef
 sec="sInflAffixInflectionClasses"
 ></sectionRef
 >. The following two subsections explain how to use morpho-syntactic features to control both stem allomorphy and affix allomorphy.</p
@@ -16307,7 +16331,7 @@ term="iInflectionalSlot"
 ></indexedItem
 >slots containing the inflectional affixes which bear the appropriate inflection features. For example, if you have verbal stems which have one shape when inflected in the past tense and another shape in all other tenses, then you will need to have at least one verbal inflectional template that has one or more slots containing these tense inflectional affixes. And, of course, these inflectional affixes will have to be overtly tagged with the appropriate tense feature (e.g., past tense, present tense, etc.).</p
 ></endnote
-> See section <sectionRef
+> See <sectionRef
 sec="sInflectionalAffixes"
 ></sectionRef
 > for more on inflectional templates.</li
@@ -16345,7 +16369,7 @@ term="iInflFeatAllomorphy"
 ><indexedItem
 term="iInflFeatRuleOutParses"
 ></indexedItem
->In section <sectionRef
+>In <sectionRef
 sec="sStemNames"
 ></sectionRef
 > we discuss how to control stem allomorphy based on sets of morpho-syntactic (inflection) features.<endnote
@@ -16809,7 +16833,7 @@ type="WordWorks"
 >? Since only allomorphy is available, one must create allomorphs for both forms of the non-future suffix and condition them to co-occur with the appropriate set of features.<endnote
 id="nAffixAlloFeatsEnvironments"
 ><p
->In cases like Axininca Campa, merely using environments (see section <sectionRef
+>In cases like Axininca Campa, merely using environments (see <sectionRef
 sec="sEnvironments"
 ></sectionRef
 >) will not work properly due to the fact that one must identify the exact morpheme, not merely its surface form. Other morphemes may well share the same form, but the allomorphy of the non-future does not occur with them. It is only with the perfect suffix and the first person object suffix.</p
@@ -17278,7 +17302,7 @@ type="WordWorks"
 >? Since only allomorphy is available, one must create allomorphs for both the root and the suffixes and condition them to have the correct environments.<endnote
 id="nStemAllomorphyAsStemName"
 ><p
->It may be the case that the stem allomorphy will depend on the morphosyntactic features of the affixes. If so, you may be able to use stem names. See section <sectionRef
+>It may be the case that the stem allomorphy will depend on the morphosyntactic features of the affixes. If so, you may be able to use stem names. See <sectionRef
 sec="sStemNames"
 ></sectionRef
 >.</p
@@ -17342,7 +17366,7 @@ id="sAdhocAlloProhibitionsCreating"
 ><secTitle
 >Creating ad hoc allomorph-oriented rules</secTitle
 ><p
->There are two main types of ad hoc rules: morpheme-oriented ones and allomorph-oriented ones. This section deals with allomorph-oriented ones (see section <sectionRef
+>There are two main types of ad hoc rules: morpheme-oriented ones and allomorph-oriented ones. This section deals with allomorph-oriented ones (see <sectionRef
 sec="sAdhocMorphProhibitions"
 ></sectionRef
 > for morpheme-oriented ones). The basic idea is to list a <indexedItem
@@ -17841,7 +17865,7 @@ id="nMorphTypes"
 >Another way of saying this is that the parser recognizes all morpheme types except for discontiguous phrase, simulfix, suprafix, and circumfix. For <indexedItem
 term="iCircumfix"
 ></indexedItem
->circumfix, however, see section <sectionRef
+>circumfix, however, see <sectionRef
 sec="sCircumfixes"
 ></sectionRef
 >.</p
@@ -18151,7 +18175,7 @@ type="HermitCrab"
 ><indexedItem
 term="iHermitCrabParser"
 ></indexedItem
->As mentioned in section <sectionRef
+>As mentioned in <sectionRef
 sec="sIntro"
 ></sectionRef
 >, <object
@@ -18160,13 +18184,13 @@ type="WordWorks"
 > has a <object
 type="HermitCrab"
 ></object
->. This appendix outlines some of its capabilities in section <sectionRef
+>. This appendix outlines some of its capabilities in <sectionRef
 sec="sHermitCrabItemAndProcess"
 ></sectionRef
->, gives some tips for making it work in section <sectionRef
+>, gives some tips for making it work in <sectionRef
 sec="sHermitCrabTips"
 ></sectionRef
->, and lists some known limitations in section <sectionRef
+>, and lists some known limitations in <sectionRef
 sec="sHermitCrabLimitations"
 ></sectionRef
 >.</p
@@ -18217,7 +18241,7 @@ type="defaultParser"
 > searches for surface forms from the beginning of the word to the end of the word; that is, it basically looks for prefixes first, then roots, then suffixes.<endnote
 id="nAmpleSearchAlgortihm"
 ><p
->If there are interfixes (see section <sectionRef
+>If there are interfixes (see <sectionRef
 sec="sCompoundInterfixes"
 ></sectionRef
 >), then it will also look for those between roots. In addition, it looks for infixes within prefixes and roots.</p
@@ -18227,10 +18251,10 @@ sec="sCompoundInterfixes"
 >The rest of this section illustrates these process rules. Examples of how one writes special <object
 type="AffixProcessRule"
 >s</object
-> are in section <sectionRef
+> are in <sectionRef
 sec="sHermitCrabAffixProcess"
 ></sectionRef
-> and how one writes phonological rules are in section <sectionRef
+> and how one writes phonological rules are in <sectionRef
 sec="sHermitCrabPhonologicalRules"
 ></sectionRef
 >.</p
@@ -18300,7 +18324,7 @@ id="sHermitCrabReduplication"
 ><indexedItem
 term="iReduplication"
 ></indexedItem
->Recall from section <sectionRef
+>Recall from <sectionRef
 sec="sReduplication"
 ></sectionRef
 > that there are two kinds of reduplication: full and partial. The <object
@@ -18318,8 +18342,9 @@ term="iBahasaIndonesia"
 ><indexedItem
 term="iRedupFull"
 ></indexedItem
->Let's begin with full reduplication. Section <sectionRef
+>Let's begin with full reduplication. <sectionRef
 sec="sReduplicationFull"
+textBefore="capitalizedSingular"
 ></sectionRef
 > had the following data from Bahasa Indonesia (repeated here from <exampleRef
 letter="xIndonesianRedup1"
@@ -18523,15 +18548,17 @@ type="TT"
 >). Note that in order to include the orthographic hyphen in this process rule, we have to define it as a phoneme. See table <tablenumberedRef
 table="ntIndoFeatureChart"
 ></tablenumberedRef
-> and the discussion before it for more on this “phoneme;” also see sections <sectionRef
+> and the discussion before it for more on this “phoneme;” also see <sectionRef
 sec="sHCTipsEveryPhonemeInOrthography"
+textBefore="plural"
 ></sectionRef
 > and <sectionRef
 sec="sHCTipsUniquePhoneme"
+textBefore="none"
 ></sectionRef
 >.</p
 ><p
->Like we did in section <sectionRef
+>Like we did in <sectionRef
 sec="sReduplicationFull"
 ></sectionRef
 >, we are treating the reduplication affix as a suffix. With the <object
@@ -18603,7 +18630,7 @@ term="iTagalog"
 ><indexedItem
 term="iRedupPartial"
 ></indexedItem
->Turning now to partial reduplication, recall the Tagalog data from section <sectionRef
+>Turning now to partial reduplication, recall the Tagalog data from <sectionRef
 sec="sReduplicationPartial"
 ></sectionRef
 >. The data in <exampleRef
@@ -18895,7 +18922,7 @@ letter="xNahuatlRedup2"
 num="xNahuatlRedup2"
 paren="final"
 ></exampleRef
-> (see section <sectionRef
+> (see <sectionRef
 sec="sReduplicationPartial"
 ></sectionRef
 >).</p
@@ -19089,7 +19116,7 @@ term="iTagalog"
 >Suppose one has an infix -<langData
 lang="lTagalog"
 >um</langData
->- that inserts after the first consonant of the stem like we saw above for Tagalog in section <sectionRef
+>- that inserts after the first consonant of the stem like we saw above for Tagalog in <sectionRef
 sec="sIssueInfixation"
 ></sectionRef
 > (this is part of <exampleRef
@@ -19362,7 +19389,7 @@ term="iRootAndPatternMorphology"
 ><indexedItem
 term="iSemitic"
 ></indexedItem
->Yet another way that infixation can be treated as a process was discussed in section <sectionRef
+>Yet another way that infixation can be treated as a process was discussed in <sectionRef
 sec="sInfixationRootAndPattern"
 ></sectionRef
 >. Consider the <indexedItem
@@ -19780,7 +19807,7 @@ id="sHermitCrabCircumfix"
 ><indexedItem
 term="iCircumfix"
 ></indexedItem
->Yet another use of a process affix rule is with circumfixes. Recall from section <sectionRef
+>Yet another use of a process affix rule is with circumfixes. Recall from <sectionRef
 sec="sCircumfixes"
 ></sectionRef
 > the following data:</p
@@ -20013,8 +20040,9 @@ id="sHCRegularRules"
 ><secTitle
 >“Regular” phonological rules</secTitle
 ><p
->This section provides several examples of how one might write non-metathesis or regular phonological rules. Section <sectionRef
+>This section provides several examples of how one might write non-metathesis or regular phonological rules. <sectionRef
 sec="sHCPhonMetathesis"
+textBefore="capitalizedSingular"
 ></sectionRef
 > discusses an example of a metathesis rule.</p
 ><section4
@@ -20025,10 +20053,10 @@ id="sSelaruEpenthesis"
 ><indexedItem
 term="iEpenthesis"
 ></indexedItem
->One of the issues mentioned in section <sectionRef
+>One of the issues mentioned in <sectionRef
 sec="sIssueEpenthesis"
 ></sectionRef
-> was epenthesis. We can handle this as allomorphy (as in section <sectionRef
+> was epenthesis. We can handle this as allomorphy (as in <sectionRef
 sec="sEpenthesis"
 ></sectionRef
 >) or as a phonological rule. <indexedItem
@@ -20401,7 +20429,7 @@ src="resources/SelaruGVRule.svg"
 ><indexedItem
 term="iPhonRuleRuleOrdering"
 ></indexedItem
->In section <sectionRef
+>In <sectionRef
 sec="sSelaruEpenthesis"
 ></sectionRef
 > there was a rule for epenthesizing an <langData
@@ -20684,7 +20712,7 @@ lang="lBahasaIndonesiaIPA"
 > for the unspecified nasal instead of the more normal <langData
 lang="lBahasaIndonesiaIPA"
 >N</langData
->. See section <sectionRef
+>. See <sectionRef
 sec="sHCTipsCase"
 ></sectionRef
 > for an explanation.</p
@@ -21836,7 +21864,7 @@ type="TT"
 > value; all other phonemes would have a <object
 type="TT"
 >-</object
-> value for this custom feature. (See section <sectionRef
+> value for this custom feature. (See <sectionRef
 sec="sHCTipsUniquePhoneme"
 ></sectionRef
 >.) The <object
@@ -24495,7 +24523,7 @@ type="HermitCrab"
 ><indexedItem
 term="iPhonRuleConstrainExceptionFeature"
 ></indexedItem
->See section <sectionRef
+>See <sectionRef
 sec="sIndonesianNasalMessLoans"
 ></sectionRef
 > for an example of using an exception “feature” which must not be present in order for a phonological rule to apply.<indexedRangeEnd
@@ -25753,7 +25781,7 @@ term="iPhonRuleArchiphoneme"
 >In testing the <indexedItem
 term="iBahasaIndonesia"
 ></indexedItem
->Bahasa Indonesia data, I had an affix that ended with an unspecified nasal (this affix has nasal assimilation to the point of articulation of a following obstruent as explained in section <sectionRef
+>Bahasa Indonesia data, I had an affix that ended with an unspecified nasal (this affix has nasal assimilation to the point of articulation of a following obstruent as explained in <sectionRef
 sec="sIndonesianNasalAssimilation"
 ></sectionRef
 >). So I wrote a phonological rule to do the assimilation. To represent this affix, I used an archiphoneme of capital N. That is, I made it have the form <langData
@@ -27253,7 +27281,7 @@ term="iNaturalClass"
 >When you define a natural class by listing the segments (as opposed to using phonological features), the <object
 type="HermitCrab"
 ></object
-> may not treat this natural class exactly as you expect (see section <sectionRef
+> may not treat this natural class exactly as you expect (see <sectionRef
 sec="sHCTipsNaturalClasses"
 ></sectionRef
 > for an example). If you do not have any phonological features defined, then this parser will treat the class as consisting solely of the segments listed in the class.</p
@@ -27264,7 +27292,7 @@ type="HermitCrab"
 > converts all the segments listed in the natural class into their respective feature sets. It then takes the set intersection of all those features and uses that to determine if a given segment is in that natural class. Normally, this is not an issue. In one case, however, when I was trying to deal with the recalcitrant case of the <langData
 lang="lBahasaIndonesia"
 >meN</langData
->- prefix in Bahasa Indonesia (see section <sectionRef
+>- prefix in Bahasa Indonesia (see <sectionRef
 sec="sIndonesianNasalAssimilation"
 ></sectionRef
 >) where a following <langData

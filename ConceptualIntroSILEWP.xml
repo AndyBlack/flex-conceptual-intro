@@ -8957,7 +8957,7 @@ abbr="vPURP"
 ></interlinear
 ></example
 ><p
->At least under one analysis, the verb root meaning ‘to see’ has the imperfective aspect marker added, followed by the first person object marker, yielding ‘to see me.’ We thus have a verb stem inflected with an aspect and an object marker. To this inflected form, the nominalizer derivational affix is attached, resulting in a noun meaning ‘seeing me.’ The noun form then has the second person possessive marker and the purpose marker added, finally giving ‘in order that you might be seeing me.’ That is, the resulting noun stem is now inflected by a possessive and a (kind of) case marker. We could diagram this process as in figure <figureRef
+>At least under one analysis, the verb root meaning ‘to see’ has the imperfective aspect marker added, followed by the first person object marker, yielding ‘to see me.’ We thus have a verb stem inflected with an aspect and an object marker. To this inflected form, the nominalizer derivational affix is attached, resulting in a noun meaning ‘seeing me.’ The noun form then has the second person possessive marker and the purpose marker added, finally giving ‘in order that you might be seeing me.’ That is, the resulting noun stem is now inflected by a possessive and a (kind of) case marker. We could diagram this process as in <figureRef
 figure="fQuechuaWordTree"
 ></figureRef
 >.</p
@@ -8974,7 +8974,7 @@ src="resources/rikaykaamaanaykipaqSC.svg"
 >Huallaga Quechua Derivation Outside of Inflection.</caption
 ></figure
 ><p
->In figure <figureRef
+>In <figureRef
 figure="fQuechuaWordTree"
 ></figureRef
 > the <object
@@ -11161,7 +11161,7 @@ abbr="vPOSS"
 ></interlinear
 ></example
 ><p
->Here we have a (reduplicated) compound consisting of a root, a suffix, the same root, and the same suffix. This forms a compound as shown in figure <figureRef
+>Here we have a (reduplicated) compound consisting of a root, a suffix, the same root, and the same suffix. This forms a compound as shown in <figureRef
 figure="fWancaInterfixCompoundDiagram"
 ></figureRef
 >:</p
@@ -20214,7 +20214,7 @@ lang="lSelaru"
 > which is an invalid sequence of consonants in Selaru. So to make this word legitimate, we can say that there is a phonological rule that inserts the default vowel <langData
 lang="lSelaru"
 >a</langData
-> after the first of three consecutive consonants. It might be written as shown in figure <figureRef
+> after the first of three consecutive consonants. It might be written as shown in <figureRef
 figure="fSelaruEpenRule"
 ></figureRef
 >.<indexedItem
@@ -20405,7 +20405,7 @@ abbr="vSG"
 ></listInterlinear
 ></example
 ><p
->These glides will sometimes surface as a vowel and sometimes as a glide. What are the conditioning factors for when they are a vowel and when they are a glide? Under at least one analysis, the glide becomes a vowel when it is followed by a consonant in a following morpheme. We can write a phonological rule to perform this process. It might look like what is in figure <figureRef
+>These glides will sometimes surface as a vowel and sometimes as a glide. What are the conditioning factors for when they are a vowel and when they are a glide? Under at least one analysis, the glide becomes a vowel when it is followed by a consonant in a following morpheme. We can write a phonological rule to perform this process. It might look like what is in <figureRef
 figure="fSelaruGVRule"
 ></figureRef
 >.<indexedItem
@@ -20435,7 +20435,7 @@ sec="sSelaruEpenthesis"
 > there was a rule for epenthesizing an <langData
 lang="lSelaru"
 >a</langData
-> after the first of three consonants (see figure <figureRef
+> after the first of three consonants (see <figureRef
 figure="fSelaruEpenRule"
 ></figureRef
 >). What would happen with <exampleRef
@@ -20446,7 +20446,7 @@ num="xSelaruGVMuknam"
 letter="xSelaruGVIknam"
 num="xSelaruGVIknam"
 ></exampleRef
-> if the epenthesis rule applied before the rule in figure <figureRef
+> if the epenthesis rule applied before the rule in <figureRef
 figure="fSelaruGVRule"
 ></figureRef
 >? We would get *<langData
@@ -20455,7 +20455,7 @@ lang="lSelaru"
 > and *<langData
 lang="lSelaru"
 >yaknam</langData
->, respectively. Therefore, we either must be careful to order the rule in figure <figureRef
+>, respectively. Therefore, we either must be careful to order the rule in <figureRef
 figure="fSelaruGVRule"
 ></figureRef
 > before the epenthesis rule or else we need to exclude the glides from the class of consonants.</p
@@ -20811,7 +20811,7 @@ abbr="vAV"
 ></listInterlinear
 ></example
 ><p
->What is the shape of the Actor Voice prefix? It appears that the final nasal assimilates to the point of articulation of the following voiced stop. We could write a rule for this as shown in figure <figureRef
+>What is the shape of the Actor Voice prefix? It appears that the final nasal assimilates to the point of articulation of the following voiced stop. We could write a rule for this as shown in <figureRef
 figure="fIndonesianNasalAssimilation"
 ></figureRef
 >.<indexedItem
@@ -20846,7 +20846,7 @@ term="iPhonRuleAlphaVariables"
 ></endnote
 ></pc
 ><p
->The rule in figure <figureRef
+>The rule in <figureRef
 figure="fIndonesianNasalAssimilation"
 ></figureRef
 > exemplifies a process that happens in a number of languages.</p
@@ -23408,7 +23408,7 @@ src="resources/IndonesianUnspecifiedNasalSonorantConsonantRule.svg"
 ><pc
 >That is, an unspecified nasal deletes before a morpheme-initial sonorant consonant.</pc
 ><p
->The third rule does the nasal assimilation. Note how it is similar to the rule in figure <figureRef
+>The third rule does the nasal assimilation. Note how it is similar to the rule in <figureRef
 figure="fIndonesianNasalAssimilation"
 ></figureRef
 > above.</p
@@ -23442,7 +23442,7 @@ lang="lBahasaIndonesia"
 >, and <langData
 lang="lBahasaIndonesia"
 >h</langData
-> that orthographically assimilate to unexpected values, we avoid having to write special exception rules. The rule in figure <figureRef
+> that orthographically assimilate to unexpected values, we avoid having to write special exception rules. The rule in <figureRef
 figure="fIndonesianUnspecifiedNasalAssimilationRule"
 ></figureRef
 > will take care of these cases, too.</pc
@@ -23474,11 +23474,13 @@ type="HermitCrab"
 ><indexedItem
 term="iPhonRuleRuleOrdering"
 ></indexedItem
->What would happen if we reversed the order of the last two rules of figure <figureRef
+>What would happen if we reversed the order of the last two rules of <figureRef
 figure="fIndonesianUnspecifiedNasalAssimilationRule"
+textBefore="plural"
 ></figureRef
-> and figure <figureRef
+> and <figureRef
 figure="fIndonesianUnspecifiedVoicelessObstruentDeletionRule"
+textBefore="none"
 ></figureRef
 >? The <langData
 lang="lBahasaIndonesia"
@@ -24086,7 +24088,7 @@ num="xIndonesianNExceptionsHowTo"
 type="HowTo"
 ><ol
 ><li
->Create the exception “feature”. We could call it ‘Does not undergo voiceless obstruent deletion” because this is the rule that does not apply (see figure <figureRef
+>Create the exception “feature”. We could call it ‘Does not undergo voiceless obstruent deletion” because this is the rule that does not apply (see <figureRef
 figure="fIndonesianUnspecifiedVoicelessObstruentDeletionRule"
 ></figureRef
 >).</li
@@ -24098,7 +24100,7 @@ lang="lBahasaIndonesia"
 ><li
 >Mark it as having this exception "feature” in its list of To Exception “Features”.</li
 ><li
->Find the phonological rule which deletes a voiceless obstruent (see figure <figureRef
+>Find the phonological rule which deletes a voiceless obstruent (see <figureRef
 figure="fIndonesianUnspecifiedVoicelessObstruentDeletionRule"
 ></figureRef
 >) and add this exception “feature” to its list of excluded properties.</li
@@ -24764,7 +24766,7 @@ ref="rKenstowiczAndKisseberth1979"
 >). The user interface of <object
 type="WordWorks"
 ></object
->, however, follows a different notation that we think is clearer. It might look like what is in figure <figureRef
+>, however, follows a different notation that we think is clearer. It might look like what is in <figureRef
 figure="fSelaruMetathesisRule"
 ></figureRef
 > for the Selaru metathesis case:<indexedItem
@@ -25754,7 +25756,7 @@ term="iPhonRuleFS"
 >For example, in working on the <indexedItem
 term="iBahasaIndonesia"
 ></indexedItem
->Bahasa Indonesia data, I wrote a complicated rule (see figure <figureRef
+>Bahasa Indonesia data, I wrote a complicated rule (see <figureRef
 figure="fIndonesianUnspecifiedNasalFullRedupRule"
 ></figureRef
 >) where I wanted to change certain voiceless obstruents to their co-articulated nasal. Since these particular obstruents all shared a common feature value, I thought I could just use that feature and the place feature. That did not work. I had to be sure to include all features that differ between the phonemes involved. In particular, I needed to include <object

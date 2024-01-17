@@ -490,8 +490,11 @@ textalign="start"
 ></section4Layout
 ><section5Layout
 firstParagraphHasIndent="no"
-ignore="yes"
+ignore="no"
 ><sectionTitleLayout
+font-style="italic"
+spaceafter="12pt"
+spacebefore="12pt"
 ></sectionTitleLayout
 ></section5Layout
 ><section6Layout

@@ -43,7 +43,7 @@ id="nJonathanCoombs"
 ></endnote
 ></author
 ><date
->17 January 2024</date
+>19 January 2024</date
 ><contents
 showLevel="5"
 ></contents
@@ -14480,7 +14480,7 @@ id="nFullRedup"
 >There is a technical reason for this. The default parser matches the entire rest of the word (for a prefix) or the entire beginning of the word (for a suffix). It cannot match if there is additional material. This is not the case for the <object
 type="HermitCrab"
 ></object
->.  See <sectionRef
+>. See <sectionRef
 sec="sHCRedupFull"
 ></sectionRef
 >.</p
@@ -20612,7 +20612,7 @@ type="tISOCode"
 >:<endnote
 id="nAwngi"
 ><p
->The Awngi data comes from Andreas Joswig, personal communication (emails of 2008/11/19 and 2009/5/12).</p
+>The Awngi data comes from Andreas Joswig, personal communication (emails of November 19, 2008 and May 12, 2009).</p
 ><p
 >The <langData
 lang="lAwngi"
@@ -23987,10 +23987,10 @@ num="xRegularPhologicalRuleFormula"
 ></exampleRef
 >).</pc
 ><p
->One way to read this is that when there is a voiceless obstruent (indicated by  <object
+>One way to read this is that when there is a voiceless obstruent (indicated by <object
 type="TT"
 >[-:voice]</object
-> and  <object
+> and <object
 type="TT"
 >[-:sonorant]</object
 >) which can undergo the special deletion (indicated by <object
@@ -24683,7 +24683,7 @@ term="iMetathesis"
 >Now let's look at an example of phonological metathesis. Consider the following data from Selaru,<endnote
 id="nSelaru"
 ><p
->The Selaru data is from David Coward, personal communication (emails of 2008/11/15, 2008/11/17, and 2009/01/12).</p
+>The Selaru data is from David Coward, personal communication (emails of November 15, 2008, November 17, 2008, and January 12, 2009).</p
 ></endnote
 > paying special attention to the position of the <indexedItem
 term="iApproximant"

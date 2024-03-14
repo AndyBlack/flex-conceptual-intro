@@ -43,8 +43,9 @@ id="nJonathanCoombs"
 ></endnote
 ></author
 ><date
->19 January 2024</date
+>12 March 2024</date
 ><contents
+bookmarksShowLevel="5"
 showLevel="5"
 ></contents
 ><abstract
@@ -3106,10 +3107,10 @@ term="iInflFeatDefault"
 >Therefore, from a long term perspective, we recommend following option 1.</p
 ><p
 >This means that to model this inflectional template, we will need to do the following:</p
-><example
-num="xNahuatlPossessorHowTo"
-><chart
-type="HowTo"
+><figure
+id="fNahuatlPossessorHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create or at least make sure we have a possessed noun category.</li
@@ -3129,12 +3130,10 @@ table="ntNahuatlPossessedPluralNounTemplate"
 ><li
 >For the number suffix slot, put the plural suffix in it. If the number suffix does not already exist, then create the lexical entry for it and mark it as inflectional.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Nahuatl Possessor Optional Slots in Inflectional Templates.</caption
+></figure
 ><p
 >Once we have done this, we will have successfully set up the inflectional morphotactics for possessed nominals in Orizaba Nahuatl.</p
 ></section3
@@ -3656,10 +3655,10 @@ XeLaTeXSpecial="border-right='1'"
 >What needs to be done to handle the 3rd person cases? We will need to mark the subject slot as optional in both templates in order to allow for the 3rd person cases.</p
 ><p
 >This means that to model this inflectional template, we will need to do the following:</p
-><example
-num="xNahuatlIntransitiveVerbHowTo"
-><chart
-type="HowTo"
+><figure
+id="fNahuatlIntransitiveVerbHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create or at least make sure we have an intransitive verb category.</li
@@ -3749,12 +3748,10 @@ begin="bOrizabaInflection"
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Nahuatl Intransitive Verb Templates.</caption
+></figure
 ></section3
 ><section3
 id="sInflAffixDiscontinuous"
@@ -4529,10 +4526,10 @@ lang="lYalalag"
 >‑ allomorph.</p
 ><p
 >This means that to model these inflection classes, we will need to do the following:</p
-><example
-num="xYalalagInflepctionClassHowTo"
-><chart
-type="HowTo"
+><figure
+id="fYalalagInflectionClassHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create two inflection classes within the verb category.</li
@@ -4553,12 +4550,10 @@ lang="lYalalag"
 ><li
 >For each verb stem, tag it as belonging to either the first or the second inflection class, whichever is correct for that verb.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Yalálag Zapotec Inflection Classes.</caption
+></figure
 ><p
 >Now consider the following <indexedItem
 term="iLatin"
@@ -4765,10 +4760,10 @@ id="nLatinMore"
 >Of course, one would want to model the full nominal paradigm if one were working on Latin, but this limited usage here illustrates the point about letting a given allomorph refer to more than one inflection class.</p
 ></endnote
 ></p
-><example
-num="xLatinInflectionClassHowTo"
-><chart
-type="HowTo"
+><figure
+id="fLatinInflectionClassHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create five inflection classes within the noun category.</li
@@ -4794,12 +4789,10 @@ lang="lLatin"
 ><li
 >For each noun stem, tag it as belonging to the appropriate inflection class, whichever is correct for that noun.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Latin Inflection Classes.</caption
+></figure
 ><p
 ><indexedRangeBegin
 id="bDefaultInflectionClass"
@@ -4860,7 +4853,6 @@ num="xIZFuture"
 ></exampleRef
 >, paying attention to the aspect prefixes.</p
 ><table
-XeLaTeXSpecial="pagebreak"
 ><tr
 ><td
 >    Habitual</td
@@ -5475,7 +5467,6 @@ num="xIZFuture"
 ></exampleRef
 >:</p
 ><table
-XeLaTeXSpecial="pagebreak"
 ><tr
 ><td
 >    Completive</td
@@ -6053,15 +6044,14 @@ abbr="vPRF"
 ></listInterlinear
 ></example
 ><p
-XeLaTeXSpecial="pagebreak"
 >To model this Isthmus Zapotec data in <object
 type="WordWorks"
 ></object
 >, we will need to do the following:</p
-><example
-num="xIZInflectionClassHowTo"
-><chart
-type="HowTo"
+><figure
+id="fIZInflectionClassHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create two inflection classes within the verb category.</li
@@ -6118,12 +6108,10 @@ begin="bIsthmusZapotec"
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Isthmus Zapotec Inflection Classes.</caption
+></figure
 ><p
 >In general terms, here is how the <object
 type="WordWorks"
@@ -6759,10 +6747,10 @@ id="nMovieOnNounGender"
 ><comment
 >Note: this is repeated below in the xStemNamesHowTo example. Some of it is also repeated in the xDerivAffixInflectionFeaturesHowTo example.</comment
 ></p
-><example
-num="xInflectionFeaturesHowTo"
-><chart
-type="HowTo"
+><figure
+id="fInflectionFeaturesHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Determine the inflection feature involved, including its <indexedItem
@@ -6822,12 +6810,10 @@ type="WordWorks"
 ><li
 >For each inflectional affix needing the feature, add the feature and its appropriate value to the inflectional affix's grammatical information details. Note that you may need to Show Hidden Fields to see this Inflection Features field.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Inflection Features.</caption
+></figure
 ></section3
 ><section3
 id="sInflAffixInflectionClassVsInflectionFeature"
@@ -7375,10 +7361,10 @@ lang="lGloss"
 type="WordWorks"
 ></object
 >? We need to do the following:</p
-><example
-num="xCatChangingHowTo"
-><chart
-type="HowTo"
+><figure
+id="fCatChangingHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Add each affix as a lexical entry and mark it as being derivational.</li
@@ -7393,12 +7379,10 @@ sec="sDervAffixPOSConsiderations"
 ></sectionRef
 > for more on this).</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Category Changing Affixes.</caption
+></figure
 ></section3
 ><section3
 id="sDervAffixSubCatChanging"
@@ -7873,10 +7857,10 @@ type="WordWorks"
 type="WordWorks"
 ></object
 >? We need to do the following:</p
-><example
-num="xSubCaptChangingHowTo"
-><chart
-type="HowTo"
+><figure
+id="fSubCatChangingHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Add each affix as a lexical entry and mark it as being derivational.</li
@@ -7891,12 +7875,10 @@ sec="sDervAffixPOSConsiderations"
 ></sectionRef
 > for more on this).</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Sub-category Changing Affixes.</caption
+></figure
 ></section3
 ><section3
 id="sDervAffixNonCatChanging"
@@ -8137,10 +8119,10 @@ lang="lYalalag"
 type="WordWorks"
 ></object
 >? We need to do the following:</p
-><example
-num="xNonCatChangingHowTo"
-><chart
-type="HowTo"
+><figure
+id="fNonCatChangingHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Add each affix as a lexical entry and mark it as being derivational.</li
@@ -8152,12 +8134,10 @@ sec="sDervAffixPOSConsiderations"
 ><li
 >For the “changes to category” piece of information, use the same category as for the “attaches to category”.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Non-category Changing Affixes.</caption
+></figure
 ><p
 >Notice that in this case the from‑ and to‑ categories will be the same, but we do need to deal with the change in inflection class. This leads us to the next topic below.</p
 ></section3
@@ -8190,20 +8170,18 @@ term="iYalalagZapotec"
 sec="sDervAffixNonCatChanging"
 ></sectionRef
 >, the inflection class can indeed change. How do we model this? In addition to what we've done for the categories, we need to do the following:</p
-><example
-num="xDervAffixInflectionClassChangeHowTo"
-><chart
-type="HowTo"
+><figure
+id="fDervAffixInflectionClassChangeHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Also indicate the resulting inflection class in the “to inflection class” piece of information in the lexical entry for the appropriate affix.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Non-category Changing Affixes When the Inflection Class Changes.</caption
+></figure
 ><p
 >Note that rarely, if ever, does one need to indicate the “from inflection class” information. We include it in case you do find that you need it.</p
 ></section4
@@ -8323,7 +8301,6 @@ abbr="vACT"
 ></listInterlinear
 ></example
 ><example
-XeLaTeXSpecial="pagebreak"
 num="xPopoloca2"
 ><listInterlinear
 letter="xPopoloca2a"
@@ -8429,10 +8406,10 @@ letterOnly="no"
 type="WordWorks"
 ></object
 >, one does the following:</p
-><example
-num="xDervAffixInflectionClassNoChangeHowTo"
-><chart
-type="HowTo"
+><figure
+id="fDervAffixInflectionClassNoChangeHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Merely leave the “to inflection class” information blank in the lexical entry for the appropriate affix.<indexedRangeEnd
@@ -8443,12 +8420,10 @@ begin="bInflectionClassAndDerivation"
 ></indexedRangeEnd
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Non-category Changing Affixes When the Inflection Class Does Not Change.</caption
+></figure
 ></section4
 ></section3
 ><section3
@@ -8644,10 +8619,10 @@ type="WordWorks"
 >?<comment
 >Note: this is repeated below in the xStemNamesHowTo example. Some of it is also repeated in the xInflectionFeaturesHowTo example above. </comment
 ></p
-><example
-num="xDerivAffixInflectionFeaturesHowTo"
-><chart
-type="HowTo"
+><figure
+id="fDerivAffixInflectionFeaturesHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Determine the inflection feature involved, including its <indexedItem
@@ -8661,10 +8636,9 @@ term="iInflFeatType"
 ></indexedItem
 >We recommend using only two types: “Agr” for agreement features and “Infl” (= Inflection) for all others.</p
 ></endnote
-> name, and possible values (this is repeated from <exampleRef
-letter="xInflectionFeaturesHowTo"
-num="xInflectionFeaturesHowTo"
-></exampleRef
+> name, and possible values (this is repeated from <figureRef
+figure="fInflectionFeaturesHowTo"
+></figureRef
 >) Note that you may also want to check with a linguistic consultant on this.<ol
 ><li
 ><indexedItem
@@ -8703,12 +8677,10 @@ term="iCategoryInflectableFeatures"
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create a Derivational Affix With Inflection Features.</caption
+></figure
 ></section3
 ><section3
 id="sDervAffixPOSConsiderations"
@@ -9067,10 +9039,10 @@ valign="top"
 type="WordWorks"
 ></object
 >? One needs to perform the following steps:</p
-><example
-num="xDerviationOutsideInflectionHowTo"
-><chart
-type="HowTo"
+><figure
+id="fDerviationOutsideInflectionHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Add all the inflectional and derivational affix entries.</li
@@ -9085,12 +9057,10 @@ type="WordWorks"
 ><li
 >Create the "outside" inflectional template.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Derivation Outside of Inflection.</caption
+></figure
 ></section2
 ><section2
 id="sDerivationVsInflection"
@@ -9764,10 +9734,10 @@ term="iAffixUnclassified"
 >If a given affix has two or more exception “features,” then the stem to which it attaches must be tagged with all of the exception “features” that the affix has. Note that if an affix does not have any exception “features” but the stem to which it is being attached does have one or more exception “features,”  then the affix will still be allowed to attach (as far as the exception “features” are concerned).</p
 ><p
 >To tag affixes and stems with exception “features,”  do the following:</p
-><example
-num="xExceptionFeaturesHowTo"
-><chart
-type="HowTo"
+><figure
+id="fExceptionFeaturesHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >If necessary, create the exception “feature.” We recommend you give as meaningful a description as you are able. For example, if you happen to know that there are historical reasons for this situation, then go ahead and say what they are.</li
@@ -9779,12 +9749,10 @@ begin="bAffixes"
 ></indexedRangeEnd
 >”</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create and Use Exception “Features.”</caption
+></figure
 ></section2
 ></section1
 ><section1
@@ -10398,10 +10366,10 @@ num="xNahuatlCompoundNounAdj"
 type="WordWorks"
 ></object
 >?</p
-><example
-num="xCompoundEndoHowTo"
-><chart
-type="HowTo"
+><figure
+id="fCompoundEndoHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create a headed compound rule.</li
@@ -10412,12 +10380,10 @@ type="HowTo"
 ><li
 >Indicate whether the resulting compound is left-headed or right-headed.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create a Headed Compound Rule.</caption
+></figure
 ></section2
 ><section2
 id="sCompoundsExocentric"
@@ -10545,10 +10511,10 @@ lang="lGloss"
 type="WordWorks"
 ></object
 >, we do the following:</p
-><example
-num="xCompoundExoHowTo"
-><chart
-type="HowTo"
+><figure
+id="fCompoundExoHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create a non-headed compound rule.</li
@@ -10564,12 +10530,10 @@ sec="sInflAffixInflectionClasses"
 ></sectionRef
 >) and the resulting category has inflection classes, then also indicate the inflection class of the resulting category.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create a Non-headed Compound Rule.</caption
+></figure
 ></section2
 ><section2
 id="sCompoundIncorporation"
@@ -12046,10 +12010,10 @@ type="MorphemeType"
 type="WordWorks"
 ></object
 >?</p
-><example
-num="xCliticHowTo"
-><chart
-type="HowTo"
+><figure
+id="fCliticHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create the clitic lexical entry and mark it as being a <object
@@ -12075,12 +12039,10 @@ type="WordWorks"
 ><li
 >If the clitic is written attached and can go on any category, merely leave the “Attaches to Categories” field blank.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create a Clitic.</caption
+></figure
 ><p
 ><object
 type="WordWorks"
@@ -12232,10 +12194,10 @@ valign="top"
 type="WordWorks"
 ></object
 >?</p
-><example
-num="xAdhocMorphHowTo"
-><chart
-type="HowTo"
+><figure
+id="fAdhocMorphHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Determine the morphemes involved.</li
@@ -12263,8 +12225,10 @@ table="ntAdhocMorphAdjacency"
 ></ol
 ></li
 ></ol
-></chart
-></example
+></framedUnit
+><caption
+>How to Create a Morpheme-oriented Ad Hoc Rule.</caption
+></figure
 ><pc
 > <comment
 >force extra space after an ol in a example</comment
@@ -12544,32 +12508,27 @@ type="WordWorks"
 > model does not have an overt mechanism to deal with such a hierarchy.</p
 ><p
 >How does one create such a group?</p
-><example
-num="xAdhocMorphGroupHowTo"
-><chart
-type="HowTo"
+><figure
+id="fAdhocMorphGroupHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create an ad hoc rule group.</li
 ><li
 >For each ad hoc morpheme rule in the group:<ol
 ><li
->Create the ad hoc morpheme rule (see <exampleRef
-equal="no"
-letterOnly="no"
-num="xAdhocMorphHowTo"
-paren="none"
-></exampleRef
+>Create the ad hoc morpheme rule (see <figureRef
+figure="fAdhocMorphHowTo"
+></figureRef
 >) and include it in the group.</li
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create a Group of Morpheme-oriented Ad Hoc Rules.</caption
+></figure
 ><p
 >Finally, note that <object
 type="WordWorks"
@@ -13396,10 +13355,10 @@ lang="lEng"
 ></example
 ><p
 >To define the set of phonemes for the language you are modeling, do what is shown in the following:</p
-><example
-num="xPhonemesHowTo"
-><chart
-type="HowTo"
+><figure
+id="fPhonemesHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Determine the phonemes in your language.</li
@@ -13436,21 +13395,18 @@ num="xInitialSetOfPhonemes"
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Phonemes.</caption
+></figure
 ><section3
 id="sPhonemeSetsDigraphs"
 ><secTitle
 >Digraphs</secTitle
 ><p
->If you have orthographic digraphs (or trigraphs) as phonemes, you follow the same basic steps outlined in <exampleRef
-letter="xPhonemesHowTo"
-num="xPhonemesHowTo"
-></exampleRef
+>If you have orthographic digraphs (or trigraphs) as phonemes, you follow the same basic steps outlined in <figureRef
+figure="fPhonemesHowTo"
+></figureRef
 > steps 3 and 4. Merely use the appropriate digraph for the phoneme and also use the digraph as the grapheme. For example, if you have an aspirated voiceless alveolar stop written as <object
 type="TT"
 >th</object
@@ -13552,28 +13508,25 @@ term="iNaturalClass"
 type="WordWorks"
 ></object
 > do the following:</p
-><example
-num="xNaturalClassesHowTo"
-><chart
-type="HowTo"
+><figure
+id="fNaturalClassesHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Determine the natural classes you need.</li
 ><li
->If any of the phonemes in any of these natural classes are not already in your list of phonemes, add them to the list of phonemes. See <exampleRef
-letter="xPhonemesHowTo"
-num="xPhonemesHowTo"
-></exampleRef
+>If any of the phonemes in any of these natural classes are not already in your list of phonemes, add them to the list of phonemes. See <figureRef
+figure="fPhonemesHowTo"
+></figureRef
 >.</li
 ><li
 >Create each one, giving them a name, description, abbreviation and indicating all the phonemes which belong to the class.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Natural Classes.</caption
+></figure
 ><p
 >We highly recommend that you seek to give unique <indexedItem
 main="yes"
@@ -13601,10 +13554,10 @@ term="iAlloEnvironments"
 type="WordWorks"
 ></object
 >, you key these environments using a special notation. This notation is one that is reminiscent of what is used in many generative-style rules. The basic rules of thumb are:</p
-><example
-num="xEnvironmentsHowTo"
-><chart
-type="HowTo"
+><figure
+id="fEnvironmentsHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Begin each environment with the forward slash character <object
@@ -13671,12 +13624,10 @@ type="WordWorks"
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Environments.</caption
+></figure
 ><p
 >Example <exampleRef
 equal="no"
@@ -14517,10 +14468,10 @@ type="AffixProcessRule"
 type="HermitCrab"
 ></object
 >.)</p
-><example
-num="xFulllReduplicationHowTo"
-><chart
-type="HowTo"
+><figure
+id="fFulllReduplicationHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Determine that the reduplication is indeed full reduplication. <indexedItem
@@ -14605,12 +14556,10 @@ type="TT"
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Full Reduplication via an Environment.</caption
+></figure
 ></section3
 ></section2
 ><section2
@@ -14782,10 +14731,10 @@ type="AffixProcessRule"
 type="HermitCrab"
 ></object
 >.)</p
-><example
-num="xPartialReduplicationHowTo"
-><chart
-type="HowTo"
+><figure
+id="fPartialReduplicationHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Determine whether the reduplication morpheme is derivational or inflectional.</li
@@ -14823,12 +14772,10 @@ type="TT"
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Partial Reduplication via an Environment.</caption
+></figure
 ><section3
 id="sReduplicationPartialPatternStage1"
 ><secTitle
@@ -15089,10 +15036,10 @@ type="AffixProcessRule"
 type="HermitCrab"
 ></object
 >.)</p
-><example
-num="xInfixHowTo"
-><chart
-type="HowTo"
+><figure
+id="fInfixHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Determine the environment(s) of the infix with respect to the stem in which it infixes (see <sectionRef
@@ -15108,12 +15055,10 @@ sec="sInfixationEnvironments"
 ><li
 >Set the infix position to the environment(s).</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create an Infix via an Environment.</caption
+></figure
 ><p
 >Note that infix allomorphs may be conditioned by <indexedItem
 term="iAlloEnvironments"
@@ -15285,10 +15230,10 @@ type="AffixProcessRule"
 type="HermitCrab"
 ></object
 >.) The basic idea is to treat each vowel as an infix.</p
-><example
-num="xInfixationRootAndPatternHowTo"
-><chart
-type="HowTo"
+><figure
+id="fInfixationRootAndPatternHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >One needs to model each vowel as a separate infix. Thus, the perfective aspect has to be treated as two parts: The first ‑<langData
@@ -15312,12 +15257,10 @@ table="ntSiltiTemplate"
 ></tablenumberedRef
 >.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Root-and-Pattern Infixes.</caption
+></figure
 ><example
 num="xSiltiAnalysis"
 ><interlinear
@@ -15560,22 +15503,20 @@ type="defaultParser"
 type="WordWorks"
 ></object
 >? There are at least two ways:</p
-><example
-num="xEpenthesisHowTo"
-><chart
-type="HowTo"
+><figure
+id="fEpenthesisHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >The first method is to treat the epenthetic segment as a kind of pseudo morpheme.</li
 ><li
 >The second is to create extra allomorphs containing the epenthetic segment(s) for every morpheme that might possibly be involved with epenthesis and using environments to condition them appropriately.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create an Epenthetic Affix.</caption
+></figure
 ><p
 >The advisability of the use of the first method is debatable. If the epenthetic segment is rather common, then one might want to model it as a pseudo-morpheme. Such an approach allows you to use the output of <object
 type="WordWorks"
@@ -15666,10 +15607,10 @@ type="defaultParser"
 type="WordWorks"
 ></object
 >? Since this parser does not have any way to model processes, one must use allomorphy. For data like that in Caquinte, one would</p
-><example
-num="xMetathesisHowTo"
-><chart
-type="HowTo"
+><figure
+id="fMetathesisHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >In the lexical entry for <langData
@@ -15700,12 +15641,10 @@ type="TT"
 >/ h _ </object
 >).</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Handle Metathesis.</caption
+></figure
 ></section1
 ><section1
 id="sMorphemeNotSurface"
@@ -15988,10 +15927,10 @@ type="defaultParser"
 type="WordWorks"
 ></object
 >?</p
-><example
-num="xMorphemeNotSurfaceHowTo"
-><chart
-type="HowTo"
+><figure
+id="fMorphemeNotSurfaceHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Ensure that you have a natural class for vowels.</li
@@ -16017,12 +15956,10 @@ lang="lCaquinte"
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create a Null Morpheme.</caption
+></figure
 ></section1
 ><section1
 id="sNonPhonologicallyConditionedAllomorphy"
@@ -16382,17 +16319,16 @@ type="WordWorks"
 >?<comment
 >Note: this is mostly repeated above in the xInflectionFeaturesHowTo example. Some of it is also repeated in the xDerivAffixInflectionFeaturesHowTo example.</comment
 ></p
-><example
-num="xStemNamesHowTo"
-><chart
-type="HowTo"
+><figure
+id="fxStemNamesHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
->Unless you have already done so, set up the needed inflection features as follows: (this is repeated from <exampleRef
-letter="xInflectionFeaturesHowTo"
-num="xInflectionFeaturesHowTo"
-></exampleRef
->).<ol
+>Unless you have already done so, set up the needed inflection features as follows: (this is repeated from <figureRef
+figure="fInflectionFeaturesHowTo"
+></figureRef
+>.<ol
 ><li
 >Determine the inflection feature involved, including its type,<endnote
 id="nInflectionFeature3"
@@ -16468,12 +16404,10 @@ sec="sInflectionalAffixes"
 ></sectionRef
 > for more on inflectional templates.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create and Use Stem Names.</caption
+></figure
 ><p
 >To summarize, one should use Stem Names to control stem allomorphy that is dependent not on phonological issues, but on the presence of certain inflection features. Note that Stem Names can only be used for stem allomorphs (not affix allomorphs).</p
 ><p
@@ -16969,10 +16903,10 @@ sec="sEnvironments"
 >) will not work properly due to the fact that one must identify the exact morpheme, not merely its surface form. Other morphemes may well share the same form, but the allomorphy of the non-future does not occur with them. It is only with the perfect suffix and the first person object suffix.</p
 ></endnote
 ></p
-><example
-num="xAffixAlloFeats"
-><chart
-type="HowTo"
+><figure
+id="fAffixAlloFeats"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Add the appropriate inflectional features.</li
@@ -16993,12 +16927,10 @@ type="HowTo"
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Feature-Dependent Affixes.</caption
+></figure
 ><p
 >For the Axininca Campa data above, the verbal inflection features are for perfect aspect and for first person object agreement. We would need to create the appropriate inflectional suffixes and assign perfect aspect to the perfect ‑<langData
 lang="lAxinincaCampa"
@@ -17435,10 +17367,10 @@ sec="sStemNames"
 >.</p
 ></endnote
 ></p
-><example
-num="xCoalescence"
-><chart
-type="HowTo"
+><figure
+id="fCoalescence"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create an entry for each morpheme.</li
@@ -17459,12 +17391,10 @@ begin="bCoalescence"
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Handle Coalescence.</caption
+></figure
 ></section1
 ><section1
 id="sAdhocAlloProhibitions"
@@ -17710,10 +17640,10 @@ lang="lEng"
 type="WordWorks"
 ></object
 >?</p
-><example
-num="xAdhocAlloHowTo"
-><chart
-type="HowTo"
+><figure
+id="fAdhocAlloHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Determine the allomorphs involved.</li
@@ -17741,12 +17671,10 @@ table="ntAdhocAlloAdjacency"
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create Allomorph-oriented Ad Hoc Rules.</caption
+></figure
 ><p
 >By the way, when you are indicating the allomorph, be sure that the particular allomorph is for the correct morpheme, too. <object
 type="WordWorks"
@@ -17767,32 +17695,27 @@ type="WordWorks"
 > model just does not happen to provide the appropriate linguistic mechanism to model the phenomenon correctly.</p
 ><p
 >One can group such ad hoc rules together. How does one create such a group?</p
-><example
-num="xAdhocAlloGroupHowTo"
-><chart
-type="HowTo"
+><figure
+id="fAdhocAlloGroupHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create an ad hoc rule group.</li
 ><li
 >For each ad hoc allomorph rule in the group:<ol
 ><li
->Create the ad hoc allomorph rule (see <exampleRef
-equal="no"
-letterOnly="no"
-num="xAdhocAlloHowTo"
-paren="none"
-></exampleRef
+>Create the ad hoc allomorph rule (see <figureRef
+figure="fAdhocAlloHowTo"
+></figureRef
 >) and include it in the group.</li
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create a Group of Allomorph-oriented Ad Hoc Rules.</caption
+></figure
 ><p
 >Finally, note that <object
 type="WordWorks"
@@ -17835,10 +17758,10 @@ term="iNullAllomorph"
 term="iMorphologicalParser"
 ></indexedItem
 >parser run rather slowly. If having a null allomorph is indeed the best analysis, then please keep the following in mind:</p
-><example
-num="xNullAllomorphsHowTo"
-><chart
-type="HowTo"
+><figure
+id="fNullAllomorphsHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >One indicates a null in the allomorph's form field by typing either <object
@@ -17867,12 +17790,10 @@ term="iEmptySetSymbol"
 ><li
 >You may also need to adjust the Parser Parameters to allow for more than one null allomorph per word. That is, determine what the maximum number of null allomorphs a legitimate word could have and set the MaxNulls parameter to that number. Remember, that the lower the number, the faster the parser will run.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create a Null Allomorph.</caption
+></figure
 ></section2
 ><section2
 id="sAllomorphOrder"
@@ -18194,10 +18115,10 @@ type="AffixProcessRule"
 type="HermitCrab"
 ></object
 >.)</p
-><example
-num="xCircumfixHowTo"
-><chart
-type="HowTo"
+><figure
+id="fCircumfixHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Add a new lexical entry for the circumfix.</li
@@ -18228,12 +18149,10 @@ term="iAlloEnvironments"
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Create a Circumfix.</caption
+></figure
 ><p
 >Note the following characteristics about circumfix entries created this way:</p
 ><ol
@@ -20668,14 +20587,14 @@ lang="lAwngi"
 >↗</langData
 > symbol. The suffix then gets the floating high tone (or it has the tone of its initial vowel raised).</p
 ><p
->How do we handle something like this with the new <object
+>How do we handle something like this with the <object
 type="HermitCrab"
 ></object
 >? One way is to do the following.</p
-><example
-num="xAwngiSteps"
-><chart
-type="HowTo"
+><figure
+id="fAwngiSteps"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create a custom tone phonological feature that has three values: <object
@@ -20722,12 +20641,10 @@ type="TT"
 ></ol
 ></li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Handle Awngi Tone.</caption
+></figure
 ><p
 >Here is how the docking rule might look:<indexedItem
 term="iPhonRuleExamples"
@@ -21468,7 +21385,6 @@ abbr="vAPPL"
 ></lineGroup
 ></listInterlinear
 ><listInterlinear
-XeLaTeXSpecial="pagebreak"
 letter="xIndonesianMeyakini"
 ><lineGroup
 ><line
@@ -21904,14 +21820,14 @@ lang="lBahasaIndonesia"
 >How might we deal with such an intricate combination of arguably unexpected factors and successfully implement them in <object
 type="WordWorks"
 ></object
-> using the new <object
+> using the <object
 type="HermitCrab"
 ></object
 >? Here is one possible way:</p
-><example
-num="xIndonesianNHowTo"
-><chart
-type="HowTo"
+><figure
+id="fIndonesianNHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create the phonological features to use.</li
@@ -21922,12 +21838,10 @@ type="HowTo"
 ><li
 >Write a number of ordered phonological rules to deal with each case.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Handle the Unspecified Nasal in Indonesian.</caption
+></figure
 ><p
 >How might we do the first step? Given that there appear to be some orthographic conventions employed in the practical orthography, one way to deal with some of the unusual assimilations is to create a special “orthographic place” feature and assign the phonemes to use the place involved in the practical orthography.</p
 ><p
@@ -21974,10 +21888,9 @@ type="TT"
 >The phoneme-feature matrix shown in <tablenumberedRef
 table="ntIndoFeatureChart"
 ></tablenumberedRef
-> illustrates one way that the first three steps of <exampleRef
-letter="xIndonesianNHowTo"
-num="xIndonesianNHowTo"
-></exampleRef
+> illustrates one way that the first three steps of <figureRef
+figure="fIndonesianNHowTo"
+></figureRef
 > could be done (see the <object
 type="TT"
 >OrthPlace</object
@@ -22033,10 +21946,9 @@ type="TT"
 ></endnote
 ></p
 ><p
->Having devised a phonological feature system and assigned the appropriate feature values to the phonemes, the next step from <exampleRef
-letter="xIndonesianNHowTo"
-num="xIndonesianNHowTo"
-></exampleRef
+>Having devised a phonological feature system and assigned the appropriate feature values to the phonemes, the next step from <figureRef
+figure="fIndonesianNHowTo"
+></figureRef
 > is to write the phonological rules. What should they be? One way is to write rules for each of the four items given in <exampleRef
 letter="xIndonesianNFactors"
 num="xIndonesianNFactors"
@@ -23601,7 +23513,7 @@ type="TT"
 > feature when it occurs after the unspecified nasal across a morpheme boundary. Since my understanding is that the only time Bahasa Indonesia has an unspecified nasal, that unspecified nasal is preceded by the vowel <langData
 lang="lBahasaIndonesia"
 >e</langData
->, I've added this to the environment. It may make the new <object
+>, I've added this to the environment. It may make the <object
 type="HermitCrab"
 ></object
 > run a bit more efficiently.</pc
@@ -23894,7 +23806,7 @@ lang="lBahasaIndonesia"
 >m</langData
 > is what is actually reduplicated.</p
 ><p
->Using the new <object
+>Using the <object
 type="HermitCrab"
 ></object
 >, it is possible to write a phonological rule that will handle this complex situation. Let's assume that we have created a reduplication entry for the continuative suffix which uses an <object
@@ -23904,7 +23816,7 @@ type="AffixProcessRule"
 letter="xIndonesianFullRedupProcess"
 num="xIndonesianFullRedupProcess"
 ></exampleRef
->. Also recall that when using the new <object
+>. Also recall that when using the <object
 type="HermitCrab"
 ></object
 > we need to think generatively. For the case of <exampleRef
@@ -24216,10 +24128,10 @@ term="iPhonRuleConstrainExceptionFeature"
 term="iPhonRuleExceptionFeatures"
 ></indexedItem
 >exception “feature” to handle this exception. We do the following steps:</p
-><example
-num="xIndonesianNExceptionsHowTo"
-><chart
-type="HowTo"
+><figure
+id="fIndonesianNExceptionsHowTo"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 >Create the exception “feature.” We could call it ‘Does not undergo voiceless obstruent deletion” because this is the rule that does not apply (see <figureRef
@@ -24239,12 +24151,10 @@ figure="fIndonesianUnspecifiedVoicelessObstruentDeletionRule"
 ></figureRef
 >) and add this exception “feature” to its list of excluded properties.</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Use an Exception “Feature” for Unspecified Nasal in Indonesian.</caption
+></figure
 ><p
 >When the <object
 type="HermitCrab"
@@ -24290,7 +24200,6 @@ abbr="vCAUS"
 ></lineGroup
 ></listInterlinear
 ><listInterlinear
-XeLaTeXSpecial="pagebreak"
 letter="xIndonesianMentraktir"
 ><lineGroup
 ><line
@@ -24843,7 +24752,6 @@ abbr="vART"
 ></listInterlinear
 ></example
 ><example
-XeLaTeXSpecial="pagebreak"
 num="xSelaru2sSit"
 ><interlinear
 ><lineGroup
@@ -29597,6 +29505,21 @@ font-size="10pt"
 id="tFootnoteInTable"
 ></type
 ></types
+><framedTypes
+><framedType
+backgroundcolor="#FAF0E6"
+description="sample output"
+id="ftSample"
+indent-after=".125in"
+indent-before=".125in"
+innerbottommargin=".125in"
+innerleftmargin=".125in"
+innerrightmargin=".125in"
+innertopmargin=".125in"
+spaceafter=".125in"
+spacebefore=".125in"
+></framedType
+></framedTypes
 ><indexTerms
 ><indexTerm
 id="iAdhocConstraints"

@@ -43,7 +43,7 @@ id="nJonathanCoombs"
 ></endnote
 ></author
 ><date
->14 March 2024</date
+>15 March 2024</date
 ><contents
 bookmarksShowLevel="5"
 showLevel="5"
@@ -3113,26 +3113,130 @@ id="fNahuatlPossessorHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Create or at least make sure we have a possessed noun category.</li
+>Create or at least make sure we have a possessed noun category.<ol
 ><li
->Create an inflectional template within the possessed noun category.</li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Category Edit</object
+>.</li
 ><li
->Give that template one prefix slot (for possessor).</li
+>Click on <object
+type="tMenuItem"
+>Noun</object
+>.</li
 ><li
->Give that template one suffix slot (for number).</li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Subcategory</object
+>.</li
 ><li
->Mark the number suffix slot as optional.</li
+>In the ensuing dialog box, click on <object
+type="tMenuItem"
+>The category I need is not shown in the Catalog.  Create a custom category.</object
+></li
+><li
+>Fill in its name, abbreviation, and description.</li
+></ol
+></li
+><li
+>Create an inflectional template within the possessed noun category.<ol
+><li
+>Click on <object
+type="tMenuItem"
+>Affix Templates</object
+> and then <object
+type="tMenuItem"
+>Insert Affix Template</object
+>.</li
+><li
+>Fill in a name for it.</li
+></ol
+></li
+><li
+>Give that template one prefix slot (for possessor).<ol
+><li
+>Right-click on <object
+type="tMenuItem"
+>STEM</object
+> and then <object
+type="tMenuItem"
+>Insert Slot before Stem</object
+>.</li
+><li
+>Click on <object
+type="tMenuItem"
+>Add an obligatory slot to Noun</object
+>.</li
+><li
+>Type “Possessor” in the highlighted area.</li
+></ol
+></li
+><li
+>Give that template one suffix slot (for number).<ol
+><li
+>Right-click on <object
+type="tMenuItem"
+>STEM</object
+> and then <object
+type="tMenuItem"
+>Insert Slot after Stem</object
+>.</li
+><li
+>Click on <object
+type="tMenuItem"
+>Add an optional slot to Noun</object
+>.</li
+><li
+>Type “Number” in the highlighted area.</li
+></ol
+></li
 ><li
 >For the possessor prefix slot, put in it the six possessor prefixes listed in the first column of <tablenumberedRef
 table="ntNahuatlPossessedPluralNounTemplate"
 ></tablenumberedRef
->. If these possessor prefixes do not already exist, then we need to create the lexical entries and mark them as inflectional.</li
+>. If these possessor prefixes do not already exist, then we need to create the lexical entries and mark them as inflectional.<ol
 ><li
->For the number suffix slot, put the plural suffix in it. If the number suffix does not already exist, then create the lexical entry for it and mark it as inflectional.</li
+>Right-click on <object
+type="tMenuItem"
+>Possessor</object
+> and then <object
+type="tMenuItem"
+>Add inflectional affix(es) to Possessor </object
+>.</li
+><li
+>In the ensuing dialog, either select the already existing prefixes or click on the <object
+type="tMenuItem"
+>Create new inflectional affix</object
+> link.</li
+></ol
+></li
+><li
+>For the number suffix slot, put the plural suffix in it. If the number suffix does not already exist, then create the lexical entry for it and mark it as inflectional.<ol
+><li
+>Right-click on <object
+type="tMenuItem"
+>Number</object
+> and then <object
+type="tMenuItem"
+>Add inflectional affix(es) to Number </object
+>.</li
+><li
+>In the ensuing dialog, either select the already existing number suffix  or click on the <object
+type="tMenuItem"
+>Create new inflectional affix</object
+> link.</li
+></ol
+></li
 ></ol
 ></framedUnit
 ><caption
->How to Create Nahuatl Possessor Optional Slots in Inflectional Templates.</caption
+>How to Create Orizaba Nahuatl Possessor Inflectional Template with Optional Number Suffix.</caption
 ></figure
 ><p
 >Once we have done this, we will have successfully set up the inflectional morphotactics for possessed nominals in Orizaba Nahuatl.</p
@@ -3661,15 +3765,47 @@ id="fNahuatlIntransitiveVerbHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Create or at least make sure we have an intransitive verb category.</li
+>Create or at least make sure we have an intransitive verb category.<ol
 ><li
->Create two inflectional templates within the intransitive verb category:<ol
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Category Edit</object
+>.</li
+><li
+>Click on <object
+type="tMenuItem"
+>Verb</object
+>.</li
+><li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Subcategory</object
+>.</li
+><li
+>In the ensuing dialog box, open up <object
+type="tMenuItem"
+>Verb</object
+> and choose <object
+type="tMenuItem"
+>Intransitive verb</object
+>.</li
+></ol
+></li
+><li
+>Create two inflectional templates within the intransitive verb category (see <figureRef
+figure="fNahuatlPossessorHowTo"
+></figureRef
+> for how to do this):<ol
 ><li
 >For the singular template:<ol
 ><li
->Give it one prefix slot (for singular subject).</li
-><li
->Mark this slot as optional.</li
+>Give it one optional prefix slot (for singular subject).</li
 ><li
 >Put the <gloss
 lang="lGloss"
@@ -3701,9 +3837,7 @@ abbr="vSBJ"
 ><li
 >For the plural template:<ol
 ><li
->Give it one prefix slot (for plural subject).</li
-><li
->Mark this slot as optional.</li
+>Give it one optional prefix slot (for plural subject).</li
 ><li
 >Put the <gloss
 lang="lGloss"
@@ -3731,7 +3865,7 @@ abbr="vSBJ"
 ></gloss
 >‑ prefixes in this slot. If these prefixes do not already exist, create them and mark them as inflectional.</li
 ><li
->Give it a required suffix slot (for number).</li
+>Give it a obligatory suffix slot (for number).</li
 ><li
 >Put the ‑<gloss
 lang="lGloss"
@@ -3750,7 +3884,7 @@ begin="bOrizabaInflection"
 ></ol
 ></framedUnit
 ><caption
->How to Create Nahuatl Intransitive Verb Templates.</caption
+>How to Create Orizaba Nahuatl Intransitive Verb Templates.</caption
 ></figure
 ></section3
 ><section3
@@ -4532,14 +4666,64 @@ id="fYalalagInflectionClassHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Create two inflection classes within the verb category.</li
+>Create two inflection classes within the verb category.<ol
 ><li
->Create the future inflectional prefix and within it<ol
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Category Edit</object
+>.</li
+><li
+>Click on <object
+type="tMenuItem"
+>Verb</object
+>.</li
+><li
+>Click on <object
+type="tMenuItem"
+>Inflection Class Info</object
+> and then <object
+type="tMenuItem"
+>Insert Inflection Class</object
+>.</li
+><li
+>Fill in its name, abbreviation, and description.</li
+></ol
+></li
+><li
+>Create the future inflectional prefix (using  <object
+type="tMenuItem"
+>Lexicon</object
+> / <object
+type="tMenuItem"
+>Lexicon Edit</object
+>) and within it<ol
 ><li
 >Create the <langData
 lang="lYalalag"
 >u</langData
->‑ allomorph and tag it as belonging to the first inflection class.</li
+>‑ allomorph and tag it as belonging to the first inflection class.<ol
+><li
+>To see the <object
+type="tMenuItem"
+>Inflection Classes</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>Inflection Classes</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, check the first inflection class.</li
+></ol
+></li
 ><li
 >Create the “fortifier” <langData
 lang="lYalalag"
@@ -4548,7 +4732,51 @@ lang="lYalalag"
 ></ol
 ></li
 ><li
->For each verb stem, tag it as belonging to either the first or the second inflection class, whichever is correct for that verb.</li
+>For each verb root (or stem), tag it as belonging to either the first or the second inflection class, whichever is correct for that verb.<ol
+><li
+>Use  <object
+type="tMenuItem"
+>Lexicon</object
+> / <object
+type="tMenuItem"
+>Lexicon Edit</object
+> and find each verb, one at a time.</li
+><li
+>To see the <object
+type="tMenuItem"
+>Inflection Class</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>Inflection Class</object
+> field under <object
+type="tMenuItem"
+>Grammatical Info. Details</object
+>.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, select the appropriate inflection class.</li
+><li
+>Alternatively, use  <object
+type="tMenuItem"
+>Lexicon</object
+> / <object
+type="tMenuItem"
+>Bulk Edit Entries</object
+> with the <object
+type="tMenuItem"
+>List Choice</object
+> tab to set the values for many verbs at once.  See the help files in <object
+type="WordWorks"
+></object
+> for more.</li
+></ol
+></li
 ></ol
 ></framedUnit
 ><caption
@@ -4754,12 +4982,15 @@ lang="lLatin"
 > is used for both declension class III and IV. So to model this Latin data in <object
 type="WordWorks"
 ></object
->, we will need to do the following:<endnote
+>, we will need to do the following.<endnote
 id="nLatinMore"
 ><p
 >Of course, one would want to model the full nominal paradigm if one were working on Latin, but this limited usage here illustrates the point about letting a given allomorph refer to more than one inflection class.</p
 ></endnote
-></p
+> See <figureRef
+figure="fYalalagInflectionClassHowTo"
+></figureRef
+> for details on the steps given.</p
 ><figure
 id="fLatinInflectionClassHowTo"
 ><framedUnit
@@ -4787,7 +5018,7 @@ lang="lLatin"
 ></ol
 ></li
 ><li
->For each noun stem, tag it as belonging to the appropriate inflection class, whichever is correct for that noun.</li
+>For each noun root (or stem), tag it as belonging to the appropriate inflection class, whichever is correct for that noun.</li
 ></ol
 ></framedUnit
 ><caption
@@ -6047,7 +6278,10 @@ abbr="vPRF"
 >To model this Isthmus Zapotec data in <object
 type="WordWorks"
 ></object
->, we will need to do the following:</p
+>, we will need to do the following. See <figureRef
+figure="fYalalagInflectionClassHowTo"
+></figureRef
+> for details on the steps given.</p
 ><figure
 id="fIZInflectionClassHowTo"
 ><framedUnit
@@ -6764,26 +6998,52 @@ term="iInflFeatType"
 ></indexedItem
 >We recommend using only two types: “Agr” for agreement features and “Infl” (= Inflection) for all others.</p
 ></endnote
-> name, and possible values. (You may need to check with a linguistic consultant on this.)<ol
+> name, and possible values. (You may need to check with a linguistic consultant on this.)</li
+><li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Inflection Features</object
+>.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Feature</object
+>.</li
 ><li
 ><indexedItem
 term="iInflFeatCatalog"
 ></indexedItem
->Try using the Inflection Feature Catalog<endnote
-id="nInflectionFeatureCatalog"
-><p
->In <object
-type="WordWorks"
-></object
->, go to the Grammar area, Inflection Features tool. Insert a new feature (either feature or complex feature - it does not matter, both call up the catalog).</p
-></endnote
-> to see if the feature is already in the catalog. If so, add the feature via the catalog (it's much easier this way).</li
+>This brings up the “Add Inflection Features from Catalog” dialog box.</li
 ><li
->If the feature is not in the catalog, then<ol
+>Explore the catalog and try to find the feature you need.</li
 ><li
->If the feature type does not yet exist, add it to the feature types.</li
+>If so, add the feature via the catalog (it's much easier this way).</li
 ><li
->Create the feature and its values in the features section.</li
+>If not, then in the dialog, click on the <object
+type="tMenuItem"
+>The inflection feature I need is not shown in the Catalog. Create a custom inflection feature</object
+> link.<ol
+><li
+>Fill in the name, abbreviation, and description fields.</li
+><li
+>For each value this feature needs, click on <object
+type="tMenuItem"
+>Values</object
+> and then on <object
+type="tMenuItem"
+>Insert Feature Value</object
+>.</li
+><li
+>Fill in the value's name, abbreviation, and description.  You'll probably want to check the <object
+type="tMenuItem"
+>Use Abbreviation as label</object
+> box.</li
 ></ol
 ></li
 ></ol
@@ -6794,7 +7054,26 @@ term="iCategoryInflectableFeatures"
 ></indexedItem
 >For each category which will use the feature, <ol
 ><li
->Add the feature to the category's set of inflectable features.</li
+>Add the feature to the category's set of inflectable features.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Category Edit</object
+>.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>Inflectable Features</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, check the box by the feature.</li
+></ol
+></li
 ><li
 >Make sure that the category has appropriate affix templates (see <sectionRef
 sec="sInflectionalAffixes"
@@ -6806,9 +7085,77 @@ type="WordWorks"
 ></ol
 ></li
 ><li
->For each root needing the feature, add the feature and its appropriate value to the stem's grammatical information details.</li
+>For each root (or stem) needing the feature, add the feature and its appropriate value to the stem's grammatical information details.<ol
 ><li
->For each inflectional affix needing the feature, add the feature and its appropriate value to the inflectional affix's grammatical information details. Note that you may need to Show Hidden Fields to see this Inflection Features field.</li
+>Use <object
+type="tMenuItem"
+>Lexicon</object
+> / <object
+type="tMenuItem"
+>Lexicon Edit</object
+>.</li
+><li
+>To see the <object
+type="tMenuItem"
+>Inflection Features</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>Inflection Features</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, select the feature and value you need.</li
+><li
+>Alternatively, use <object
+type="tMenuItem"
+>Lexicon</object
+> / <object
+type="tMenuItem"
+>Bulk Edit Entries</object
+> with the <object
+type="tMenuItem"
+>List Choice</object
+> tab to set the values for many entries at once. See the help files in <object
+type="WordWorks"
+></object
+> for more.</li
+></ol
+></li
+><li
+>For each inflectional affix needing the feature, add the feature and its appropriate value to the inflectional affix's grammatical information details.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Lexicon</object
+> / <object
+type="tMenuItem"
+>Lexicon Edit</object
+>.</li
+><li
+>To see the <object
+type="tMenuItem"
+>Inflection Features</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>Inflection Features</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, select the feature and value you need.</li
+></ol
+></li
 ></ol
 ></framedUnit
 ><caption
@@ -6834,7 +7181,6 @@ term="iInflectionFeature"
 ></indexedItem
 >When modeling a given language, one may well wonder if a given phenomenon should be handled by inflection classes or by inflection features. Here are some guidelines to help one decide:</p
 ><tablenumbered
-XeLaTeXSpecial="pagebreak"
 id="ntInflectionClassesVsInflectionFeatures"
 ><table
 align="center"
@@ -7367,14 +7713,34 @@ id="fCatChangingHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Add each affix as a lexical entry and mark it as being derivational.</li
+>Add each affix as a lexical entry and mark it as being derivational.<ol
 ><li
->For the “attaches to category” piece of information, use the category of the stem to which this affix attaches (see <sectionRef
+>Use <object
+type="tMenuItem"
+>Lexicon</object
+> / <object
+type="tMenuItem"
+>Lexicon Edit</object
+>.</li
+><li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Entry</object
+>. </li
+><li
+>In the ensuing “New Entry” dialog box, set the Affix Type to “Derivational.”</li
+></ol
+></li
+><li
+>For the “Attaches to Category” piece of information, use the category of the stem to which this affix attaches (see <sectionRef
 sec="sDervAffixPOSConsiderations"
 ></sectionRef
 > for more on this).</li
 ><li
->For the “changes to category” piece of information, use the category of the stem that results when this affix is attached (see <sectionRef
+>For the “Changes to Category” piece of information, use the category of the stem that results when this affix is attached (see <sectionRef
 sec="sDervAffixPOSConsiderations"
 ></sectionRef
 > for more on this).</li
@@ -7856,7 +8222,10 @@ type="WordWorks"
 >How do we model these sub-category changing affixes in <object
 type="WordWorks"
 ></object
->? We need to do the following:</p
+>? We need to do the following.  See <figureRef
+figure="fCatChangingHowTo"
+></figureRef
+> for details on the first step.</p
 ><figure
 id="fSubCatChangingHowTo"
 ><framedUnit
@@ -7865,12 +8234,12 @@ framedtype="ftSample"
 ><li
 >Add each affix as a lexical entry and mark it as being derivational.</li
 ><li
->For the “attaches to category” piece of information, use the (sub-)category of the stem to which this affix attaches (see <sectionRef
+>For the “Attaches to Category” piece of information, use the (sub-)category of the stem to which this affix attaches (see <sectionRef
 sec="sDervAffixPOSConsiderations"
 ></sectionRef
 > for more on this).</li
 ><li
->For the “changes to category” piece of information, use the (sub-)category of the stem that results when this affix is attached (see <sectionRef
+>For the “Changes to Category” piece of information, use the (sub-)category of the stem that results when this affix is attached (see <sectionRef
 sec="sDervAffixPOSConsiderations"
 ></sectionRef
 > for more on this).</li
@@ -8118,7 +8487,10 @@ lang="lYalalag"
 >How do we model these non-category changing affixes in <object
 type="WordWorks"
 ></object
->? We need to do the following:</p
+>? We need to do the following.  See <figureRef
+figure="fCatChangingHowTo"
+></figureRef
+> for details on the first step.</p
 ><figure
 id="fNonCatChangingHowTo"
 ><framedUnit
@@ -8127,12 +8499,12 @@ framedtype="ftSample"
 ><li
 >Add each affix as a lexical entry and mark it as being derivational.</li
 ><li
->For the “attaches to category” piece of information, use the category of the stem to which this affix attaches (see <sectionRef
+>For the “Attaches to Category” piece of information, use the category of the stem to which this affix attaches (see <sectionRef
 sec="sDervAffixPOSConsiderations"
 ></sectionRef
 > for more on this).</li
 ><li
->For the “changes to category” piece of information, use the same category as for the “attaches to category”.</li
+>For the “Changes to Category” piece of information, use the same category as for the “attaches to category”.</li
 ></ol
 ></framedUnit
 ><caption
@@ -8176,7 +8548,37 @@ id="fDervAffixInflectionClassChangeHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Also indicate the resulting inflection class in the “to inflection class” piece of information in the lexical entry for the appropriate affix.</li
+>Also indicate the resulting inflection class in the “To Inflection Class” piece of information in the lexical entry for the appropriate affix.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Lexicon</object
+> / <object
+type="tMenuItem"
+>Lexicon Edit</object
+>.</li
+><li
+>To see the <object
+type="tMenuItem"
+>To Inflection Class</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Under <object
+type="tMenuItem"
+>Grammatical Info. Details</object
+>, click in the <object
+type="tMenuItem"
+>To Inflection Class</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, select the inflection class you need.</li
+></ol
+></li
 ></ol
 ></framedUnit
 ><caption
@@ -8412,7 +8814,7 @@ id="fDervAffixInflectionClassNoChangeHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Merely leave the “to inflection class” information blank in the lexical entry for the appropriate affix.<indexedRangeEnd
+>Merely leave the “To Inflection Class” information blank in the lexical entry for the appropriate affix.<indexedRangeEnd
 begin="bInflectionClassInDerivation"
 ></indexedRangeEnd
 ><indexedRangeEnd
@@ -8636,29 +9038,52 @@ term="iInflFeatType"
 ></indexedItem
 >We recommend using only two types: “Agr” for agreement features and “Infl” (= Inflection) for all others.</p
 ></endnote
-> name, and possible values (this is repeated from <figureRef
-figure="fInflectionFeaturesHowTo"
-></figureRef
->) Note that you may also want to check with a linguistic consultant on this.<ol
+> name, and possible values.</li
+><li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Inflection Features</object
+>.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Feature</object
+>.</li
 ><li
 ><indexedItem
 term="iInflFeatCatalog"
 ></indexedItem
->Try using the Inflection Feature Catalog<endnote
-id="nInflectionFeatureCatalog2"
-><p
->In <object
-type="WordWorks"
-></object
->, go to the Grammar area, Inflection Features tool. Insert a new feature (either feature or complex feature - it does not matter, both call up the catalog).</p
-></endnote
-> to see if the feature is already in the catalog. If so, add the feature via the catalog (it's much easier this way).</li
+>This brings up the “Add Inflection Features from Catalog” dialog box.</li
 ><li
->If the feature is not in the catalog, then<ol
+>Explore the catalog and try to find the feature you need.</li
 ><li
->If the feature type does not yet exist, add it to the feature types.</li
+>If so, add the feature via the catalog (it's much easier this way).</li
 ><li
->Create the feature and its values in the features section.</li
+>If not, then in the dialog, click on the <object
+type="tMenuItem"
+>The inflection feature I need is not shown in the Catalog. Create a custom inflection feature</object
+> link.<ol
+><li
+>Fill in the name, abbreviation, and description fields.</li
+><li
+>For each value this feature needs, click on <object
+type="tMenuItem"
+>Values</object
+> and then on <object
+type="tMenuItem"
+>Insert Feature Value</object
+>.</li
+><li
+>Fill in the value's name, abbreviation, and description. You'll probably want to check the <object
+type="tMenuItem"
+>Use Abbreviation as label</object
+> box.</li
 ></ol
 ></li
 ></ol
@@ -8667,13 +9092,96 @@ type="WordWorks"
 ><indexedItem
 term="iCategoryInflectableFeatures"
 ></indexedItem
->For each category which will use the feature, add the feature to the category's set of inflectable features (if it's not already listed).</li
+>For each category which will use the feature, <ol
+><li
+>Add the feature to the category's set of inflectable features (if it's not already listed).<ol
+><li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Category Edit</object
+>.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>Inflectable Features</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, check the box by the feature.</li
+></ol
+></li
+></ol
+></li
 ><li
 >For each derivational affix needing a feature:<ol
 ><li
->If the derivational affix requires the stem to have such a feature, add the feature and its appropriate value to the derivational affix “From” features (under grammatical information details; you may need to Show Hidden Fields to see this).</li
+>If the derivational affix requires the stem to have such a feature, add the feature and its appropriate value to the derivational affix <object
+type="tMenuItem"
+>From Inflection Features</object
+> field.<ol
 ><li
->If the stem that results from adding the derivational affix has such a feature, add the feature and its appropriate value to the derivational affix “To” features (under grammatical information details; you may need to Show Hidden Fields to see this).</li
+>Use <object
+type="tMenuItem"
+>Lexicon</object
+> / <object
+type="tMenuItem"
+>Lexicon Edit</object
+>.</li
+><li
+>To see the <object
+type="tMenuItem"
+>From Inflection Features</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>From Inflection Features</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, select the features and values you need.</li
+></ol
+></li
+><li
+>If the stem that results from adding the derivational affix has such a feature, add the feature and its appropriate value to the derivational affix <object
+type="tMenuItem"
+>To Inflection Features</object
+> field.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Lexicon</object
+> / <object
+type="tMenuItem"
+>Lexicon Edit</object
+>.</li
+><li
+>To see the <object
+type="tMenuItem"
+>To Inflection Features</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>To Inflection Features</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, select the features and values you need.</li
+></ol
+></li
 ></ol
 ></li
 ></ol
@@ -9038,7 +9546,7 @@ valign="top"
 >How does one handle such derivation outside of inflection in <object
 type="WordWorks"
 ></object
->? One needs to perform the following steps:</p
+>? One needs to perform the following steps.</p
 ><figure
 id="fDerviationOutsideInflectionHowTo"
 ><framedUnit
@@ -9740,14 +10248,94 @@ id="fExceptionFeaturesHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->If necessary, create the exception “feature.” We recommend you give as meaningful a description as you are able. For example, if you happen to know that there are historical reasons for this situation, then go ahead and say what they are.</li
+>If necessary, create the exception “feature.” We recommend you give as meaningful a description as you are able. For example, if you happen to know that there are historical reasons for this situation, then go ahead and say what they are.<ol
 ><li
->Tag the affix with that exception “feature” (in the from exception "feature" field).</li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Exception “Features”</object
+>.</li
 ><li
->For each root or stem to which the affix may attach, tag the root with the exception “feature.<indexedRangeEnd
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Exception “Feature”</object
+>.</li
+><li
+>Enter name, abbreviation, and description.</li
+></ol
+></li
+><li
+>Tag the affix with that exception “feature”.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Lexicon</object
+> / <object
+type="tMenuItem"
+>Lexicon Edit</object
+>.</li
+><li
+>To see the <object
+type="tMenuItem"
+>From Exception “Features”</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>From Exception “Features”</object
+> field under <object
+type="tMenuItem"
+>Grammatical Info. Details</object
+>.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, check the box for each appropriate exception “feature.”</li
+></ol
+></li
+><li
+>For each root or stem to which the affix may attach, tag the root or stem with the exception “feature.”<ol
+><li
+>Use <object
+type="tMenuItem"
+>Lexicon</object
+> / <object
+type="tMenuItem"
+>Lexicon Edit</object
+>.</li
+><li
+>To see the <object
+type="tMenuItem"
+>Exception “Features”</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>Exception “Features”</object
+> field under <object
+type="tMenuItem"
+>Grammatical Info. Details</object
+>.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, check the box for each appropriate exception “feature”.<indexedRangeEnd
 begin="bAffixes"
 ></indexedRangeEnd
->”</li
+></li
+></ol
+></li
 ></ol
 ></framedUnit
 ><caption
@@ -10372,13 +10960,36 @@ id="fCompoundEndoHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Create a headed compound rule.</li
+>Create a headed compound rule.<ol
 ><li
->Indicate what the left member's category is.</li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Compound Rules</object
+>.</li
 ><li
->Indicate what the right member's category is.</li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Headed Compound</object
+>.</li
 ><li
->Indicate whether the resulting compound is left-headed or right-headed.</li
+>Enter its name and description.</li
+></ol
+></li
+><li
+>Indicate what the left member's category is by clicking on the drop-down box and choosing the category.</li
+><li
+>Indicate what the right member's category is by clicking on the drop-down box and choosing the category.</li
+><li
+>Indicate whether the resulting compound is left-headed or right-headed by checking the <object
+type="tMenuItem"
+>Right Headed</object
+> check box if it is right-headed; leave the box unchecked if it is left-headed.</li
 ></ol
 ></framedUnit
 ><caption
@@ -10517,18 +11128,49 @@ id="fCompoundExoHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Create a non-headed compound rule.</li
+>Create a non-headed compound rule.<ol
 ><li
->Indicate what the left member's category is.</li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Compound Rules</object
+>.</li
 ><li
->Indicate what the right member's category is.</li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Non-headed Compound</object
+>.</li
 ><li
->Indicate what the category of the resulting compound is.</li
+>Enter its name and description.</li
+></ol
+></li
+><li
+>Indicate what the left member's category is by clicking on the drop-down box and choosing the category.</li
+><li
+>Indicate what the right member's category is by clicking on the drop-down box and choosing the category.</li
+><li
+>Indicate what the category of the resulting compound is by clicking on the drop-down box and choosing the category.</li
 ><li
 >If the language you are modeling has inflection classes (see <sectionRef
 sec="sInflAffixInflectionClasses"
 ></sectionRef
->) and the resulting category has inflection classes, then also indicate the inflection class of the resulting category.</li
+>) and the resulting category has inflection classes, then also indicate the inflection class of the resulting category.<ol
+><li
+>Click in the <object
+type="tMenuItem"
+>Inflection Class</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, select the inflection class.</li
+></ol
+></li
 ></ol
 ></framedUnit
 ><caption
@@ -12029,7 +12671,13 @@ type="MorphemeType"
 ><li
 >Give it the category that is appropriate for the clitic itself.</li
 ><li
->If the clitic is written attached and can go on only certain sets of categories, then enter these sets of categories in the “Attaches to Categories” field. As with other items that refer to categories, <object
+>If the clitic is written attached and can go on only certain sets of categories, then enter these sets of categories in the <object
+type="tMenuItem"
+>Attaches to Categories</object
+> field under the <object
+type="tMenuItem"
+>Grammatical Info. Details</object
+> section. As with other items that refer to categories, <object
 type="WordWorks"
 ></object
 > will allow such clitics to attach to any word whose category or sub-category is in one of the sets listed in this field. That is, the category hierarchy is taken into account. Thus, if the clitic can attach to any kind of verb, you can just list the top verb category and <object
@@ -12037,7 +12685,10 @@ type="WordWorks"
 ></object
 > will allow the clitic to attach to any of the sub-categories of verb.</li
 ><li
->If the clitic is written attached and can go on any category, merely leave the “Attaches to Categories” field blank.</li
+>If the clitic is written attached and can go on any category, merely leave the <object
+type="tMenuItem"
+>Attaches to Categories</object
+> field blank.</li
 ></ol
 ></framedUnit
 ><caption
@@ -12118,7 +12769,12 @@ term="iAdhocKeyMorpheme"
 >key morpheme and then to list one or more <indexedItem
 term="iAdhocOtherMorphemes"
 ></indexedItem
->other morphemes that cannot co-occur with the key one. One can constrain these other morphemes to never occur in one of the following ways with respect to the key morpheme:</p
+>other morphemes that cannot co-occur with the key one. One can constrain these other morphemes to never occur in one of the following ways with respect to the key morpheme:<endnote
+id="nAdhocMorphHowTo"
+><p
+>One approach to this is to strive to make the tightest constraint possible (i.e., use one of the adjacency ways first if possible; if not, then try the somewhere case; if that does not work, then try the anywhere case). That way, should you encounter another case involving these particular morphemes, then you will know more: it is now clear that you need looser constraints. You can then add some comments/annotations to document what you have learned (or put the information in the description).</p
+></endnote
+></p
 ><tablenumbered
 id="ntAdhocMorphAdjacency"
 ><table
@@ -12205,23 +12861,81 @@ framedtype="ftSample"
 >Determine the most appropriate way to constrain them (see <tablenumberedRef
 table="ntAdhocMorphAdjacency"
 ></tablenumberedRef
->).<endnote
-id="nAdhocMorphHowTo"
-><p
->One approach to this is to strive to make the tightest constraint possible (i.e., use one of the adjacency ways first if possible; if not, then try the somewhere case; if that does not work, then try the anywhere case). That way, should you encounter another case involving these particular morphemes, then you will know more: it is now clear that you need looser constraints. You can then add some comments/annotations to document what you have learned (or put the information in the description).</p
-></endnote
-></li
+>).</li
 ><li
 >Create a morpheme-oriented ad hoc rule.<ol
 ><li
->Indicate the key morpheme involved.</li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Ad hoc Rules</object
+>.</li
+><li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Rule to prevent morpheme co-occurrence</object
+>.</li
+><li
+>Indicate the key morpheme involved.<ol
+><li
+>Click in the <object
+type="tMenuItem"
+>Key Morpheme</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, key the form of the morpheme in the <object
+type="tMenuItem"
+>Find</object
+> box.</li
+><li
+>Select the correct one in the middle pane.</li
+><li
+>Check the <object
+type="tMenuItem"
+>Grammatical Info.</object
+> drop-down box to make sure this is the one you want.</li
+></ol
+></li
 ><li
 >Indicate the way or manner in which to constrain this morpheme (see <tablenumberedRef
 table="ntAdhocMorphAdjacency"
 ></tablenumberedRef
->).</li
+>) by using the drop-down box in the <object
+type="tMenuItem"
+>Cannot Occur</object
+> field.</li
 ><li
->Indicate the non-key morpheme(s) involved.</li
+>Indicate the non-key (i.e., other) morpheme(s) involved.<ol
+><li
+>Click in the <object
+type="tMenuItem"
+>Other Morpheme(s)</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, key the form of the morpheme in the <object
+type="tMenuItem"
+>Find</object
+> box.</li
+><li
+>Select the correct one in the middle pane.</li
+><li
+>Check the <object
+type="tMenuItem"
+>Grammatical Info.</object
+> drop-down box to make sure this is the one you want.</li
+><li
+>Repeat the above steps for any other morphemes needed.</li
+></ol
+></li
 ></ol
 ></li
 ></ol
@@ -12229,10 +12943,6 @@ table="ntAdhocMorphAdjacency"
 ><caption
 >How to Create a Morpheme-oriented Ad Hoc Rule.</caption
 ></figure
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
 ></section2
 ><section2
 id="sAdhocMorphProhibitionsGroups"
@@ -12514,7 +13224,25 @@ id="fAdhocMorphGroupHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Create an ad hoc rule group.</li
+>Create an ad hoc rule group.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Ad hoc Rules</object
+>.</li
+><li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Group of ad hoc rules</object
+>.</li
+></ol
+></li
 ><li
 >For each ad hoc morpheme rule in the group:<ol
 ><li
@@ -13363,22 +14091,66 @@ framedtype="ftSample"
 ><li
 >Determine the phonemes in your language.</li
 ><li
->Remove any phonemes in the list given in <exampleRef
-letter="xInitialSetOfPhonemes"
-num="xInitialSetOfPhonemes"
-></exampleRef
-> above that you do not need.</li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Phonemes</object
+>.</li
 ><li
->For each phoneme not already in the list given in <exampleRef
-equal="no"
-letterOnly="no"
-num="xInitialSetOfPhonemes"
-></exampleRef
-> above,<ol
+>Remove any phonemes that you do not need.<ol
 ><li
->Create a phoneme entry.</li
+>Click on the phoneme in the middle pane.</li
 ><li
->For each symbol or sequence of symbols that represent that phoneme, create a grapheme.</li
+>Use <object
+type="tMenuItem"
+>Edit</object
+> menu item / <object
+type="tMenuItem"
+>Delete Phoneme...</object
+>.</li
+></ol
+></li
+><li
+>For each phoneme not already present,<ol
+><li
+>Create a phoneme entry.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Phoneme</object
+>.</li
+><li
+>Enter the basic symbol in the <object
+type="tMenuItem"
+>Refer to as</object
+> field.</li
+><li
+>Enter the description.</li
+><li
+>Optionally, enter the IPA symbol.</li
+></ol
+></li
+><li
+>For each symbol or sequence of symbols that represent that phoneme, create a grapheme.<ol
+><li
+>Click on <object
+type="tMenuItem"
+>In Orthography as</object
+>.</li
+><li
+>Click on <object
+type="tMenuItem"
+>Insert Grapheme</object
+>.</li
+><li
+>Key the grapheme.</li
+></ol
+></li
 ></ol
 ></li
 ><li
@@ -13389,7 +14161,7 @@ num="xInitialSetOfPhonemes"
 ></exampleRef
 >,<ol
 ><li
->Edit the name (or "Refer to as"), description, and grapheme if need be.</li
+>Edit the name (or "Refer to as"), description, and graphemes if need be.</li
 ><li
 >Add any new graphemes needed.</li
 ></ol
@@ -13399,6 +14171,99 @@ num="xInitialSetOfPhonemes"
 ><caption
 >How to Create Phonemes.</caption
 ></figure
+><section3
+id="sPhonologicalFeatures"
+><secTitle
+>Phonological features</secTitle
+><p
+><indexedItem
+term="iPhonologicalFeatures"
+></indexedItem
+>The default <object
+type="WordWorks"
+></object
+> parser does not use phonological features, but the <object
+type="HermitCrab"
+></object
+> does.  This section mentions how to create phonological features and associate them with phonemes in case you wish to use the <object
+type="HermitCrab"
+></object
+>.</p
+><p
+>To create the set of phonological features, follow the steps in <figureRef
+figure="fPhonologicalFeaturesHowTo"
+></figureRef
+>.</p
+><figure
+id="fPhonologicalFeaturesHowTo"
+><framedUnit
+framedtype="ftSample"
+><ol
+><li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Phonological Features</object
+>.</li
+><li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Phonological Feature</object
+>.</li
+><li
+>In the ensuing dialog box, check all features that you need.</li
+><li
+>If the dialog box does not have a feature you need, click on the <object
+type="tMenuItem"
+>The phonological feature I need is not shown in the Catalog.  Create a custom phonological feature</object
+>.<ol
+><li
+>Enter the name, abbreviation, and description of the phonological feature.</li
+><li
+>Edit the values if they are not correct.  You can add a new value by clicking on <object
+type="tMenuItem"
+>Values</object
+> and then clicking on <object
+type="tMenuItem"
+>Insert Feature Value</object
+>.</li
+></ol
+></li
+></ol
+></framedUnit
+><caption
+>How to Create Phonological Features.</caption
+></figure
+><p
+>Once you have created your phonological features, you can associate them with individual phonemes.  See <figureRef
+figure="fAssociateFeaturesWithPhoneme"
+></figureRef
+>.</p
+><figure
+id="fAssociateFeaturesWithPhoneme"
+><framedUnit
+framedtype="ftSample"
+><ol
+><li
+>Click in the <object
+type="tMenuItem"
+>Phonological Features</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, select the value needed for each phonological feature.</li
+></ol
+></framedUnit
+><caption
+>How to Associate Phonological Features with a Phoneme.</caption
+></figure
+></section3
 ><section3
 id="sPhonemeSetsDigraphs"
 ><secTitle
@@ -13516,12 +14381,41 @@ framedtype="ftSample"
 ><li
 >Determine the natural classes you need.</li
 ><li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Natural Classes</object
+>.</li
+><li
 >If any of the phonemes in any of these natural classes are not already in your list of phonemes, add them to the list of phonemes. See <figureRef
 figure="fPhonemesHowTo"
 ></figureRef
 >.</li
 ><li
->Create each one, giving them a name, description, abbreviation and indicating all the phonemes which belong to the class.</li
+>Create any other natural classes you need.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Natural Class (Phonemes)</object
+>.</li
+><li
+>Enter a name, abbreviation, and description.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>Phonemes</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, check every phoneme that is a part of this natural class.</li
+></ol
+></li
 ></ol
 ></framedUnit
 ><caption
@@ -13548,7 +14442,25 @@ id="sEnvironments"
 ><indexedItem
 term="iAlloEnvironments"
 ></indexedItem
->Once the set of phonemes and natural classes are defined for the language you are modeling, you can define environments for allomorphs. You can add them either in the environment editor or with a given lexeme form or allomorph.</p
+>Once the set of phonemes and natural classes are defined for the language you are modeling, you can define environments for allomorphs. You can add them either in the environments editor or with a given lexeme form or allomorph.  To use the environments editor, use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Environments</object
+>.  To add an environment within a lexeme form or allomorph, click in the <object
+type="tMenuItem"
+>Environments</object
+> field. (To see the <object
+type="tMenuItem"
+>Environments</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.)  See the help files in <object
+type="WordWorks"
+></object
+> for more.</p
 ><p
 >In <object
 type="WordWorks"
@@ -13629,16 +14541,17 @@ type="WordWorks"
 >How to Create Environments.</caption
 ></figure
 ><p
->Example <exampleRef
-equal="no"
-letterOnly="no"
-num="xEnvironmentExamples"
-></exampleRef
+><tablenumberedRef
+table="ntEnvironmentExamples"
+textBefore="capitalizedSingular"
+></tablenumberedRef
 > gives some sample environments along with what they mean.</p
-><example
-num="xEnvironmentExamples"
+><tablenumbered
+id="ntEnvironmentExamples"
 ><table
 border="1"
+><caption
+>Sample Environments</caption
 ><tr
 ><th
 align="left"
@@ -13911,7 +14824,7 @@ type="TT"
 >); that is, either before a word final consonant or word finally</td
 ></tr
 ></table
-></example
+></tablenumbered
 ><p
 >A given allomorph may have more than one environment, in which case the various environments are logically ORed with each other. That is, if any one of the environments for the allomorph are found, then the allomorph is considered to be valid (as far as its environments are concerned). For example, if a given allomorph can appear either before a consonant or word finally, then you can list both an environment for “before a consonant” and one for “before a word boundary.” Example <exampleRef
 equal="no"
@@ -14799,9 +15712,10 @@ term="iXAmple"
 >AMPLE.</p
 ></endnote
 > The idea is to list a sequence of specially marked natural class names. The special marking consists of the following:</p
-><example
-num="xRedupPatternSchema"
-><chart
+><figure
+id="fRedupPatternSchema"
+><framedUnit
+framedtype="ftSample"
 ><ol
 ><li
 ><object
@@ -14832,12 +15746,10 @@ type="TT"
 >]</object
 > (i.e., a right square bracket)</li
 ></ol
-></chart
-></example
-><pc
-> <comment
->force extra space after an ol in a example</comment
-></pc
+></framedUnit
+><caption
+>How to Write the Pattern for Partial Reduplication.</caption
+></figure
 ><p
 >Suppose we have a natural class for consonants with an abbreviation of <object
 type="TT"
@@ -14860,16 +15772,16 @@ equal="no"
 letterOnly="no"
 num="xNahuatlRedup2"
 ></exampleRef
-> would be as in <exampleRef
-equal="no"
-letterOnly="no"
-num="xRedupPatternExamples"
-></exampleRef
+> would be as in <tablenumberedRef
+table="ntRedupPatternExamples"
+></tablenumberedRef
 >.</p
-><example
-num="xRedupPatternExamples"
+><tablenumbered
+id="ntRedupPatternExamples"
 ><table
 border="1"
+><caption
+>Samples of Partial Reduplication</caption
 ><tr
 ><th
 align="left"
@@ -14925,7 +15837,7 @@ type="TT"
 ></td
 ></tr
 ></table
-></example
+></tablenumbered
 ><p
 >For the Orizaba Nahuatl case, notice the use of the <langData
 lang="lNahuatl"
@@ -15047,13 +15959,37 @@ sec="sInfixationEnvironments"
 ></sectionRef
 >) below.</li
 ><li
->Add the environment(s) if needed (and any natural classes, too) in the Grammar area.</li
+>Add the environment(s) if needed (and any natural classes, too) in the Grammar area (see <sectionRef
+sec="sEnvironments"
+></sectionRef
+>).</li
 ><li
 >Create the lexical entry and its allomorph.</li
 ><li
 >Mark the allomorph as being an infix.</li
 ><li
->Set the infix position to the environment(s).</li
+>Set the infix position to the environment(s).<ol
+><li
+>To see the <object
+type="tMenuItem"
+>Infix Positions</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Editing the <object
+type="tMenuItem"
+>Infix Positions</object
+> field is the same as editing an <object
+type="tMenuItem"
+>Environments</object
+> field.  See <sectionRef
+sec="sEnvironments"
+></sectionRef
+>.</li
+></ol
+></li
 ></ol
 ></framedUnit
 ><caption
@@ -16325,62 +17261,71 @@ id="fxStemNamesHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Unless you have already done so, set up the needed inflection features as follows: (this is repeated from <figureRef
+>Unless you have already done so, set up the needed inflection features.  See <figureRef
 figure="fInflectionFeaturesHowTo"
 ></figureRef
->.<ol
-><li
->Determine the inflection feature involved, including its type,<endnote
-id="nInflectionFeature3"
-><p
-><indexedItem
-term="iInflFeatType"
-></indexedItem
->We recommend using only two types: “Agr” for agreement features and “Infl” (= Inflection) for all others.</p
-></endnote
-> name, and possible values. (You may want to look at <tablenumberedRef
-table="ntInflectionFeatures"
-></tablenumberedRef
-> or possibly check with a linguistic consultant.)<ol
-><li
->Try using the Inflection Feature Catalog<endnote
-id="nInflectionFeatureCatalog3"
-><p
->In <object
-type="WordWorks"
-></object
->, go to the Grammar area, Inflection Features tool. Insert a new feature (either feature or complex feature - it does not matter, both call up the catalog).</p
-></endnote
->to see if the feature is already in the catalog. If so, add the feature via the catalog (it's much easier this way).</li
-><li
->If the feature is not in the catalog, then<ol
-><li
->If the feature type does not yet exist, add it to the feature types.</li
-><li
->Create the feature and its values in the features section.</li
-></ol
-></li
-></ol
-></li
-><li
->For each category which will use the feature, add the feature to the category's set of inflectable features.</li
-><li
->For each inflectional affix needing the feature, add the feature and its appropriate value to the inflectional affix's grammatical information details.</li
-></ol
-></li
+>.</li
 ><li
 >Create a Stem Name in the appropriate category (<indexedItem
 term="iCategoryHierarchy"
 ></indexedItem
 >sub-categories will inherit any Stem Names which their parent categories have, so you will probably want to create the Stem Name on the highest level category).<ol
 ><li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Category Edit</object
+>.</li
+><li
+>Click on <object
+type="tMenuItem"
+>Stem Names</object
+>.</li
+><li
+>Click on <object
+type="tMenuItem"
+>Insert Stem Name</object
+>.</li
+><li
 >Give the Stem Name a name, abbreviation, and description.</li
 ><li
->Create the sets of inflection features that are relevant to this Stem Name. That is, create one feature set for each mutually exclusive set of features that go on words in which this allomorph occurs.</li
+>Create the sets of inflection features that are relevant to this Stem Name. That is, create one feature set for each mutually exclusive set of features that go on words in which this allomorph occurs.<ol
+><li
+>Click in the <object
+type="tMenuItem"
+>Feature Set</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, select all feature values that apply.</li
+></ol
+></li
 ></ol
 ></li
 ><li
->Tag all appropriate stem allomorphs with the Stem Name. Note that you may need to Show Hidden Fields to see the Stem Name field. (Remember that you do not need to tag the other allomorphs unless they, too, have a limited set of inflection features. In this latter case, you will need to define yet another Stem Name for them.)</li
+>Tag all appropriate stem allomorphs with the Stem Name. (Remember that you do not need to tag the other allomorphs unless they, too, have a limited set of inflection features. In this latter case, you will need to define yet another Stem Name for them.)<ol
+><li
+>To see the <object
+type="tMenuItem"
+>Stem Name</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Click on the <object
+type="tMenuItem"
+>Stem Name</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, select the stem name.</li
+></ol
+></li
 ><li
 >Make sure that you have at least one <indexedItem
 term="iInflectionalTemplate"
@@ -16909,19 +17854,40 @@ id="fAffixAlloFeats"
 framedtype="ftSample"
 ><ol
 ><li
->Add the appropriate inflectional features.</li
+>Add the appropriate inflectional features.  See <figureRef
+figure="fInflectionFeaturesHowTo"
+></figureRef
+>, steps 1-3.</li
 ><li
 >Create the appropriate inflectional template.</li
 ><li
 >Create an entry for each morpheme (assigning the inflectional affixes to the appropriate slots in the template).</li
 ><li
->Assign the appropriate inflectional features to those affixes which bear them.</li
+>Assign the appropriate inflectional features to those affixes which bear them.  See <figureRef
+figure="fInflectionFeaturesHowTo"
+></figureRef
+>, step 5.</li
 ><li
 >For those entries with allomorphy, create the Allomorph Form(s).</li
 ><li
 >For each Allomorph Form,<ol
 ><li
->In the “Required Features” field, set the inflectional features that this allomorph must have in order to be licit.</li
+>To see the <object
+type="tMenuItem"
+>Required Features</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Click on the <object
+type="tMenuItem"
+>Required Features</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, select the inflectional features that this allomorph must have in order to be licit.</li
 ><li
 >You can leave the Lexeme Form without any “Required Features” if it is the “elsewhere” case.</li
 ></ol
@@ -17437,7 +18403,12 @@ term="iAdhocOtherAllomorphs"
 >other allomorphs that cannot co-occur with the key one. One can constrain these other allomorphs to never occur in one of the following ways with respect to the key allomorph as shown in <tablenumberedRef
 table="ntAdhocAlloAdjacency"
 ></tablenumberedRef
->.</p
+>.<endnote
+id="nAdhocAlloHowTo"
+><p
+>One approach to this is to strive to make the tightest constraint possible (i.e., use one of the adjacency ways first if possible; if not, then try the somewhere case; if that does not work, then try the anywhere case). That way, should you encounter another case involving these particular allomorphs, then you will know more: it is now clear that you need looser constraints. You can then add some comments/annotations to document what you have learned (or put the information in the description).</p
+></endnote
+></p
 ><tablenumbered
 id="ntAdhocAlloAdjacency"
 ><table
@@ -17651,23 +18622,81 @@ framedtype="ftSample"
 >Determine the most appropriate way to constrain them (see <tablenumberedRef
 table="ntAdhocAlloAdjacency"
 ></tablenumberedRef
->).<endnote
-id="nAdhocAlloHowTo"
-><p
->One approach to this is to strive to make the tightest constraint possible (i.e., use one of the adjacency ways first if possible; if not, then try the somewhere case; if that does not work, then try the anywhere case). That way, should you encounter another case involving these particular allomorphs, then you will know more: it is now clear that you need looser constraints. You can then add some comments/annotations to document what you have learned (or put the information in the description).</p
-></endnote
-></li
+>).</li
 ><li
 >Create an allomorph-oriented ad hoc rule.<ol
 ><li
->Indicate the key allomorph involved.</li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Ad hoc Rules</object
+>.</li
 ><li
->Indicate the way or manner in which to constrain this allomorph (see <tablenumberedRef
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Rule to prevent allomorph co-occurrence</object
+>.</li
+><li
+>Indicate the key allomorph involved.<ol
+><li
+>Click in the <object
+type="tMenuItem"
+>Key Allomorph</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, key the form of the allomorph in the <object
+type="tMenuItem"
+>Find</object
+> box.</li
+><li
+>Select the correct one in the middle pane.</li
+><li
+>Check the <object
+type="tMenuItem"
+>Allomorph</object
+> drop-down box to make sure this is the one you want.</li
+></ol
+></li
+><li
+>Indicate the way or manner in which to constrain this morpheme (see <tablenumberedRef
 table="ntAdhocAlloAdjacency"
 ></tablenumberedRef
->).</li
+>) by using the drop-down box in the <object
+type="tMenuItem"
+>Cannot Occur</object
+> field.</li
 ><li
->Indicate the non-key allomorph(s) involved.</li
+>Indicate the non-key (i.e., other) allomorph(s) involved.<ol
+><li
+>Click in the <object
+type="tMenuItem"
+>Other Allomorph(s)</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, key the form of the allomorph in the <object
+type="tMenuItem"
+>Find</object
+> box.</li
+><li
+>Select the correct one in the middle pane.</li
+><li
+>Check the <object
+type="tMenuItem"
+>Allomorph</object
+> drop-down box to make sure this is the one you want.</li
+><li
+>Repeat the above steps for any other allomorphs needed.</li
+></ol
+></li
 ></ol
 ></li
 ></ol
@@ -17701,7 +18730,25 @@ id="fAdhocAlloGroupHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Create an ad hoc rule group.</li
+>Create an ad hoc rule group.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Ad hoc Rules</object
+>.</li
+><li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Group of ad hoc rules</object
+>.</li
+></ol
+></li
 ><li
 >For each ad hoc allomorph rule in the group:<ol
 ><li
@@ -17784,11 +18831,31 @@ term="iEmptySetSymbol"
 ></indexedItem
 >The empty set character is Unicode hex code 2205.</p
 ></endnote
-> Ideally, we would always just use the empty set character. Unfortunately, many fonts do not happen to include it, so we offer these other ways. Note that if you happen to use an asterisk (or caret or ampersand) as a leading or trailing token for some morpheme type, then there is a potential conflict between indicating the morpheme type and indicating a null. If you discover such a conflict, try using a different alternative for indicating a null (or change the leading or trailing token for the morpheme type).</li
+> Ideally, we would always just use the empty set character. Unfortunately, many fonts do not happen to include it, so we offer these other ways. Note that if you happen to use an asterisk (or caret or ampersand) as a leading or trailing token for some morpheme type, then there is a potential conflict between indicating the morpheme type and indicating a null. If you discover such a conflict, try using a different alternative for indicating a null (or change the leading or trailing token for the morpheme type; see the help files in <object
+type="WordWorks"
+></object
+> for more.).</li
 ><li
 >Attempt to constrain the null with as specific an environment as possible. This is to avoid having it show up in undesired places in incorrect parses.</li
 ><li
->You may also need to adjust the Parser Parameters to allow for more than one null allomorph per word. That is, determine what the maximum number of null allomorphs a legitimate word could have and set the MaxNulls parameter to that number. Remember, that the lower the number, the faster the parser will run.</li
+>You may also need to adjust the Parser Parameters to allow for more than one null allomorph per word. That is, determine what the maximum number of null allomorphs a legitimate word could have and set the MaxNulls parameter to that number. Remember, that the lower the number, the faster the parser will run.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Parser</object
+> menu item /  <object
+type="tMenuItem"
+>Edit Parser Parameters...</object
+></li
+><li
+>Click in the box below <object
+type="tMenuItem"
+>MaxNulls</object
+> and enter the number you need.</li
+><li
+>Click on OK.</li
+></ol
+></li
 ></ol
 ></framedUnit
 ><caption
@@ -20096,7 +21163,13 @@ id="sHCRegularRules"
 sec="sHCPhonMetathesis"
 textBefore="capitalizedSingular"
 ></sectionRef
-> discusses an example of a metathesis rule.</p
+> discusses an example of a metathesis rule.  For how to add phonological features to <object
+type="WordWorks"
+></object
+>, see <sectionRef
+sec="sPhonologicalFeatures"
+></sectionRef
+>.</p
 ><section4
 id="sSelaruEpenthesis"
 ><secTitle
@@ -20606,7 +21679,10 @@ type="TT"
 >, and <object
 type="TT"
 >floating high</object
->.</li
+>.  See <sectionRef
+sec="sPhonologicalFeatures"
+></sectionRef
+> for how to do this.</li
 ><li
 >Create distinct phonemes for each low-tone vowel and each high-tone vowel. (I assume Awngi marks high tone vowel with an acute accent and leaves low tone vowels unmarked.)</li
 ><li
@@ -21830,7 +22906,10 @@ id="fIndonesianNHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Create the phonological features to use.</li
+>Create the phonological features to use.  See <sectionRef
+sec="sPhonologicalFeatures"
+></sectionRef
+>.</li
 ><li
 >Make sure every phoneme is defined.</li
 ><li
@@ -24134,7 +25213,10 @@ id="fIndonesianNExceptionsHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Create the exception “feature.” We could call it ‘Does not undergo voiceless obstruent deletion” because this is the rule that does not apply (see <figureRef
+>Create the exception “feature” per <figureRef
+figure="fExceptionFeaturesHowTo"
+></figureRef
+>. We could call it ‘Does not undergo voiceless obstruent deletion” because this is the rule that does not apply (see <figureRef
 figure="fIndonesianUnspecifiedVoicelessObstruentDeletionRule"
 ></figureRef
 >).</li
@@ -24149,7 +25231,28 @@ lang="lBahasaIndonesia"
 >Find the phonological rule which deletes a voiceless obstruent (see <figureRef
 figure="fIndonesianUnspecifiedVoicelessObstruentDeletionRule"
 ></figureRef
->) and add this exception “feature” to its list of excluded properties.</li
+>) and add this exception “feature” to its list of excluded properties.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Phonological Rules</object
+>.</li
+><li
+>Select the rule you need in the middle pane.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>Excluded Properties</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, check the exception “feature.”</li
+></ol
+></li
 ></ol
 ></framedUnit
 ><caption
@@ -29352,6 +30455,10 @@ cssSpecial="margin-top:-10pt;"
 id="LessSpaceBeforeTable"
 ></type
 ><type
+color="maroon"
+id="tMenuItem"
+></type
+><type
 font-family="Courier New"
 id="MorphemeType"
 ></type
@@ -30388,6 +31495,11 @@ id="iPhonemeRepresentation"
 >Representation</term
 ></indexTerm
 ></indexTerms
+></indexTerm
+><indexTerm
+id="iPhonologicalFeatures"
+><term
+>Phonological Features</term
 ></indexTerm
 ><indexTerm
 id="iPhonologicalRules"

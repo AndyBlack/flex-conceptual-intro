@@ -39,7 +39,7 @@ type="WordWorks"
 >H. Andrew Black<endnote
 id="nJonathanCoombs"
 ><p
->Thanks to Jonathan Coombs (personal communication, email of May 30, 2012) for reviewing a version of this document and making many suggestions for improving it.</p
+>Thanks to Jonathan Coombs (personal communication, email of May 30, 2012) and Jenni Beadle (personal communication, email of February 22, 2024) for reviewing versions of this document and making many suggestions for improving it.</p
 ></endnote
 ></author
 ><date
@@ -3106,8 +3106,14 @@ term="iInflFeatDefault"
 ><p
 >Therefore, from a long term perspective, we recommend following option 1.</p
 ><p
->This means that to model this inflectional template, we will need to do the following:</p
+>This means that to model this inflectional template, we will need to do what is shown in <figureRef
+figure="fNahuatlPossessorHowTo"
+></figureRef
+> below.</p
+><p
+>Once we have done this, we will have successfully set up the inflectional morphotactics for possessed nominals in Orizaba Nahuatl.</p
 ><figure
+XeLaTeXSpecial="pagebreak"
 id="fNahuatlPossessorHowTo"
 ><framedUnit
 framedtype="ftSample"
@@ -3138,7 +3144,7 @@ type="tMenuItem"
 ><li
 >In the ensuing dialog box, click on <object
 type="tMenuItem"
->The category I need is not shown in the Catalog.  Create a custom category.</object
+>The category I need is not shown in the Catalog. Create a custom category.</object
 ></li
 ><li
 >Fill in its name, abbreviation, and description.</li
@@ -3227,7 +3233,7 @@ type="tMenuItem"
 >Add inflectional affix(es) to Number </object
 >.</li
 ><li
->In the ensuing dialog, either select the already existing number suffix  or click on the <object
+>In the ensuing dialog, either select the already existing number suffix or click on the <object
 type="tMenuItem"
 >Create new inflectional affix</object
 > link.</li
@@ -3238,8 +3244,6 @@ type="tMenuItem"
 ><caption
 >How to Create Orizaba Nahuatl Possessor Inflectional Template with Optional Number Suffix.</caption
 ></figure
-><p
->Once we have done this, we will have successfully set up the inflectional morphotactics for possessed nominals in Orizaba Nahuatl.</p
 ></section3
 ><section3
 id="sInflAffixMultipleTemplates"
@@ -3758,7 +3762,10 @@ XeLaTeXSpecial="border-right='1'"
 ><p
 >What needs to be done to handle the 3rd person cases? We will need to mark the subject slot as optional in both templates in order to allow for the 3rd person cases.</p
 ><p
->This means that to model this inflectional template, we will need to do the following:</p
+>This means that to model this inflectional template, we will need to do what is shown in <figureRef
+figure="fNahuatlIntransitiveVerbHowTo"
+></figureRef
+>.</p
 ><figure
 id="fNahuatlIntransitiveVerbHowTo"
 ><framedUnit
@@ -4494,6 +4501,7 @@ abbr="vINCL"
 ></listInterlinear
 ></example
 ><example
+XeLaTeXSpecial="pagebreak"
 num="xYalalagZapotecVerbClass2"
 ><listInterlinear
 letter="xYalalagZapotecVerbClass2Pass"
@@ -4605,12 +4613,7 @@ equal="no"
 letter="xYalalagZapotecVerbClass2Pass"
 letterOnly="no"
 ></exampleRef
->.<endnote
-id="nYalalagClassNotTransitivity"
-><p
->Also note that the difference in future allomorphy is not due to transitivity.</p
-></endnote
-> This problem is not isolated to these pairs of forms; it turns out that verb stems in general divide into two groups, those that take the <langData
+>.  (The difference in future allomorphy is not due to transitivity.) This problem is not isolated to these pairs of forms; it turns out that verb stems in general divide into two groups, those that take the <langData
 lang="lYalalag"
 >u</langData
 >‑ future and those that take the <langData
@@ -4659,7 +4662,10 @@ lang="lYalalag"
 >:</langData
 >‑ allomorph.</p
 ><p
->This means that to model these inflection classes, we will need to do the following:</p
+>This means that to model these inflection classes, we will need to do what is shown in <figureRef
+figure="fYalalagInflectionClassHowTo"
+></figureRef
+>.</p
 ><figure
 id="fYalalagInflectionClassHowTo"
 ><framedUnit
@@ -5084,6 +5090,7 @@ num="xIZFuture"
 ></exampleRef
 >, paying attention to the aspect prefixes.</p
 ><table
+XeLaTeXSpecial="pagebreak"
 ><tr
 ><td
 >    Habitual</td
@@ -5698,6 +5705,7 @@ num="xIZFuture"
 ></exampleRef
 >:</p
 ><table
+XeLaTeXSpecial="pagebreak"
 ><tr
 ><td
 >    Completive</td
@@ -6275,13 +6283,14 @@ abbr="vPRF"
 ></listInterlinear
 ></example
 ><p
+XeLaTeXSpecial="pagebreak"
 >To model this Isthmus Zapotec data in <object
 type="WordWorks"
 ></object
->, we will need to do the following. See <figureRef
-figure="fYalalagInflectionClassHowTo"
+>, we will need to do what is shown in <figureRef
+figure="fIZInflectionClassHowTo"
 ></figureRef
-> for details on the steps given.</p
+>.</p
 ><figure
 id="fIZInflectionClassHowTo"
 ><framedUnit
@@ -6973,11 +6982,21 @@ valign="top"
 >How does one create and use an inflection feature in <object
 type="WordWorks"
 ></object
->?<endnote
+>?  <figureRef
+figure="fInflectionFeaturesHowTo"
+textBefore="capitalizedPlural"
+></figureRef
+>–<figureRef
+figure="fInflectionFeaturesAffixesHowTo"
+textBefore="none"
+></figureRef
+> below explain how.<comment
+><endnote
 id="nMovieOnNounGender"
 ><p
 >At the time of writing, there is a demo movie called "Specifying Gender" that illustrates this.</p
 ></endnote
+></comment
 ><comment
 >Note: this is repeated below in the xStemNamesHowTo example. Some of it is also repeated in the xDerivAffixInflectionFeaturesHowTo example.</comment
 ></p
@@ -7084,6 +7103,17 @@ type="WordWorks"
 > parser will ignore the features.</li
 ></ol
 ></li
+></ol
+></framedUnit
+><caption
+>How to Create Inflection Features.</caption
+></figure
+><figure
+XeLaTeXSpecial="pagebreak"
+id="fInflectionFeaturesRootsHowTo"
+><framedUnit
+framedtype="ftSample"
+><ol
 ><li
 >For each root (or stem) needing the feature, add the feature and its appropriate value to the stem's grammatical information details.<ol
 ><li
@@ -7127,6 +7157,16 @@ type="WordWorks"
 > for more.</li
 ></ol
 ></li
+></ol
+></framedUnit
+><caption
+>How to Add Inflection Features to Roots or Stems.</caption
+></figure
+><figure
+id="fInflectionFeaturesAffixesHowTo"
+><framedUnit
+framedtype="ftSample"
+><ol
 ><li
 >For each inflectional affix needing the feature, add the feature and its appropriate value to the inflectional affix's grammatical information details.<ol
 ><li
@@ -7159,7 +7199,7 @@ type="tMenuItem"
 ></ol
 ></framedUnit
 ><caption
->How to Create Inflection Features.</caption
+>How to Add Inflection Features to Affixes.</caption
 ></figure
 ></section3
 ><section3
@@ -7706,7 +7746,10 @@ lang="lGloss"
 >How do we model these category changing affixes in <object
 type="WordWorks"
 ></object
->? We need to do the following:</p
+>? We need to do what is shown in <figureRef
+figure="fCatChangingHowTo"
+></figureRef
+>.</p
 ><figure
 id="fCatChangingHowTo"
 ><framedUnit
@@ -8222,7 +8265,10 @@ type="WordWorks"
 >How do we model these sub-category changing affixes in <object
 type="WordWorks"
 ></object
->? We need to do the following.  See <figureRef
+>? We need to do what is shown in <figureRef
+figure="fSubCatChangingHowTo"
+></figureRef
+>.  See <figureRef
 figure="fCatChangingHowTo"
 ></figureRef
 > for details on the first step.</p
@@ -8487,7 +8533,10 @@ lang="lYalalag"
 >How do we model these non-category changing affixes in <object
 type="WordWorks"
 ></object
->? We need to do the following.  See <figureRef
+>? We need to do what is shown in <figureRef
+figure="fNonCatChangingHowTo"
+></figureRef
+>.  See <figureRef
 figure="fCatChangingHowTo"
 ></figureRef
 > for details on the first step.</p
@@ -8541,7 +8590,10 @@ term="iYalalagZapotec"
 >Yalálag Zapotec data in <sectionRef
 sec="sDervAffixNonCatChanging"
 ></sectionRef
->, the inflection class can indeed change. How do we model this? In addition to what we've done for the categories, we need to do the following:</p
+>, the inflection class can indeed change. How do we model this? In addition to what we've done for the categories, we need to do what is shown in <figureRef
+figure="fDervAffixInflectionClassChangeHowTo"
+></figureRef
+>.</p
 ><figure
 id="fDervAffixInflectionClassChangeHowTo"
 ><framedUnit
@@ -8807,7 +8859,10 @@ letterOnly="no"
 >To model this in <object
 type="WordWorks"
 ></object
->, one does the following:</p
+>, one does what is shown in <figureRef
+figure="fDervAffixInflectionClassNoChangeHowTo"
+></figureRef
+>.</p
 ><figure
 id="fDervAffixInflectionClassNoChangeHowTo"
 ><framedUnit
@@ -9018,8 +9073,11 @@ lang="lSpanish"
 >How does one mark a derivational affix for inflection features in <object
 type="WordWorks"
 ></object
->?<comment
->Note: this is repeated below in the xStemNamesHowTo example. Some of it is also repeated in the xInflectionFeaturesHowTo example above. </comment
+>? See <figureRef
+figure="fDerivAffixInflectionFeaturesHowTo"
+></figureRef
+>.<comment
+>  Note: this is repeated below in the xStemNamesHowTo example. Some of it is also repeated in the xInflectionFeaturesHowTo example above. </comment
 ></p
 ><figure
 id="fDerivAffixInflectionFeaturesHowTo"
@@ -9040,82 +9098,10 @@ term="iInflFeatType"
 ></endnote
 > name, and possible values.</li
 ><li
->Use <object
-type="tMenuItem"
->Grammar</object
-> / <object
-type="tMenuItem"
->Inflection Features</object
->.<ol
-><li
->Use <object
-type="tMenuItem"
->Insert</object
-> menu item / <object
-type="tMenuItem"
->Feature</object
+>Create them if needed.  See <figureRef
+figure="fInflectionFeaturesHowTo"
+></figureRef
 >.</li
-><li
-><indexedItem
-term="iInflFeatCatalog"
-></indexedItem
->This brings up the “Add Inflection Features from Catalog” dialog box.</li
-><li
->Explore the catalog and try to find the feature you need.</li
-><li
->If so, add the feature via the catalog (it's much easier this way).</li
-><li
->If not, then in the dialog, click on the <object
-type="tMenuItem"
->The inflection feature I need is not shown in the Catalog. Create a custom inflection feature</object
-> link.<ol
-><li
->Fill in the name, abbreviation, and description fields.</li
-><li
->For each value this feature needs, click on <object
-type="tMenuItem"
->Values</object
-> and then on <object
-type="tMenuItem"
->Insert Feature Value</object
->.</li
-><li
->Fill in the value's name, abbreviation, and description. You'll probably want to check the <object
-type="tMenuItem"
->Use Abbreviation as label</object
-> box.</li
-></ol
-></li
-></ol
-></li
-><li
-><indexedItem
-term="iCategoryInflectableFeatures"
-></indexedItem
->For each category which will use the feature, <ol
-><li
->Add the feature to the category's set of inflectable features (if it's not already listed).<ol
-><li
->Use <object
-type="tMenuItem"
->Grammar</object
-> / <object
-type="tMenuItem"
->Category Edit</object
->.</li
-><li
->Click in the <object
-type="tMenuItem"
->Inflectable Features</object
-> field.</li
-><li
->Click on the chooser button.</li
-><li
->In the ensuing dialog box, check the box by the feature.</li
-></ol
-></li
-></ol
-></li
 ><li
 >For each derivational affix needing a feature:<ol
 ><li
@@ -9546,7 +9532,10 @@ valign="top"
 >How does one handle such derivation outside of inflection in <object
 type="WordWorks"
 ></object
->? One needs to perform the following steps.</p
+>? One needs to perform the steps shown in <figureRef
+figure="fDerviationOutsideInflectionHowTo"
+></figureRef
+>.</p
 ><figure
 id="fDerviationOutsideInflectionHowTo"
 ><framedUnit
@@ -10238,17 +10227,15 @@ term="iAffixNonproductive"
 term="iAffixUnclassified"
 ></indexedItem
 >unclassified affixes.</p
-><p
->If a given affix has two or more exception “features,” then the stem to which it attaches must be tagged with all of the exception “features” that the affix has. Note that if an affix does not have any exception “features” but the stem to which it is being attached does have one or more exception “features,”  then the affix will still be allowed to attach (as far as the exception “features” are concerned).</p
-><p
->To tag affixes and stems with exception “features,”  do the following:</p
 ><figure
 id="fExceptionFeaturesHowTo"
 ><framedUnit
 framedtype="ftSample"
 ><ol
 ><li
->If necessary, create the exception “feature.” We recommend you give as meaningful a description as you are able. For example, if you happen to know that there are historical reasons for this situation, then go ahead and say what they are.<ol
+>If necessary, create the exception “feature.” We recommend you give as meaningful a description as you are able.<comment
+> For example, if you happen to know that there are historical reasons for this situation, then go ahead and say what they are.</comment
+><ol
 ><li
 >Use <object
 type="tMenuItem"
@@ -10341,6 +10328,13 @@ begin="bAffixes"
 ><caption
 >How to Create and Use Exception “Features.”</caption
 ></figure
+><p
+>If a given affix has two or more exception “features,” then the stem to which it attaches must be tagged with all of the exception “features” that the affix has. Note that if an affix does not have any exception “features” but the stem to which it is being attached does have one or more exception “features,”  then the affix will still be allowed to attach (as far as the exception “features” are concerned).</p
+><p
+>To tag affixes and stems with exception “features,” follow what is in <figureRef
+figure="fExceptionFeaturesHowTo"
+></figureRef
+> above.</p
 ></section2
 ></section1
 ><section1
@@ -10953,7 +10947,10 @@ num="xNahuatlCompoundNounAdj"
 >How do we model these kinds of rules for <object
 type="WordWorks"
 ></object
->?</p
+>?  See the steps in <figureRef
+figure="fCompoundEndoHowTo"
+></figureRef
+>.</p
 ><figure
 id="fCompoundEndoHowTo"
 ><framedUnit
@@ -11121,7 +11118,10 @@ lang="lGloss"
 >To model this in <object
 type="WordWorks"
 ></object
->, we do the following:</p
+>, we do what is shown in <figureRef
+figure="fCompoundExoHowTo"
+></figureRef
+>.</p
 ><figure
 id="fCompoundExoHowTo"
 ><framedUnit
@@ -12651,7 +12651,10 @@ type="MorphemeType"
 >How do we model such clitics in <object
 type="WordWorks"
 ></object
->?</p
+>?  See <figureRef
+figure="fCliticHowTo"
+></figureRef
+>.</p
 ><figure
 id="fCliticHowTo"
 ><framedUnit
@@ -12849,8 +12852,12 @@ valign="top"
 >How does one create a morpheme-oriented ad hoc rule in <object
 type="WordWorks"
 ></object
->?</p
+>? See <figureRef
+figure="fAdhocMorphHowTo"
+></figureRef
+> below.</p
 ><figure
+XeLaTeXSpecial="pagebreak"
 id="fAdhocMorphHowTo"
 ><framedUnit
 framedtype="ftSample"
@@ -13217,7 +13224,10 @@ type="WordWorks"
 ></object
 > model does not have an overt mechanism to deal with such a hierarchy.</p
 ><p
->How does one create such a group?</p
+>How does one create such a group?  See <figureRef
+figure="fAdhocMorphGroupHowTo"
+></figureRef
+>.</p
 ><figure
 id="fAdhocMorphGroupHowTo"
 ><framedUnit
@@ -14082,7 +14092,10 @@ lang="lEng"
 ></table
 ></example
 ><p
->To define the set of phonemes for the language you are modeling, do what is shown in the following:</p
+>To define the set of phonemes for the language you are modeling, do what is shown in <figureRef
+figure="fPhonemesHowTo"
+></figureRef
+>.</p
 ><figure
 id="fPhonemesHowTo"
 ><framedUnit
@@ -14372,7 +14385,10 @@ term="iNaturalClass"
 >Once you have the phonemes defined, then you can create natural classes of phonemes. Some common ones include such things as consonants, vowels, voiceless stops, back vowels, etc. To do this in <object
 type="WordWorks"
 ></object
-> do the following:</p
+> do what is shown in <figureRef
+figure="fNaturalClassesHowTo"
+></figureRef
+>.</p
 ><figure
 id="fNaturalClassesHowTo"
 ><framedUnit
@@ -14465,8 +14481,12 @@ type="WordWorks"
 >In <object
 type="WordWorks"
 ></object
->, you key these environments using a special notation. This notation is one that is reminiscent of what is used in many generative-style rules. The basic rules of thumb are:</p
+>, you key these environments using a special notation. This notation is one that is reminiscent of what is used in many generative-style rules. The basic rules of thumb are given in <figureRef
+figure="fEnvironmentsHowTo"
+></figureRef
+>.</p
 ><figure
+XeLaTeXSpecial="pagebreak"
 id="fEnvironmentsHowTo"
 ><framedUnit
 framedtype="ftSample"
@@ -15371,7 +15391,10 @@ type="defaultParser"
 > of <object
 type="WordWorks"
 ></object
->? (See <sectionRef
+>? See <figureRef
+figure="fFulllReduplicationHowTo"
+></figureRef
+> below. (See <sectionRef
 sec="sHCRedupFull"
 ></sectionRef
 > for how to write an <object
@@ -15381,6 +15404,85 @@ type="AffixProcessRule"
 type="HermitCrab"
 ></object
 >.)</p
+></section3
+></section2
+><section2
+id="sReduplicationPartial"
+><secTitle
+>Partial reduplication</secTitle
+><p
+><indexedRangeBegin
+id="bPartialReduplication"
+main="yes"
+term="iRedupPartial"
+></indexedRangeBegin
+>As we saw in the <indexedItem
+term="iTagalog"
+></indexedItem
+>Tagalog data from <exampleRef
+equal="no"
+letterOnly="no"
+num="xTagalogReduplication"
+></exampleRef
+> from <sectionRef
+sec="sIssueReduplication"
+></sectionRef
+>, it is not always the case that the entire stem is reduplicated. The Tagalog data is repeated here.</p
+><example
+num="xTagalogReduplication2"
+><listWord
+letter="xSusulat2"
+><langData
+lang="lTagalog"
+>susulat</langData
+><gloss
+lang="lGloss"
+>‘to write (<abbrRef
+abbr="vIPFV"
+></abbrRef
+>)’</gloss
+><gloss
+lang="lGloss"
+><exampleRef
+equal="yes"
+letter="xTagalogReduplication"
+num="xTagalogReduplication"
+></exampleRef
+></gloss
+></listWord
+><listWord
+letter="xMagpasulat2"
+><langData
+lang="lTagalog"
+>magpasulat</langData
+><gloss
+lang="lGloss"
+>‘to make someone write (<abbrRef
+abbr="vPFV"
+></abbrRef
+>)’</gloss
+></listWord
+><listWord
+letter="xMagpapasulat2"
+><langData
+lang="lTagalog"
+>magpapasulat</langData
+><gloss
+lang="lGloss"
+>‘to make someone write (<abbrRef
+abbr="vIPFV"
+></abbrRef
+>)’</gloss
+></listWord
+></example
+><p
+>Recall that we saw that this is a case where the imperfective aspect is realized by reduplicating the first <indexedItem
+term="iSyllable"
+></indexedItem
+>CV syllable of the stem to which it attaches. (The <langData
+lang="lTagalog"
+>mag</langData
+>- prefix is what some call actor focus or actor voice.)</p
 ><figure
 id="fFulllReduplicationHowTo"
 ><framedUnit
@@ -15473,85 +15575,6 @@ type="TT"
 ><caption
 >How to Create Full Reduplication via an Environment.</caption
 ></figure
-></section3
-></section2
-><section2
-id="sReduplicationPartial"
-><secTitle
->Partial reduplication</secTitle
-><p
-><indexedRangeBegin
-id="bPartialReduplication"
-main="yes"
-term="iRedupPartial"
-></indexedRangeBegin
->As we saw in the <indexedItem
-term="iTagalog"
-></indexedItem
->Tagalog data from <exampleRef
-equal="no"
-letterOnly="no"
-num="xTagalogReduplication"
-></exampleRef
-> from <sectionRef
-sec="sIssueReduplication"
-></sectionRef
->, it is not always the case that the entire stem is reduplicated. The Tagalog data is repeated here.</p
-><example
-num="xTagalogReduplication2"
-><listWord
-letter="xSusulat2"
-><langData
-lang="lTagalog"
->susulat</langData
-><gloss
-lang="lGloss"
->‘to write (<abbrRef
-abbr="vIPFV"
-></abbrRef
->)’</gloss
-><gloss
-lang="lGloss"
-><exampleRef
-equal="yes"
-letter="xTagalogReduplication"
-num="xTagalogReduplication"
-></exampleRef
-></gloss
-></listWord
-><listWord
-letter="xMagpasulat2"
-><langData
-lang="lTagalog"
->magpasulat</langData
-><gloss
-lang="lGloss"
->‘to make someone write (<abbrRef
-abbr="vPFV"
-></abbrRef
->)’</gloss
-></listWord
-><listWord
-letter="xMagpapasulat2"
-><langData
-lang="lTagalog"
->magpapasulat</langData
-><gloss
-lang="lGloss"
->‘to make someone write (<abbrRef
-abbr="vIPFV"
-></abbrRef
->)’</gloss
-></listWord
-></example
-><p
->Recall that we saw that this is a case where the imperfective aspect is realized by reduplicating the first <indexedItem
-term="iSyllable"
-></indexedItem
->CV syllable of the stem to which it attaches. (The <langData
-lang="lTagalog"
->mag</langData
->- prefix is what some call actor focus or actor voice.)</p
 ><p
 >Now consider the following <indexedItem
 term="iOrizabaNahuatl"
@@ -15634,7 +15657,10 @@ type="defaultParser"
 > of <object
 type="WordWorks"
 ></object
->? (See <sectionRef
+>?  See <figureRef
+figure="fPartialReduplicationHowTo"
+></figureRef
+>. (See <sectionRef
 sec="sHCRedupPartial"
 ></sectionRef
 > for how to write an <object
@@ -15711,7 +15737,10 @@ term="iXAmple"
 ></indexedItem
 >AMPLE.</p
 ></endnote
-> The idea is to list a sequence of specially marked natural class names. The special marking consists of the following:</p
+> The idea is to list a sequence of specially marked natural class names. The special marking consists of the steps outlined in <figureRef
+figure="fRedupPatternSchema"
+></figureRef
+>.</p
 ><figure
 id="fRedupPatternSchema"
 ><framedUnit
@@ -15938,7 +15967,10 @@ type="defaultParser"
 > of <object
 type="WordWorks"
 ></object
->? (See <sectionRef
+>? See <figureRef
+figure="fInfixHowTo"
+></figureRef
+>. (See <sectionRef
 sec="sHermitCrabInfixation"
 ></sectionRef
 > for how to write an <object
@@ -16156,7 +16188,10 @@ type="defaultParser"
 > of <object
 type="WordWorks"
 ></object
->? (See <sectionRef
+>? The basic idea is to treat each vowel as an infix.  See <figureRef
+figure="fInfixationRootAndPatternHowTo"
+></figureRef
+>. (See <sectionRef
 sec="sInfixationRootAndPatternAsProcess"
 ></sectionRef
 > for how to write an <object
@@ -16165,7 +16200,7 @@ type="AffixProcessRule"
 > for this using the <object
 type="HermitCrab"
 ></object
->.) The basic idea is to treat each vowel as an infix.</p
+>.)</p
 ><figure
 id="fInfixationRootAndPatternHowTo"
 ><framedUnit
@@ -16439,20 +16474,12 @@ type="defaultParser"
 type="WordWorks"
 ></object
 >? There are at least two ways:</p
-><figure
-id="fEpenthesisHowTo"
-><framedUnit
-framedtype="ftSample"
 ><ol
 ><li
 >The first method is to treat the epenthetic segment as a kind of pseudo morpheme.</li
 ><li
 >The second is to create extra allomorphs containing the epenthetic segment(s) for every morpheme that might possibly be involved with epenthesis and using environments to condition them appropriately.</li
 ></ol
-></framedUnit
-><caption
->How to Create an Epenthetic Affix.</caption
-></figure
 ><p
 >The advisability of the use of the first method is debatable. If the epenthetic segment is rather common, then one might want to model it as a pseudo-morpheme. Such an approach allows you to use the output of <object
 type="WordWorks"
@@ -16542,7 +16569,16 @@ type="defaultParser"
 > of <object
 type="WordWorks"
 ></object
->? Since this parser does not have any way to model processes, one must use allomorphy. For data like that in Caquinte, one would</p
+>? Since this parser does not have any way to model processes, one must use allomorphy. For data like that in Caquinte, one would do what is shown in <figureRef
+figure="fMetathesisHowTo"
+></figureRef
+>.  (See <sectionRef
+sec="sHCPhonMetathesis"
+></sectionRef
+> for how to write a metathesis rule using the <object
+type="HermitCrab"
+></object
+>.)</p
 ><figure
 id="fMetathesisHowTo"
 ><framedUnit
@@ -16862,7 +16898,10 @@ type="defaultParser"
 > of <object
 type="WordWorks"
 ></object
->?</p
+>? See <figureRef
+figure="fMorphemeNotSurfaceHowTo"
+></figureRef
+>.</p
 ><figure
 id="fMorphemeNotSurfaceHowTo"
 ><framedUnit
@@ -17252,7 +17291,10 @@ type="TT"
 >How does one create and use a Stem Name in <object
 type="WordWorks"
 ></object
->?<comment
+>? See <figureRef
+figure="fxStemNamesHowTo"
+></figureRef
+>. <comment
 >Note: this is mostly repeated above in the xInflectionFeaturesHowTo example. Some of it is also repeated in the xDerivAffixInflectionFeaturesHowTo example.</comment
 ></p
 ><figure
@@ -17359,11 +17401,13 @@ sec="sInflectionalAffixes"
 >Finally, note that <indexedItem
 term="iDerivationalAffix"
 ></indexedItem
->derivational affixes may also be constrained to only occur with a particular Stem Name.<endnote
+>derivational affixes may also be constrained to only occur with a particular Stem Name.<comment
+><endnote
 id="nStemNamesDerivAffix"
 ><p
 >I do not have any data examples for this (yet), but our conceptual model allows for it. If you find it in your data, please let me know.</p
 ></endnote
+></comment
 ></p
 ></section2
 ><section2
@@ -17847,7 +17891,10 @@ sec="sEnvironments"
 ></sectionRef
 >) will not work properly due to the fact that one must identify the exact morpheme, not merely its surface form. Other morphemes may well share the same form, but the allomorphy of the non-future does not occur with them. It is only with the perfect suffix and the first person object suffix.</p
 ></endnote
-></p
+>  See <figureRef
+figure="fAffixAlloFeats"
+></figureRef
+>.</p
 ><figure
 id="fAffixAlloFeats"
 ><framedUnit
@@ -17857,16 +17904,16 @@ framedtype="ftSample"
 >Add the appropriate inflectional features.  See <figureRef
 figure="fInflectionFeaturesHowTo"
 ></figureRef
->, steps 1-3.</li
+>.</li
 ><li
 >Create the appropriate inflectional template.</li
 ><li
 >Create an entry for each morpheme (assigning the inflectional affixes to the appropriate slots in the template).</li
 ><li
 >Assign the appropriate inflectional features to those affixes which bear them.  See <figureRef
-figure="fInflectionFeaturesHowTo"
+figure="fInflectionFeaturesAffixesHowTo"
 ></figureRef
->, step 5.</li
+>.</li
 ><li
 >For those entries with allomorphy, create the Allomorph Form(s).</li
 ><li
@@ -18332,7 +18379,10 @@ sec="sStemNames"
 ></sectionRef
 >.</p
 ></endnote
-></p
+> See <figureRef
+figure="fCoalescence"
+></figureRef
+>.</p
 ><figure
 id="fCoalescence"
 ><framedUnit
@@ -18610,7 +18660,10 @@ lang="lEng"
 >How does one create an allomorph-oriented ad hoc rule in <object
 type="WordWorks"
 ></object
->?</p
+>?  See <figureRef
+figure="fAdhocAlloHowTo"
+></figureRef
+>.</p
 ><figure
 id="fAdhocAlloHowTo"
 ><framedUnit
@@ -18723,7 +18776,10 @@ type="WordWorks"
 ></object
 > model just does not happen to provide the appropriate linguistic mechanism to model the phenomenon correctly.</p
 ><p
->One can group such ad hoc rules together. How does one create such a group?</p
+>One can group such ad hoc rules together. How does one create such a group?  See <figureRef
+figure="fAdhocAlloGroupHowTo"
+></figureRef
+>.</p
 ><figure
 id="fAdhocAlloGroupHowTo"
 ><framedUnit
@@ -18804,63 +18860,10 @@ term="iNullAllomorph"
 >Generally speaking, one wants to avoid having null allomorphs if for no other reason than that they can make the <indexedItem
 term="iMorphologicalParser"
 ></indexedItem
->parser run rather slowly. If having a null allomorph is indeed the best analysis, then please keep the following in mind:</p
-><figure
-id="fNullAllomorphsHowTo"
-><framedUnit
-framedtype="ftSample"
-><ol
-><li
->One indicates a null in the allomorph's form field by typing either <object
-type="TT"
->^0</object
-> (a caret - shift-6 on many keyboards - followed by the zero character), <object
-type="TT"
->&amp;0</object
-> (an ampersand followed by the zero character), <object
-type="TT"
->*0</object
-> (an asterisk followed by the zero character), or <indexedItem
-term="iEmptySetSymbol"
-></indexedItem
->the empty set character (if the font you are using has it).<endnote
-id="nEmptySet"
-><p
-><indexedItem
-term="iEmptySetSymbol"
-></indexedItem
->The empty set character is Unicode hex code 2205.</p
-></endnote
-> Ideally, we would always just use the empty set character. Unfortunately, many fonts do not happen to include it, so we offer these other ways. Note that if you happen to use an asterisk (or caret or ampersand) as a leading or trailing token for some morpheme type, then there is a potential conflict between indicating the morpheme type and indicating a null. If you discover such a conflict, try using a different alternative for indicating a null (or change the leading or trailing token for the morpheme type; see the help files in <object
-type="WordWorks"
-></object
-> for more.).</li
-><li
->Attempt to constrain the null with as specific an environment as possible. This is to avoid having it show up in undesired places in incorrect parses.</li
-><li
->You may also need to adjust the Parser Parameters to allow for more than one null allomorph per word. That is, determine what the maximum number of null allomorphs a legitimate word could have and set the MaxNulls parameter to that number. Remember, that the lower the number, the faster the parser will run.<ol
-><li
->Use <object
-type="tMenuItem"
->Parser</object
-> menu item /  <object
-type="tMenuItem"
->Edit Parser Parameters...</object
-></li
-><li
->Click in the box below <object
-type="tMenuItem"
->MaxNulls</object
-> and enter the number you need.</li
-><li
->Click on OK.</li
-></ol
-></li
-></ol
-></framedUnit
-><caption
->How to Create a Null Allomorph.</caption
-></figure
+>parser run rather slowly. If having a null allomorph is indeed the best analysis, then please keep what is shown below in <figureRef
+figure="fNullAllomorphsHowTo"
+></figureRef
+> in mind.</p
 ></section2
 ><section2
 id="sAllomorphOrder"
@@ -18945,6 +18948,62 @@ lang="lEng"
 >s</langData
 ></li
 ></ol
+><figure
+id="fNullAllomorphsHowTo"
+><framedUnit
+framedtype="ftSample"
+><ol
+><li
+>One indicates a null in the allomorph's form field by typing either <object
+type="TT"
+>^0</object
+> (a caret - shift-6 on many keyboards - followed by the zero character), <object
+type="TT"
+>&amp;0</object
+> (an ampersand followed by the zero character), <object
+type="TT"
+>*0</object
+> (an asterisk followed by the zero character), or <indexedItem
+term="iEmptySetSymbol"
+></indexedItem
+>the empty set character (if the font you are using has it).<endnote
+id="nEmptySet"
+><p
+><indexedItem
+term="iEmptySetSymbol"
+></indexedItem
+>The empty set character is Unicode hex code 2205.</p
+></endnote
+> Ideally, we would always just use the empty set character. Unfortunately, many fonts do not happen to include it, so we offer these other ways. Note that if you happen to use an asterisk (or caret or ampersand) as a leading or trailing token for some morpheme type, then there is a potential conflict between indicating the morpheme type and indicating a null. If you discover such a conflict, try using a different alternative for indicating a null (or change the leading or trailing token for the morpheme type; see the help files in <object
+type="WordWorks"
+></object
+> for more.).</li
+><li
+>Attempt to constrain the null with as specific an environment as possible. This is to avoid having it show up in undesired places in incorrect parses.</li
+><li
+>You may also need to adjust the Parser Parameters to allow for more than one null allomorph per word. That is, determine what the maximum number of null allomorphs a legitimate word could have and set the MaxNulls parameter to that number. Remember, that the lower the number, the faster the parser will run.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Parser</object
+> menu item / <object
+type="tMenuItem"
+>Edit Parser Parameters...</object
+></li
+><li
+>Click in the box below <object
+type="tMenuItem"
+>MaxNulls</object
+> and enter the number you need.</li
+><li
+>Click on OK.</li
+></ol
+></li
+></ol
+></framedUnit
+><caption
+>How to Create a Null Allomorph.</caption
+></figure
 ><p
 >Because of the ordering and the fact that the first two are conditioned, the third (elsewhere) case will automatically be constrained to not occur after stridents as well as to not occur after voiced segments. The second allomorph will be conditioned to not only occur after voiced segments, but also to not occur after stridents.</p
 ><p
@@ -19172,7 +19231,10 @@ type="defaultParser"
 > of <object
 type="WordWorks"
 ></object
->? (See <sectionRef
+>?  See <figureRef
+figure="fCircumfixHowTo"
+></figureRef
+> below. (See <sectionRef
 sec="sHermitCrabCircumfix"
 ></sectionRef
 > for how to write an <object
@@ -19182,6 +19244,24 @@ type="AffixProcessRule"
 type="HermitCrab"
 ></object
 >.)</p
+><p
+>Note the following characteristics about circumfix entries created this way:</p
+><ol
+><li
+>The only place this entry is marked as being a circumfix is in the morpheme type field of the lexeme form.</li
+><li
+>There is at least one allomorph for the prefix member.</li
+><li
+>There is at least one suffix allomorph for the suffix member.</li
+></ol
+><p
+>When one keys a circumfix in this manner, the <object
+type="WordWorks"
+></object
+> parser will require both the left and right member affixes to appear simultaneously for them to be parsed as an instance of this entry. Circumfixes may be classified as derivational, inflectional, or as unclassified. The <object
+type="WordWorks"
+></object
+> parser handles all three varieties correctly.</p
 ><figure
 id="fCircumfixHowTo"
 ><framedUnit
@@ -19220,24 +19300,6 @@ term="iAlloEnvironments"
 ><caption
 >How to Create a Circumfix.</caption
 ></figure
-><p
->Note the following characteristics about circumfix entries created this way:</p
-><ol
-><li
->The only place this entry is marked as being a circumfix is in the morpheme type field of the lexeme form.</li
-><li
->There is at least one allomorph for the prefix member.</li
-><li
->There is at least one suffix allomorph for the suffix member.</li
-></ol
-><p
->When one keys a circumfix in this manner, the <object
-type="WordWorks"
-></object
-> parser will require both the left and right member affixes to appear simultaneously for them to be parsed as an instance of this entry. Circumfixes may be classified as derivational, inflectional, or as unclassified. The <object
-type="WordWorks"
-></object
-> parser handles all three varieties correctly.</p
 ></section1
 ><section1
 id="sSenses"
@@ -21663,7 +21725,10 @@ lang="lAwngi"
 >How do we handle something like this with the <object
 type="HermitCrab"
 ></object
->? One way is to do the following.</p
+>? One way is to do what is shown in <figureRef
+figure="fAwngiSteps"
+></figureRef
+>.</p
 ><figure
 id="fAwngiSteps"
 ><framedUnit
@@ -22218,6 +22283,7 @@ abbr="vAV"
 ></lineGroup
 ></listInterlinear
 ><listInterlinear
+XeLaTeXSpecial="pagebreak"
 letter="xIndonesianMengolah"
 ><lineGroup
 ><line
@@ -22568,6 +22634,7 @@ abbr="vAV"
 ></lineGroup
 ></listInterlinear
 ><listInterlinear
+XeLaTeXSpecial="pagebreak"
 letter="xIndonesianMengirim"
 ><lineGroup
 ><line
@@ -22899,7 +22966,10 @@ type="WordWorks"
 > using the <object
 type="HermitCrab"
 ></object
->? Here is one possible way:</p
+>? One possible way is shown in <figureRef
+figure="fIndonesianNHowTo"
+></figureRef
+>.</p
 ><figure
 id="fIndonesianNHowTo"
 ><framedUnit
@@ -22963,95 +23033,6 @@ type="TT"
 type="TT"
 >-</object
 > value.</p
-><p
->The phoneme-feature matrix shown in <tablenumberedRef
-table="ntIndoFeatureChart"
-></tablenumberedRef
-> illustrates one way that the first three steps of <figureRef
-figure="fIndonesianNHowTo"
-></figureRef
-> could be done (see the <object
-type="TT"
->OrthPlace</object
-> feature for the assimilation place and the custom <object
-type="TT"
->NO→N</object
-> feature for the four segments which delete).<endnote
-id="nIndonesianPhonemeFeatureMatrix"
-><p
->The first “phoneme” is a hyphen which is used in full reduplicated forms. See <sectionRef
-sec="sHCRedupFull"
-></sectionRef
->. Note that its features uniquely identify it so that it cannot be confused with any other phoneme. Another way to deal with this would be to create a custom feature for which the hyphen is the only phoneme that has a <object
-type="TT"
->+</object
-> value; all other phonemes would have a <object
-type="TT"
->-</object
-> value for this custom feature. (See <sectionRef
-sec="sHCTipsUniquePhoneme"
-></sectionRef
->.) The <object
-type="TT"
->OrthPlace</object
-> feature is a custom feature whose possible values indicate the place of articulation (<object
-type="TT"
->labial</object
->, <object
-type="TT"
->alveolar</object
->, <object
-type="TT"
->palatal</object
->, <object
-type="TT"
->velar</object
->, and <object
-type="TT"
->glottal</object
->) or that the segment is unspecified for place (<object
-type="TT"
->?</object
->). (The name reflects the observation that how this works seems to be more orthographic conventions than true place of articulation.) The <object
-type="TT"
->NO→N</object
-> feature's name is an attempt to imply that these segments (the <object
-type="TT"
->O</object
->) delete after an unspecified nasal (the <object
-type="TT"
->N</object
->).</p
-></endnote
-></p
-><p
->Having devised a phonological feature system and assigned the appropriate feature values to the phonemes, the next step from <figureRef
-figure="fIndonesianNHowTo"
-></figureRef
-> is to write the phonological rules. What should they be? One way is to write rules for each of the four items given in <exampleRef
-letter="xIndonesianNFactors"
-num="xIndonesianNFactors"
-></exampleRef
-> above.</p
-><p
->The rule in <figureRef
-figure="fIndonesianUnspecifiedNasalVowelRule"
-></figureRef
-> addresses the case for the vowels:</p
-><figure
-XeLaTeXSpecial="width='2in'"
-id="fIndonesianUnspecifiedNasalVowelRule"
-><chart
-><img
-XeLaTeXSpecial="width='1.7in'"
-src="resources/IndonesianUnspecifiedNasalVowelRule.svg"
-></img
-></chart
-><caption
->Indonesian Unspecified Nasal Vowel Rule.</caption
-></figure
-><pc
->That is, an unspecified nasal becomes a velar nasal before a vowel-initial morpheme.</pc
 ><tablenumbered
 id="ntIndoFeatureChart"
 ><table
@@ -24519,6 +24500,95 @@ align="center"
 ></table
 ></tablenumbered
 ><p
+>The phoneme-feature matrix shown in <tablenumberedRef
+table="ntIndoFeatureChart"
+></tablenumberedRef
+> above illustrates one way that the first three steps of <figureRef
+figure="fIndonesianNHowTo"
+></figureRef
+> could be done (see the <object
+type="TT"
+>OrthPlace</object
+> feature for the assimilation place and the custom <object
+type="TT"
+>NO→N</object
+> feature for the four segments which delete).<endnote
+id="nIndonesianPhonemeFeatureMatrix"
+><p
+>The first “phoneme” is a hyphen which is used in full reduplicated forms. See <sectionRef
+sec="sHCRedupFull"
+></sectionRef
+>. Note that its features uniquely identify it so that it cannot be confused with any other phoneme. Another way to deal with this would be to create a custom feature for which the hyphen is the only phoneme that has a <object
+type="TT"
+>+</object
+> value; all other phonemes would have a <object
+type="TT"
+>-</object
+> value for this custom feature. (See <sectionRef
+sec="sHCTipsUniquePhoneme"
+></sectionRef
+>.) The <object
+type="TT"
+>OrthPlace</object
+> feature is a custom feature whose possible values indicate the place of articulation (<object
+type="TT"
+>labial</object
+>, <object
+type="TT"
+>alveolar</object
+>, <object
+type="TT"
+>palatal</object
+>, <object
+type="TT"
+>velar</object
+>, and <object
+type="TT"
+>glottal</object
+>) or that the segment is unspecified for place (<object
+type="TT"
+>?</object
+>). (The name reflects the observation that how this works seems to be more orthographic conventions than true place of articulation.) The <object
+type="TT"
+>NO→N</object
+> feature's name is an attempt to imply that these segments (the <object
+type="TT"
+>O</object
+>) delete after an unspecified nasal (the <object
+type="TT"
+>N</object
+>).</p
+></endnote
+></p
+><p
+>Having devised a phonological feature system and assigned the appropriate feature values to the phonemes, the next step from <figureRef
+figure="fIndonesianNHowTo"
+></figureRef
+> is to write the phonological rules. What should they be? One way is to write rules for each of the four items given in <exampleRef
+letter="xIndonesianNFactors"
+num="xIndonesianNFactors"
+></exampleRef
+> above.</p
+><p
+>The rule in <figureRef
+figure="fIndonesianUnspecifiedNasalVowelRule"
+></figureRef
+> addresses the case for the vowels:</p
+><figure
+XeLaTeXSpecial="width='2in'"
+id="fIndonesianUnspecifiedNasalVowelRule"
+><chart
+><img
+XeLaTeXSpecial="width='1.7in'"
+src="resources/IndonesianUnspecifiedNasalVowelRule.svg"
+></img
+></chart
+><caption
+>Indonesian Unspecified Nasal Vowel Rule.</caption
+></figure
+><pc
+>That is, an unspecified nasal becomes a velar nasal before a vowel-initial morpheme.</pc
+><p
 >The next rule handles the case for the sonorant consonants:</p
 ><figure
 id="fIndonesianUnspecifiedNasalSonorantConsonantRule"
@@ -25206,7 +25276,10 @@ term="iPhonRuleConstrainExceptionFeature"
 >We can use an <indexedItem
 term="iPhonRuleExceptionFeatures"
 ></indexedItem
->exception “feature” to handle this exception. We do the following steps:</p
+>exception “feature” to handle this exception. We do the steps shown in <figureRef
+figure="fIndonesianNExceptionsHowTo"
+></figureRef
+>.</p
 ><figure
 id="fIndonesianNExceptionsHowTo"
 ><framedUnit
@@ -25332,6 +25405,7 @@ abbr="vAV"
 ></lineGroup
 ></listInterlinear
 ><listInterlinear
+XeLaTeXSpecial="pagebreak"
 letter="xIndonesianMenswadayakan"
 ><lineGroup
 ><line
@@ -25964,53 +26038,6 @@ table="ntSelaruPhonemeFeatureMatrix"
 textBefore="capitalizedSingular"
 ></tablenumberedRef
 > below shows a phoneme-feature matrix one might use for Selaru.</p
-></section3
-></section2
-></section1
-><section1
-id="sHermitCrabTips"
-><secTitle
->Tips for making the <object
-type="HermitCrab"
-></object
-> work effectively.</secTitle
-><p
-><indexedItem
-term="iPhonRuleTips"
-></indexedItem
->When using the <object
-type="HermitCrab"
-></object
->, there are several key things one should keep in mind. These are given here.</p
-><section2
-id="sHCTipsEveryPhonemeInOrthography"
-><secTitle
->Every phoneme used in the orthography must be defined as a phoneme</secTitle
-><p
-><indexedItem
-term="iPhonemes"
-></indexedItem
-><indexedItem
-term="iPhonRulePhonemes"
-></indexedItem
->The first thing to keep in mind when you use the <object
-type="HermitCrab"
-></object
-> is that every phoneme used in the orthography must be listed among the phonemes in your language project.<endnote
-id="nXAmpleAndPhonemes"
-><p
->The default <object
-type="WordWorks"
-></object
-> parser does not require this. For <object
-type="defaultParser"
-></object
->, you only need to define phonemes that are used in natural classes or in environments.</p
-></endnote
-> If a word or an affix or a phonological rule has even just one phoneme that is not listed in the list of phonemes, then the <object
-type="HermitCrab"
-></object
-> is guaranteed to not give an analysis for any word containing that phoneme. This is because this parser crucially depends on phonemes being defined. This should not be surprising, really, for a parser that is able to handle phonological rules: it simply must know what the phonemes are in order to deal with such rules.</p
 ><tablenumbered
 id="ntSelaruPhonemeFeatureMatrix"
 ><table
@@ -26867,6 +26894,53 @@ align="center"
 ></tr
 ></table
 ></tablenumbered
+></section3
+></section2
+></section1
+><section1
+id="sHermitCrabTips"
+><secTitle
+>Tips for making the <object
+type="HermitCrab"
+></object
+> work effectively.</secTitle
+><p
+><indexedItem
+term="iPhonRuleTips"
+></indexedItem
+>When using the <object
+type="HermitCrab"
+></object
+>, there are several key things one should keep in mind. These are given here.</p
+><section2
+id="sHCTipsEveryPhonemeInOrthography"
+><secTitle
+>Every phoneme used in the orthography must be defined as a phoneme</secTitle
+><p
+><indexedItem
+term="iPhonemes"
+></indexedItem
+><indexedItem
+term="iPhonRulePhonemes"
+></indexedItem
+>The first thing to keep in mind when you use the <object
+type="HermitCrab"
+></object
+> is that every phoneme used in the orthography must be listed among the phonemes in your language project.<endnote
+id="nXAmpleAndPhonemes"
+><p
+>The default <object
+type="WordWorks"
+></object
+> parser does not require this. For <object
+type="defaultParser"
+></object
+>, you only need to define phonemes that are used in natural classes or in environments.</p
+></endnote
+> If a word or an affix or a phonological rule has even just one phoneme that is not listed in the list of phonemes, then the <object
+type="HermitCrab"
+></object
+> is guaranteed to not give an analysis for any word containing that phoneme. This is because this parser crucially depends on phonemes being defined. This should not be surprising, really, for a parser that is able to handle phonological rules: it simply must know what the phonemes are in order to deal with such rules.</p
 ></section2
 ><section2
 id="sHCTipsUniquePhoneme"
@@ -27003,7 +27077,7 @@ term="iNaturalClass"
 >When you have phonological features defined and have fully and uniquely specified each phoneme, you may still run into some odd behaviors with natural classes. Consider the set of phonemes and features shown in <tablenumberedRef
 table="ntSalarPhonemes1"
 ></tablenumberedRef
->.</p
+> below.</p
 ><p
 >One would expect that while these are not fully specified, they are unique. The problem came when a consonant natural class was defined as consisting of the following phonemes</p
 ><example
@@ -27061,6 +27135,10 @@ lang="lSalar"
 lang="lSalar"
 >madi</langData
 > matched the consonant natural class.</p
+><p
+>The solution was to add a binary feature of ±consonantal. This was + for all consonants and - for all vowels.</p
+><p
+>The moral of this story, then, is to make sure that the phonological feature system is such that each natural class, when defined via features, contains just the phonemes you want. Using binary features can certainly make this easier.</p
 ><tablenumbered
 id="ntSalarPhonemes1"
 ><table
@@ -28389,10 +28467,6 @@ align="center"
 ></tr
 ></table
 ></tablenumbered
-><p
->The solution was to add a binary feature of ±consonantal. This was + for all consonants and - for all vowels.</p
-><p
->The moral of this story, then, is to make sure that the phonological feature system is such that each natural class, when defined via features, contains just the phonemes you want. Using binary features can certainly make this easier.</p
 ><p
 >We have added warning messages about this situation in the Try-A-Word tool. The message tells you what the natural class is, what the implied phonological features are, what the predicted phonemes are and what the actual phonemes in the class are. We hope this helps you figure out how to avoid this potential problem.</p
 ></section2

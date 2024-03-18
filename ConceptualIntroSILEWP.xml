@@ -43,7 +43,7 @@ id="nJonathanCoombs"
 ></endnote
 ></author
 ><date
->15 March 2024</date
+>18 March 2024</date
 ><contents
 bookmarksShowLevel="5"
 showLevel="5"
@@ -3816,6 +3816,8 @@ figure="fNahuatlPossessorHowTo"
 ><li
 >Put the <gloss
 lang="lGloss"
+textafter="​"
+textbefore="​"
 ><abbrRef
 abbr="v1"
 ></abbrRef
@@ -3828,6 +3830,8 @@ abbr="vSBJ"
 ></gloss
 >‑ and <gloss
 lang="lGloss"
+textafter="​"
+textbefore="​"
 ><abbrRef
 abbr="v2"
 ></abbrRef
@@ -3848,6 +3852,8 @@ abbr="vSBJ"
 ><li
 >Put the <gloss
 lang="lGloss"
+textafter="​"
+textbefore="​"
 ><abbrRef
 abbr="v1"
 ></abbrRef
@@ -3860,6 +3866,8 @@ abbr="vSBJ"
 ></gloss
 >‑ and <gloss
 lang="lGloss"
+textafter="​"
+textbefore="​"
 ><abbrRef
 abbr="v2"
 ></abbrRef
@@ -3876,6 +3884,8 @@ abbr="vSBJ"
 ><li
 >Put the ‑<gloss
 lang="lGloss"
+textafter="​"
+textbefore="​"
 ><abbrRef
 abbr="vPL"
 ></abbrRef
@@ -4613,7 +4623,7 @@ equal="no"
 letter="xYalalagZapotecVerbClass2Pass"
 letterOnly="no"
 ></exampleRef
->.  (The difference in future allomorphy is not due to transitivity.) This problem is not isolated to these pairs of forms; it turns out that verb stems in general divide into two groups, those that take the <langData
+>. (The difference in future allomorphy is not due to transitivity.) This problem is not isolated to these pairs of forms; it turns out that verb stems in general divide into two groups, those that take the <langData
 lang="lYalalag"
 >u</langData
 >‑ future and those that take the <langData
@@ -4699,7 +4709,7 @@ type="tMenuItem"
 ></ol
 ></li
 ><li
->Create the future inflectional prefix (using  <object
+>Create the future inflectional prefix (using <object
 type="tMenuItem"
 >Lexicon</object
 > / <object
@@ -4740,7 +4750,7 @@ lang="lYalalag"
 ><li
 >For each verb root (or stem), tag it as belonging to either the first or the second inflection class, whichever is correct for that verb.<ol
 ><li
->Use  <object
+>Use <object
 type="tMenuItem"
 >Lexicon</object
 > / <object
@@ -4768,7 +4778,7 @@ type="tMenuItem"
 ><li
 >In the ensuing dialog box, select the appropriate inflection class.</li
 ><li
->Alternatively, use  <object
+>Alternatively, use <object
 type="tMenuItem"
 >Lexicon</object
 > / <object
@@ -4777,7 +4787,7 @@ type="tMenuItem"
 > with the <object
 type="tMenuItem"
 >List Choice</object
-> tab to set the values for many verbs at once.  See the help files in <object
+> tab to set the values for many verbs at once. See the help files in <object
 type="WordWorks"
 ></object
 > for more.</li
@@ -6290,7 +6300,10 @@ type="WordWorks"
 >, we will need to do what is shown in <figureRef
 figure="fIZInflectionClassHowTo"
 ></figureRef
->.</p
+>. See <figureRef
+figure="fYalalagInflectionClassHowTo"
+></figureRef
+> for details on the steps not overtly described.</p
 ><figure
 id="fIZInflectionClassHowTo"
 ><framedUnit
@@ -6299,18 +6312,38 @@ framedtype="ftSample"
 ><li
 >Create two inflection classes within the verb category.</li
 ><li
->Within the second one, create three subclasses.</li
+>Within the second one, create three subclasses.<ol
+><li
+>In <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Category Edit</object
+> / <object
+type="tMenuItem"
+>Verb</object
+>, click on <object
+type="tMenuItem"
+>Subclasses</object
+> under the second inflection class.</li
+><li
+>Click on <object
+type="tMenuItem"
+>Insert Inflection Class</object
+>.</li
+><li
+>Enter the name, abbreviation, and description for the subclass.</li
+><li
+>Repeat for all three subclasses.</li
+></ol
+></li
 ><li
 >For each verb stem, tag it as belonging to the appropriate inflection class or subclass, whichever is correct for that verb.</li
 ><li
 >For the Perfect aspect, merely create the inflectional prefix entry with its single form.</li
 ><li
->For the Habitual, Progressive, Unreal, and Future aspects, create the inflectional prefix entries, including their two allomorphs.<endnote
-id="nIZLexemeform"
-><p
->You will need to decide which form to use as the lexeme form and which as the affix allomorph form.</p
-></endnote
-><ol
+>For the Habitual, Progressive, Unreal, and Future aspects, create the inflectional prefix entries, including their two allomorphs. (You will need to decide which form to use as the lexeme form and which as the affix allomorph form.)<ol
 ><li
 >For the Class 1 allomorph, tag it as belonging to Class 1.</li
 ><li
@@ -6909,7 +6942,6 @@ table="ntInflectionFeaturesToRuleOutIncorrectParses"
 ></tablenumberedRef
 >.</p
 ><tablenumbered
-XeLaTeXSpecial="pagebreak"
 id="ntInflectionFeaturesToRuleOutIncorrectParses"
 ><table
 align="center"
@@ -6982,7 +7014,7 @@ valign="top"
 >How does one create and use an inflection feature in <object
 type="WordWorks"
 ></object
->?  <figureRef
+>? <figureRef
 figure="fInflectionFeaturesHowTo"
 textBefore="capitalizedPlural"
 ></figureRef
@@ -7059,7 +7091,7 @@ type="tMenuItem"
 >Insert Feature Value</object
 >.</li
 ><li
->Fill in the value's name, abbreviation, and description.  You'll probably want to check the <object
+>Fill in the value's name, abbreviation, and description. You'll probably want to check the <object
 type="tMenuItem"
 >Use Abbreviation as label</object
 > box.</li
@@ -7772,7 +7804,7 @@ type="tMenuItem"
 > menu item / <object
 type="tMenuItem"
 >Entry</object
->. </li
+>.</li
 ><li
 >In the ensuing “New Entry” dialog box, set the Affix Type to “Derivational.”</li
 ></ol
@@ -8268,7 +8300,7 @@ type="WordWorks"
 >? We need to do what is shown in <figureRef
 figure="fSubCatChangingHowTo"
 ></figureRef
->.  See <figureRef
+>. See <figureRef
 figure="fCatChangingHowTo"
 ></figureRef
 > for details on the first step.</p
@@ -8536,7 +8568,7 @@ type="WordWorks"
 >? We need to do what is shown in <figureRef
 figure="fNonCatChangingHowTo"
 ></figureRef
->.  See <figureRef
+>. See <figureRef
 figure="fCatChangingHowTo"
 ></figureRef
 > for details on the first step.</p
@@ -8992,6 +9024,7 @@ abbr="vNMLZ"
 ></listInterlinear
 ></example
 ><example
+XeLaTeXSpecial="pagebreak"
 num="xSpanishDerivationGenderTrasquilarTrasquilon"
 ><listInterlinear
 letter="xSpanishDerivationGenderTrasquilar"
@@ -9077,7 +9110,7 @@ type="WordWorks"
 figure="fDerivAffixInflectionFeaturesHowTo"
 ></figureRef
 >.<comment
->  Note: this is repeated below in the xStemNamesHowTo example. Some of it is also repeated in the xInflectionFeaturesHowTo example above. </comment
+> Note: this is repeated below in the xStemNamesHowTo example. Some of it is also repeated in the xInflectionFeaturesHowTo example above. </comment
 ></p
 ><figure
 id="fDerivAffixInflectionFeaturesHowTo"
@@ -9098,7 +9131,7 @@ term="iInflFeatType"
 ></endnote
 > name, and possible values.</li
 ><li
->Create them if needed.  See <figureRef
+>Create them if needed. See <figureRef
 figure="fInflectionFeaturesHowTo"
 ></figureRef
 >.</li
@@ -9535,7 +9568,15 @@ type="WordWorks"
 >? One needs to perform the steps shown in <figureRef
 figure="fDerviationOutsideInflectionHowTo"
 ></figureRef
->.</p
+>.  (See <figureRef
+figure="fNahuatlPossessorHowTo"
+textBefore="plural"
+></figureRef
+>–<figureRef
+figure="fNahuatlIntransitiveVerbHowTo"
+textBefore="none"
+></figureRef
+> for details on how to create templates.)</p
 ><figure
 id="fDerviationOutsideInflectionHowTo"
 ><framedUnit
@@ -9544,7 +9585,10 @@ framedtype="ftSample"
 ><li
 >Add all the inflectional and derivational affix entries.</li
 ><li
->Create the "inside" inflectional template and mark it specially as a template that requires additional derivation. Please note that this template <object
+>Create the "inside" inflectional template and mark it specially as a template that requires additional derivation by checking the box after <object
+type="tMenuItem"
+>Requires more derivation</object
+>. Please note that this template <object
 type="Bold"
 >must</object
 > have at least one slot that is required. If all of the slots are marked as being optional, the <object
@@ -10233,31 +10277,29 @@ id="fExceptionFeaturesHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->If necessary, create the exception “feature.” We recommend you give as meaningful a description as you are able.<comment
-> For example, if you happen to know that there are historical reasons for this situation, then go ahead and say what they are.</comment
-><ol
+>If necessary, create the exception “feature.” We recommend you give as meaningful a description as you are able. For example, if you happen to know that there are historical reasons for this situation, then go ahead and say what they are.<ol
 ><li
 >Use <object
 type="tMenuItem"
 >Grammar</object
 > / <object
 type="tMenuItem"
->Exception “Features”</object
->.</li
+>Exception “Features.”</object
+></li
 ><li
 >Use <object
 type="tMenuItem"
 >Insert</object
 > menu item / <object
 type="tMenuItem"
->Exception “Feature”</object
->.</li
+>Exception “Feature.”</object
+></li
 ><li
 >Enter name, abbreviation, and description.</li
 ></ol
 ></li
 ><li
->Tag the affix with that exception “feature”.<ol
+>Tag the affix with that exception “feature.”<ol
 ><li
 >Use <object
 type="tMenuItem"
@@ -10317,10 +10359,7 @@ type="tMenuItem"
 ><li
 >Click on the chooser button.</li
 ><li
->In the ensuing dialog box, check the box for each appropriate exception “feature”.<indexedRangeEnd
-begin="bAffixes"
-></indexedRangeEnd
-></li
+>In the ensuing dialog box, check the box for each appropriate exception “feature.”</li
 ></ol
 ></li
 ></ol
@@ -10334,7 +10373,10 @@ begin="bAffixes"
 >To tag affixes and stems with exception “features,” follow what is in <figureRef
 figure="fExceptionFeaturesHowTo"
 ></figureRef
-> above.</p
+> above.<indexedRangeEnd
+begin="bAffixes"
+></indexedRangeEnd
+></p
 ></section2
 ></section1
 ><section1
@@ -10815,87 +10857,56 @@ num="xNahuatlCompoundAdjNoun"
 >Now consider the following Orizaba Nahuatl data:</p
 ><example
 num="xNahuatlCompoundNounAdj"
-><table
-><tr
-><td
-align="left"
-valign="top"
-><table
-><tr
-><td
-align="left"
-valign="top"
+><listInterlinear
+letter="xNahuatlCompoundNounAdja"
+><lineGroup
+><line
+><wrd
 ><langData
 lang="lNahuatl"
 >tlaxkálsolli</langData
-></td
-></tr
-><tr
-><td
-align="left"
-valign="top"
+></wrd
+></line
+><line
+><wrd
 ><langData
 lang="lNahuatl"
 >tlaxkál-sol-li</langData
-></td
-></tr
-><tr
-><td
-align="left"
-valign="top"
+></wrd
+></line
+><line
+><wrd
 ><gloss
 lang="lGloss"
 >tortilla-old-<abbrRef
 abbr="vABS"
 ></abbrRef
 ></gloss
-></td
-></tr
-><tr
-><td
-align="left"
-valign="top"
-><gloss
-lang="lGloss"
->‘tortilla from the day before’</gloss
-></td
-></tr
-></table
-></td
-></tr
-><tr
-><td
-align="left"
-valign="top"
-> </td
-></tr
-><tr
-><td
-align="left"
-valign="top"
-><table
-><tr
-><td
-align="left"
-valign="top"
+></wrd
+></line
+></lineGroup
+><free
+>tortilla from the day before</free
+></listInterlinear
+><listInterlinear
+letter="xNahuatlCompoundNounAdjb"
+><lineGroup
+><line
+><wrd
 ><langData
 lang="lNahuatl"
->nomahpilweyi</langData
-></td
-></tr
-><tr
-><td
-align="left"
-valign="top"
+>nomahppagebrilweyi</langData
+></wrd
+></line
+><line
+><wrd
 ><langData
 lang="lNahuatl"
 >no-mah-pil-weyi</langData
-></td
-></tr
-><tr
-><td
-align="left"
-valign="top"
+></wrd
+></line
+><line
+><wrd
 ><gloss
 lang="lGloss"
 ><abbrRef
@@ -10908,21 +10919,12 @@ abbr="vSG"
 abbr="vPOSS"
 ></abbrRef
 >-hand-projection-big</gloss
-></td
-></tr
-><tr
-><td
-align="left"
-valign="top"
-><gloss
-lang="lGloss"
->‘my thumb’</gloss
-></td
-></tr
-></table
-></td
-></tr
-></table
+></wrd
+></line
+></lineGroup
+><free
+>my thumb</free
+></listInterlinear
 ></example
 ><p
 >In <exampleRef
@@ -10947,7 +10949,7 @@ num="xNahuatlCompoundNounAdj"
 >How do we model these kinds of rules for <object
 type="WordWorks"
 ></object
->?  See the steps in <figureRef
+>? See the steps in <figureRef
 figure="fCompoundEndoHowTo"
 ></figureRef
 >.</p
@@ -11123,6 +11125,7 @@ figure="fCompoundExoHowTo"
 ></figureRef
 >.</p
 ><figure
+XeLaTeXSpecial="pagebreak"
 id="fCompoundExoHowTo"
 ><framedUnit
 framedtype="ftSample"
@@ -12651,7 +12654,7 @@ type="MorphemeType"
 >How do we model such clitics in <object
 type="WordWorks"
 ></object
->?  See <figureRef
+>? See <figureRef
 figure="fCliticHowTo"
 ></figureRef
 >.</p
@@ -12856,6 +12859,39 @@ type="WordWorks"
 figure="fAdhocMorphHowTo"
 ></figureRef
 > below.</p
+></section2
+><section2
+id="sAdhocMorphProhibitionsGroups"
+><secTitle
+>Grouping ad hoc morpheme rules</secTitle
+><p
+><indexedItem
+term="iAdhocGroup"
+></indexedItem
+>Occasionally one finds a situation where a set of ad hoc constraints have a common theme. Perhaps they all relate to a particular morpheme or to particular morphemes of a certain variety. This may be a hint as to what is really happening and may lead you to discover a linguistically-motivated way to model them. Or it could be that the <object
+type="WordWorks"
+></object
+> model just does not happen to provide the appropriate linguistic mechanism to model the phenomenon correctly.</p
+><p
+><indexedItem
+term="iYalalagZapotec"
+></indexedItem
+>Yalálag Zapotec dependent pronominal suffixes exemplify such a situation (see <citation
+author="yes"
+page="9"
+paren="none"
+ref="rYalalagVerbBook"
+></citation
+>). In Yalálag Zapotec, a verb may have both a subject and an object person suffix on it. Being a <abbrRef
+abbr="vVSO"
+></abbrRef
+> language, the subject occurs before the object. What is different here is that there is a <indexedItem
+term="iPronominalHierarchy"
+></indexedItem
+>pronominal hierarchy among these dependent pronominal suffixes. Given the subject suffix, the only dependent object suffixes which may follow are those that are lower down on the person hierarchy. This is illustrated in <tablenumberedRef
+table="ntYalalagPronominalHierarchy"
+></tablenumberedRef
+>.</p
 ><figure
 XeLaTeXSpecial="pagebreak"
 id="fAdhocMorphHowTo"
@@ -12950,39 +12986,6 @@ type="tMenuItem"
 ><caption
 >How to Create a Morpheme-oriented Ad Hoc Rule.</caption
 ></figure
-></section2
-><section2
-id="sAdhocMorphProhibitionsGroups"
-><secTitle
->Grouping ad hoc morpheme rules</secTitle
-><p
-><indexedItem
-term="iAdhocGroup"
-></indexedItem
->Occasionally one finds a situation where a set of ad hoc constraints have a common theme. Perhaps they all relate to a particular morpheme or to particular morphemes of a certain variety. This may be a hint as to what is really happening and may lead you to discover a linguistically-motivated way to model them. Or it could be that the <object
-type="WordWorks"
-></object
-> model just does not happen to provide the appropriate linguistic mechanism to model the phenomenon correctly.</p
-><p
-><indexedItem
-term="iYalalagZapotec"
-></indexedItem
->Yalálag Zapotec dependent pronominal suffixes exemplify such a situation (see <citation
-author="yes"
-page="9"
-paren="none"
-ref="rYalalagVerbBook"
-></citation
->). In Yalálag Zapotec, a verb may have both a subject and an object person suffix on it. Being a <abbrRef
-abbr="vVSO"
-></abbrRef
-> language, the subject occurs before the object. What is different here is that there is a <indexedItem
-term="iPronominalHierarchy"
-></indexedItem
->pronominal hierarchy among these dependent pronominal suffixes. Given the subject suffix, the only dependent object suffixes which may follow are those that are lower down on the person hierarchy. This is illustrated in <tablenumberedRef
-table="ntYalalagPronominalHierarchy"
-></tablenumberedRef
->.</p
 ><tablenumbered
 id="ntYalalagPronominalHierarchy"
 ><table
@@ -13224,7 +13227,7 @@ type="WordWorks"
 ></object
 > model does not have an overt mechanism to deal with such a hierarchy.</p
 ><p
->How does one create such a group?  See <figureRef
+>How does one create such a group? See <figureRef
 figure="fAdhocMorphGroupHowTo"
 ></figureRef
 >.</p
@@ -14097,6 +14100,7 @@ figure="fPhonemesHowTo"
 ></figureRef
 >.</p
 ><figure
+XeLaTeXSpecial="pagebreak"
 id="fPhonemesHowTo"
 ><framedUnit
 framedtype="ftSample"
@@ -14198,7 +14202,7 @@ type="WordWorks"
 > parser does not use phonological features, but the <object
 type="HermitCrab"
 ></object
-> does.  This section mentions how to create phonological features and associate them with phonemes in case you wish to use the <object
+> does. This section mentions how to create phonological features and associate them with phonemes in case you wish to use the <object
 type="HermitCrab"
 ></object
 >.</p
@@ -14233,12 +14237,12 @@ type="tMenuItem"
 ><li
 >If the dialog box does not have a feature you need, click on the <object
 type="tMenuItem"
->The phonological feature I need is not shown in the Catalog.  Create a custom phonological feature</object
+>The phonological feature I need is not shown in the Catalog. Create a custom phonological feature</object
 >.<ol
 ><li
 >Enter the name, abbreviation, and description of the phonological feature.</li
 ><li
->Edit the values if they are not correct.  You can add a new value by clicking on <object
+>Edit the values if they are not correct. You can add a new value by clicking on <object
 type="tMenuItem"
 >Values</object
 > and then clicking on <object
@@ -14253,7 +14257,7 @@ type="tMenuItem"
 >How to Create Phonological Features.</caption
 ></figure
 ><p
->Once you have created your phonological features, you can associate them with individual phonemes.  See <figureRef
+>Once you have created your phonological features, you can associate them with individual phonemes. See <figureRef
 figure="fAssociateFeaturesWithPhoneme"
 ></figureRef
 >.</p
@@ -14458,13 +14462,13 @@ id="sEnvironments"
 ><indexedItem
 term="iAlloEnvironments"
 ></indexedItem
->Once the set of phonemes and natural classes are defined for the language you are modeling, you can define environments for allomorphs. You can add them either in the environments editor or with a given lexeme form or allomorph.  To use the environments editor, use <object
+>Once the set of phonemes and natural classes are defined for the language you are modeling, you can define environments for allomorphs. You can add them either in the environments editor or with a given lexeme form or allomorph. To use the environments editor, use <object
 type="tMenuItem"
 >Grammar</object
 > / <object
 type="tMenuItem"
 >Environments</object
->.  To add an environment within a lexeme form or allomorph, click in the <object
+>. To add an environment within a lexeme form or allomorph, click in the <object
 type="tMenuItem"
 >Environments</object
 > field. (To see the <object
@@ -14473,7 +14477,7 @@ type="tMenuItem"
 > field, you may have to check the <object
 type="tMenuItem"
 >Show Hidden Fields</object
-> box.)  See the help files in <object
+> box.) See the help files in <object
 type="WordWorks"
 ></object
 > for more.</p
@@ -15657,7 +15661,7 @@ type="defaultParser"
 > of <object
 type="WordWorks"
 ></object
->?  See <figureRef
+>? See <figureRef
 figure="fPartialReduplicationHowTo"
 ></figureRef
 >. (See <sectionRef
@@ -16016,7 +16020,7 @@ type="tMenuItem"
 > field is the same as editing an <object
 type="tMenuItem"
 >Environments</object
-> field.  See <sectionRef
+> field. See <sectionRef
 sec="sEnvironments"
 ></sectionRef
 >.</li
@@ -16188,7 +16192,7 @@ type="defaultParser"
 > of <object
 type="WordWorks"
 ></object
->? The basic idea is to treat each vowel as an infix.  See <figureRef
+>? The basic idea is to treat each vowel as an infix. See <figureRef
 figure="fInfixationRootAndPatternHowTo"
 ></figureRef
 >. (See <sectionRef
@@ -16572,7 +16576,7 @@ type="WordWorks"
 >? Since this parser does not have any way to model processes, one must use allomorphy. For data like that in Caquinte, one would do what is shown in <figureRef
 figure="fMetathesisHowTo"
 ></figureRef
->.  (See <sectionRef
+>. (See <sectionRef
 sec="sHCPhonMetathesis"
 ></sectionRef
 > for how to write a metathesis rule using the <object
@@ -17303,7 +17307,7 @@ id="fxStemNamesHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Unless you have already done so, set up the needed inflection features.  See <figureRef
+>Unless you have already done so, set up the needed inflection features. See <figureRef
 figure="fInflectionFeaturesHowTo"
 ></figureRef
 >.</li
@@ -17891,7 +17895,7 @@ sec="sEnvironments"
 ></sectionRef
 >) will not work properly due to the fact that one must identify the exact morpheme, not merely its surface form. Other morphemes may well share the same form, but the allomorphy of the non-future does not occur with them. It is only with the perfect suffix and the first person object suffix.</p
 ></endnote
->  See <figureRef
+> See <figureRef
 figure="fAffixAlloFeats"
 ></figureRef
 >.</p
@@ -17901,7 +17905,7 @@ id="fAffixAlloFeats"
 framedtype="ftSample"
 ><ol
 ><li
->Add the appropriate inflectional features.  See <figureRef
+>Add the appropriate inflectional features. See <figureRef
 figure="fInflectionFeaturesHowTo"
 ></figureRef
 >.</li
@@ -17910,7 +17914,7 @@ figure="fInflectionFeaturesHowTo"
 ><li
 >Create an entry for each morpheme (assigning the inflectional affixes to the appropriate slots in the template).</li
 ><li
->Assign the appropriate inflectional features to those affixes which bear them.  See <figureRef
+>Assign the appropriate inflectional features to those affixes which bear them. See <figureRef
 figure="fInflectionFeaturesAffixesHowTo"
 ></figureRef
 >.</li
@@ -18660,7 +18664,7 @@ lang="lEng"
 >How does one create an allomorph-oriented ad hoc rule in <object
 type="WordWorks"
 ></object
->?  See <figureRef
+>? See <figureRef
 figure="fAdhocAlloHowTo"
 ></figureRef
 >.</p
@@ -18776,7 +18780,7 @@ type="WordWorks"
 ></object
 > model just does not happen to provide the appropriate linguistic mechanism to model the phenomenon correctly.</p
 ><p
->One can group such ad hoc rules together. How does one create such a group?  See <figureRef
+>One can group such ad hoc rules together. How does one create such a group? See <figureRef
 figure="fAdhocAlloGroupHowTo"
 ></figureRef
 >.</p
@@ -19231,7 +19235,7 @@ type="defaultParser"
 > of <object
 type="WordWorks"
 ></object
->?  See <figureRef
+>? See <figureRef
 figure="fCircumfixHowTo"
 ></figureRef
 > below. (See <sectionRef
@@ -21225,7 +21229,7 @@ id="sHCRegularRules"
 sec="sHCPhonMetathesis"
 textBefore="capitalizedSingular"
 ></sectionRef
-> discusses an example of a metathesis rule.  For how to add phonological features to <object
+> discusses an example of a metathesis rule. For how to add phonological features to <object
 type="WordWorks"
 ></object
 >, see <sectionRef
@@ -21744,7 +21748,7 @@ type="TT"
 >, and <object
 type="TT"
 >floating high</object
->.  See <sectionRef
+>. See <sectionRef
 sec="sPhonologicalFeatures"
 ></sectionRef
 > for how to do this.</li
@@ -22976,7 +22980,7 @@ id="fIndonesianNHowTo"
 framedtype="ftSample"
 ><ol
 ><li
->Create the phonological features to use.  See <sectionRef
+>Create the phonological features to use. See <sectionRef
 sec="sPhonologicalFeatures"
 ></sectionRef
 >.</li

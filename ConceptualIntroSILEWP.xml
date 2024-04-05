@@ -36,21 +36,40 @@ type="WordWorks"
 ><shortTitle
 >Parsing Conceptual Introduction</shortTitle
 ><author
->H. Andrew Black<endnote
-id="nJonathanCoombs"
-><p
->Thanks to Jonathan Coombs (personal communication, email of May 30, 2012) and Jenni Beadle (personal communication, email of February 22, 2024) for reviewing versions of this document and making many suggestions for improving it.</p
-></endnote
-></author
+>H. Andrew Black</author
 ><date
->18 March 2024</date
+>4 April 2024</date
 ><contents
 bookmarksShowLevel="5"
 showLevel="5"
 ></contents
 ><abstract
 ><p
->In order to be able to cover the morphology of most languages of the world, any computational morphological parser has to deal with many kinds of issues. This paper outlines them and then shows how one can model them using <object
+>In order to be able to cover the morphology of most languages of the world, any computational morphological parser has to deal with many kinds of issues. This paper outlines the ten most important ones. These are:</p
+><ol
+><li
+>Inflection</li
+><li
+>Derivation</li
+><li
+>Ambiguity</li
+><li
+>Epenthesis</li
+><li
+>Discontinuous morphemes</li
+><li
+>Infixation</li
+><li
+>Reduplication</li
+><li
+>Root and pattern morphology</li
+><li
+>Metathesis</li
+><li
+>Morphemes that may be null</li
+></ol
+><p
+>The paper then shows how one can model them using <object
 type="defaultParser"
 ></object
 > of <object
@@ -59,7 +78,7 @@ type="WordWorks"
 >. It also shows how to model them using the alternative <object
 type="HermitCrab"
 ></object
->.</p
+>. For both parsers, it illustrates them with real world data examples. It includes both a language and a subject index along with PDF Bookmarks for easier navigation.</p
 ></abstract
 ><preface
 label="Abbreviations"
@@ -9568,7 +9587,7 @@ type="WordWorks"
 >? One needs to perform the steps shown in <figureRef
 figure="fDerviationOutsideInflectionHowTo"
 ></figureRef
->.  (See <figureRef
+>. (See <figureRef
 figure="fNahuatlPossessorHowTo"
 textBefore="plural"
 ></figureRef
@@ -32000,7 +32019,7 @@ see="iNullAllomorph"
 ></indexTerms
 ></lingPaper
 ><xi:include
-href="SILEWPPaperAsBookStylesheet.xml"
+href="SILEWPPaperAsBookStylesheetPagesInContents.xml"
 xpointer="element(/1)"
 xmlns:xi="http://www.w3.org/2001/XInclude"
 ></xi:include

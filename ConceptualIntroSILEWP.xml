@@ -38,7 +38,7 @@ type="WordWorks"
 ><author
 >H. Andrew Black</author
 ><date
->4 April 2024</date
+>10 May 2024</date
 ><contents
 bookmarksShowLevel="5"
 showLevel="5"
@@ -17265,7 +17265,14 @@ term="iCategoryInflectableFeatures"
 >So what is this “something” in <object
 type="WordWorks"
 ></object
->? It is what we call Stem Names. Each Stem Name is defined in a particular category. Each Stem Name has one or more sets of inflection features associated with it. Whenever a stem allomorph is tagged with such a Stem Name, then the <object
+>? It is what we call Stem Names (see <citation
+page="55"
+ref="rBonamiBoye"
+></citation
+>, <citation
+ref="rHippisleyChCorBrown"
+></citation
+>). Each Stem Name is defined in a particular category. Each Stem Name has one or more sets of inflection features associated with it. Whenever a stem allomorph is tagged with such a Stem Name, then the <object
 type="WordWorks"
 ></object
 > parser will only allow that allomorph to be valid if one of the sets of inflection features is present.</p
@@ -29917,6 +29924,31 @@ id="rShipiboV2"
 ></refWork
 ></refAuthor
 ><refAuthor
+citename="Bonami &amp; Boyé"
+name="Bonami, Olivier and Gilles Boyé"
+><refWork
+id="rBonamiBoye"
+><refDate
+>2002</refDate
+><refTitle
+>Suppletion and dependency in inflectional morphology</refTitle
+><proceedings
+><procEd
+>Frank van Eynde, Lars Hellan and Dorothee Beermann</procEd
+><procTitle
+>Proceedings of the 8th International HPSG Conference, Norwegian University of Scie 10,nce and Technology (3-5 August 2001)</procTitle
+><procPages
+>51-70</procPages
+><publisher
+>CSLI Publications</publisher
+><url
+>https://www.researchgate.net/​publication/​2949350_​Suppletion_​and_​Dependency_​in_​Inflectional_​Morphology</url
+><dateAccessed
+>May 10, 2024</dateAccessed
+></proceedings
+></refWork
+></refAuthor
+><refAuthor
 citename="Coward"
 name="Coward, David Forrest"
 ><refWork
@@ -30008,6 +30040,29 @@ id="rHalleAndClements"
 ><publisher
 >Bradford</publisher
 ></book
+></refWork
+></refAuthor
+><refAuthor
+citename="Hippisley et al."
+name="Hippisley, Andrew, Marina Chumakina, Greville Corbett, and Dunstan Brown"
+><refWork
+id="rHippisleyChCorBrown"
+><refDate
+>2004</refDate
+><refTitle
+>Suppletion: Frequency, categories and distribution of stems</refTitle
+><article
+><jTitle
+>Studies in Language</jTitle
+><jVol
+>28</jVol
+><jIssueNumber
+>2</jIssueNumber
+><url
+>https://www.researchgate.net/​publication/​228916973_​Suppletion_​Frequency_​categories_​and_​distribution_​of_​stems</url
+><dateAccessed
+>May 10, 2024</dateAccessed
+></article
 ></refWork
 ></refAuthor
 ><refAuthor

@@ -38,7 +38,7 @@ type="WordWorks"
 ><author
 >H. Andrew Black</author
 ><date
->19 July 2024</date
+>16 September 2024</date
 ><contents
 bookmarksShowLevel="5"
 showLevel="5"
@@ -125,7 +125,12 @@ term="iMorphotactics"
 >morphotactics and <indexedItem
 term="iMorphophonemics"
 ></indexedItem
->morphophonemics. The first has to do with controlling which morphemes can co-occur with which other morphemes within a well-formed word. The second has to do with controlling the phonological shape of individual morphemes. (There are two other main sections; one deals with some issues related to lexical entries and the other to special considerations related to using compound rules.)</p
+>morphophonemics. The first has to do with controlling which morphemes can co-occur with which other morphemes within a well-formed word. The second has to do with controlling the phonological shape<endnote
+id="nPhonlogicalShape"
+><p
+>In this document, “phonological shape” and “surface form” are synonymous.</p
+></endnote
+> of individual morphemes. (There are two other main sections; one deals with some issues related to lexical entries and the other to special considerations related to using compound rules.)</p
 ><p
 ><indexedItem
 term="iPhonologicalRules"
@@ -2351,7 +2356,7 @@ type="WordWorks"
 >Note that for words which consist solely of a single morpheme, there are no special morphotactic considerations. One merely adds appropriate lexical entries for these and ensures that the morpheme type of the allomorph(s)<endnote
 id="nAllomorphVsForm"
 ><p
->We use the term “allomorph” here as a cover term for any form in a lexical entry.</p
+>We use the term “allomorph” here as a cover term for any form in a lexical entry.  Typically, a lexical entry contains a single morpheme.  Some morphemes have more than one allomorph.</p
 ></endnote
 > in the entry is(are) set to a root or stem type.</p
 ><p

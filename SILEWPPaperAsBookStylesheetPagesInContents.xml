@@ -528,7 +528,7 @@ textalign="center"
 ><referencesTitleLayout
 font-size="14pt"
 font-weight="bold"
-pagebreakbefore="yes"
+pagebreakbefore="no"
 spaceafter="12pt"
 spacebefore="24pt"
 textalign="center"
@@ -626,6 +626,9 @@ doubleColumnSeparation=".5in"
 useDoubleColumns="yes"
 useEqualSignsColumn="no"
 ></abbreviationsInTableLayout
+><footnoteLayout
+linkNumberToText="yes"
+></footnoteLayout
 ></contentLayout
 ></publisherStyleSheet
 >

@@ -38,7 +38,7 @@ type="WordWorks"
 ><author
 >H. Andrew Black</author
 ><date
->16 September 2024</date
+>19 June 2025</date
 ><contents
 bookmarksShowLevel="5"
 showLevel="5"
@@ -2356,7 +2356,7 @@ type="WordWorks"
 >Note that for words which consist solely of a single morpheme, there are no special morphotactic considerations. One merely adds appropriate lexical entries for these and ensures that the morpheme type of the allomorph(s)<endnote
 id="nAllomorphVsForm"
 ><p
->We use the term “allomorph” here as a cover term for any form in a lexical entry.  Typically, a lexical entry contains a single morpheme.  Some morphemes have more than one allomorph.</p
+>We use the term “allomorph” here as a cover term for any form in a lexical entry. Typically, a lexical entry contains a single morpheme. Some morphemes have more than one allomorph.</p
 ></endnote
 > in the entry is(are) set to a root or stem type.</p
 ><p
@@ -10438,8 +10438,11 @@ sec="sCompoundIncorporation"
 >), issues relating to compounding when stems contain affixes (<sectionRef
 sec="sCompoundInterfixes"
 ></sectionRef
->), and issues relating to the organization of categories (<sectionRef
+>), issues relating to the organization of categories (<sectionRef
 sec="sCompoundPOS"
+></sectionRef
+>), and issues relating to controlling the productivity of compound rules (<sectionRef
+sec="sCompounfProdRestrict"
 ></sectionRef
 >).</p
 ><section2
@@ -11852,7 +11855,7 @@ equal="no"
 letterOnly="no"
 num="xWancaWasin-wasin"
 ></exampleRef
->, we must give it a morpheme type of “suffixing interfix”. This tells the <object
+>, we must give it a morpheme type of “suffixing interfix.” This tells the <object
 type="WordWorks"
 ></object
 > parser that this suffix can appear either as a “regular” suffix (merely after a root) or as a suffix before another root in a compound. Note that it is the leftmost instance of ‑<langData
@@ -11989,6 +11992,441 @@ type="category"
 begin="bCompounding"
 ></indexedRangeEnd
 >.</p
+></section2
+><section2
+id="sCompounfProdRestrict"
+><secTitle
+>Restricting the productivity of a compound rule</secTitle
+><p
+><indexedItem
+term="iCompoundProdRestricts"
+></indexedItem
+>Sometimes merely specifying the categories of the left and right members of a compound opens the door for many unwanted parses. For example, consider the following data from <indexedItem
+term="iKet"
+></indexedItem
+>Ket <object
+type="tISOCode"
+>ket</object
+>.<endnote
+id="nKet"
+><p
+>The Ket data are from a personal email from Alexandre Arkhipov dated June 4, 2025.</p
+></endnote
+></p
+><p
+>The nominal compound in example <exampleRef
+letter="xKetFishSoup"
+num="xKetFishSoup"
+></exampleRef
+> is licit as are many other nominal compounds.</p
+><example
+num="xKetFishSoup"
+><interlinear
+><lineGroup
+><line
+><wrd
+><langData
+lang="lKet"
+>ís</langData
+></wrd
+><wrd
+><langData
+lang="lKet"
+>al</langData
+></wrd
+></line
+><line
+><wrd
+><langData
+lang="lKet"
+>īs</langData
+></wrd
+><wrd
+><langData
+lang="lKet"
+>āl</langData
+></wrd
+></line
+><line
+><wrd
+><gloss
+lang="lGloss"
+>fish</gloss
+></wrd
+><wrd
+><gloss
+lang="lGloss"
+>soup</gloss
+></wrd
+></line
+><line
+><wrd
+><gloss
+lang="lGlossCatOnly"
+><object
+type="category"
+>noun</object
+></gloss
+></wrd
+><wrd
+><gloss
+lang="lGlossCatOnly"
+><object
+type="category"
+>noun</object
+></gloss
+></wrd
+></line
+></lineGroup
+><free
+>fish soup</free
+></interlinear
+></example
+><p
+>There are cases, however, where a nominal compound is given as a parse when it is not licit. For example, the word<langData
+lang="lKet"
+> áses</langData
+> could give the three parses shown in example <exampleRef
+letter="xKetWhatKind"
+num="xKetWhatKind"
+></exampleRef
+>.</p
+><example
+num="xKetWhatKind"
+><listInterlinear
+letter="xKetWatKindAdj"
+><lineGroup
+><line
+><wrd
+><langData
+lang="lKet"
+>áses</langData
+></wrd
+></line
+><line
+><wrd
+><langData
+lang="lKet"
+>áses</langData
+></wrd
+></line
+><line
+><wrd
+><gloss
+lang="lGloss"
+>what.kind</gloss
+></wrd
+></line
+><line
+><wrd
+><gloss
+lang="lGlossCatOnly"
+><object
+type="category"
+>adjective</object
+></gloss
+></wrd
+></line
+></lineGroup
+><free
+>what kind</free
+></listInterlinear
+><listInterlinear
+letter="xKetWhatKindBad1"
+><lineGroup
+><line
+><wrd
+><langData
+lang="lKet"
+>ā</langData
+></wrd
+><wrd
+><langData
+lang="lKet"
+>sēs</langData
+></wrd
+></line
+><line
+><wrd
+><langData
+lang="lKet"
+>a</langData
+></wrd
+><wrd
+><langData
+lang="lKet"
+>sēs̄</langData
+></wrd
+></line
+><line
+><wrd
+><gloss
+lang="lGloss"
+>heat</gloss
+></wrd
+><wrd
+><gloss
+lang="lGloss"
+>river</gloss
+></wrd
+></line
+><line
+><wrd
+><gloss
+lang="lGlossCatOnly"
+><object
+type="category"
+>noun</object
+></gloss
+></wrd
+><wrd
+><gloss
+lang="lGlossCatOnly"
+><object
+type="category"
+>noun</object
+></gloss
+></wrd
+></line
+></lineGroup
+><free
+>*</free
+></listInterlinear
+><listInterlinear
+letter="xKetWhatKindBad2"
+><lineGroup
+><line
+><wrd
+><langData
+lang="lKet"
+>ā</langData
+></wrd
+><wrd
+><langData
+lang="lKet"
+>seˀs</langData
+></wrd
+></line
+><line
+><wrd
+><langData
+lang="lKet"
+>a</langData
+></wrd
+><wrd
+><langData
+lang="lKet"
+>seˀs̄</langData
+></wrd
+></line
+><line
+><wrd
+><gloss
+lang="lGloss"
+>heat</gloss
+></wrd
+><wrd
+><gloss
+lang="lGloss"
+>larch</gloss
+></wrd
+></line
+><line
+><wrd
+><gloss
+lang="lGlossCatOnly"
+><object
+type="category"
+>noun</object
+></gloss
+></wrd
+><wrd
+><gloss
+lang="lGlossCatOnly"
+><object
+type="category"
+>noun</object
+></gloss
+></wrd
+></line
+></lineGroup
+><free
+>*</free
+></listInterlinear
+></example
+><p
+>Only the first one is a valid analysis. What can one do in such a situation?</p
+><p
+>One solution is to use what we call exception “features” (see <sectionRef
+sec="sProductivityRestrictions"
+></sectionRef
+>). The idea is to require that a stem filling the left and/or right member of a compound rule must not only need to be of a specified category, but must also have at least one of any of these exception “features”<endnote
+id="nExceptionFeatureCZompoundDefn"
+><p
+>The way we have implemented these in <object
+type="WordWorks"
+></object
+> is to create a separate list for these objects. Technically, these are not true features. Internally, we are calling these “productivity restrictions” because they restrict the productivity of a compound rule.</p
+></endnote
+> associated with that member.</p
+><p
+>For example, to deal with the situation in examples <exampleRef
+letter="xKetFishSoup"
+num="xKetFishSoup"
+paren="initial"
+></exampleRef
+>–<exampleRef
+letter="xKetWhatKind"
+letterOnly="yes"
+num="xKetWhatKind"
+paren="final"
+></exampleRef
+>, we follow the steps outlined in <figureRef
+figure="fExceptionFeaturesConpoundsHowTo"
+></figureRef
+>. We might create an exception “feature” called “Right-headed nominal compound” and then tag the right member of the nominal compound rule to require this exception “feature.” We then set the <langData
+lang="lKet"
+>āl</langData
+> <gloss
+lang="lGloss"
+>soup</gloss
+> stem to have this exception “feature.” When the <object
+type="WordWorks"
+></object
+> parser tries the nominal compound rule with the <langData
+lang="lKet"
+>īs</langData
+> <gloss
+lang="lGloss"
+>fish</gloss
+> stem on the left and the <langData
+lang="lKet"
+>āl</langData
+> <gloss
+lang="lGloss"
+>soup</gloss
+> stem on the right, the compound will succeed. The compounds in <exampleRef
+letter="xKetWhatKindBad1"
+num="xKetWhatKindBad1"
+paren="initial"
+></exampleRef
+>–<exampleRef
+letter="xKetWhatKindBad2"
+letterOnly="yes"
+num="xKetWhatKindBad2"
+paren="final"
+></exampleRef
+>, however, will fail because neither <langData
+lang="lKet"
+>sēs̄</langData
+> <gloss
+lang="lGloss"
+>river</gloss
+> nor <langData
+lang="lKet"
+>seˀs̄</langData
+> <gloss
+lang="lGloss"
+>larch</gloss
+> have this exception “feature.”</p
+><p
+>To reiterate: a member of a given compound rule can have more than one exception “feature” associated with it. When the <object
+type="WordWorks"
+></object
+> parser tries a given stem in that member's position of the compound rule, that stem must have at least one of those exception “features” for the rule to successfully apply. The stem does not have to have all of the exception “features,” just one.</p
+><figure
+id="fExceptionFeaturesConpoundsHowTo"
+><framedUnit
+framedtype="ftSample"
+><ol
+><li
+>If necessary, create the exception “feature.” We recommend you give as meaningful a description as you are able.<ol
+><li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Exception “Features.”</object
+></li
+><li
+>Use <object
+type="tMenuItem"
+>Insert</object
+> menu item / <object
+type="tMenuItem"
+>Exception “Feature.”</object
+></li
+><li
+>Enter name, abbreviation, and description.</li
+></ol
+></li
+><li
+>Tag the compound rule member with that exception “feature.”<ol
+><li
+>Use <object
+type="tMenuItem"
+>Grammar</object
+> / <object
+type="tMenuItem"
+>Compound Rules</object
+>.</li
+><li
+>To see the <object
+type="tMenuItem"
+>Exception “Features”</object
+> fields, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>Exception “Features”</object
+> field.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, check the box for each appropriate exception “feature.”</li
+></ol
+></li
+><li
+>For each root or stem that can be a part of this compound rule, tag the root or stem with the exception “feature.”<ol
+><li
+>Use <object
+type="tMenuItem"
+>Lexicon</object
+> / <object
+type="tMenuItem"
+>Lexicon Edit</object
+>.</li
+><li
+>To see the <object
+type="tMenuItem"
+>Exception “Features”</object
+> field, you may have to check the <object
+type="tMenuItem"
+>Show Hidden Fields</object
+> box.</li
+><li
+>Click in the <object
+type="tMenuItem"
+>Exception “Features”</object
+> field under <object
+type="tMenuItem"
+>Grammatical Info. Details</object
+>.</li
+><li
+>Click on the chooser button.</li
+><li
+>In the ensuing dialog box, check the box for each appropriate exception “feature.”</li
+></ol
+></li
+></ol
+></framedUnit
+><caption
+>How to Create and Use Exception “Features” in Compound Rules</caption
+></figure
 ></section2
 ></section1
 ><section1
@@ -12682,6 +13120,19 @@ type="WordWorks"
 figure="fCliticHowTo"
 ></figureRef
 >.</p
+><p
+><object
+type="WordWorks"
+></object
+> will do the rest: such morphemes will be allowed to appear at the end (for enclitics which attach) or at the beginning (for proclitics which attach) of words. More than one clitic may appear on a single word. There is no ordering restriction between sequences of attached clitics (other than ad hoc rules; see <sectionRef
+sec="sAdhocMorphProhibitions"
+textBefore="plural"
+></sectionRef
+> and <sectionRef
+sec="sAdhocAlloProhibitions"
+textBefore="none"
+></sectionRef
+>).</p
 ><figure
 id="fCliticHowTo"
 ><framedUnit
@@ -12724,19 +13175,6 @@ type="tMenuItem"
 ><caption
 >How to Create a Clitic.</caption
 ></figure
-><p
-><object
-type="WordWorks"
-></object
-> will do the rest: such morphemes will be allowed to appear at the end (for enclitics which attach) or at the beginning (for proclitics which attach) of words. More than one clitic may appear on a single word. There is no ordering restriction between sequences of attached clitics (other than ad hoc rules; see <sectionRef
-sec="sAdhocMorphProhibitions"
-textBefore="plural"
-></sectionRef
-> and <sectionRef
-sec="sAdhocAlloProhibitions"
-textBefore="none"
-></sectionRef
->).</p
 ><p
 >A final note: if your orthographic convention permits several clitics to be written together as a single word (where every morpheme in that orthographic word is a clitic of some kind), then only one of the clitics may be marked as <object
 type="MorphemeType"
@@ -12805,7 +13243,10 @@ id="nAdhocMorphHowTo"
 >One approach to this is to strive to make the tightest constraint possible (i.e., use one of the adjacency ways first if possible; if not, then try the somewhere case; if that does not work, then try the anywhere case). That way, should you encounter another case involving these particular morphemes, then you will know more: it is now clear that you need looser constraints. You can then add some comments/annotations to document what you have learned (or put the information in the description).</p
 ></endnote
 ></p
+><p
+>Note that when there are two or more morphemes listed for “other morphemes,” the rule only applies when all of them co-occur in the same word with the key morpheme. In addition, their relative order is significant. They should be listed in the same linear order they occur in a word.</p
 ><tablenumbered
+XeLaTeXSpecial="pagebreak"
 id="ntAdhocMorphAdjacency"
 ><table
 border="1"
@@ -12874,8 +13315,6 @@ valign="top"
 ></table
 ></tablenumbered
 ><p
->Note that when there are two or more morphemes listed for “other morphemes,” the rule only applies when all of them co-occur in the same word with the key morpheme. In addition, their relative order is significant. They should be listed in the same linear order they occur in a word.</p
-><p
 >How does one create a morpheme-oriented ad hoc rule in <object
 type="WordWorks"
 ></object
@@ -12896,28 +13335,7 @@ term="iAdhocGroup"
 type="WordWorks"
 ></object
 > model just does not happen to provide the appropriate linguistic mechanism to model the phenomenon correctly.</p
-><p
-><indexedItem
-term="iYalalagZapotec"
-></indexedItem
->Yalálag Zapotec dependent pronominal suffixes exemplify such a situation (see <citation
-author="yes"
-page="9"
-paren="none"
-ref="rYalalagVerbBook"
-></citation
->). In Yalálag Zapotec, a verb may have both a subject and an object person suffix on it. Being a <abbrRef
-abbr="vVSO"
-></abbrRef
-> language, the subject occurs before the object. What is different here is that there is a <indexedItem
-term="iPronominalHierarchy"
-></indexedItem
->pronominal hierarchy among these dependent pronominal suffixes. Given the subject suffix, the only dependent object suffixes which may follow are those that are lower down on the person hierarchy. This is illustrated in <tablenumberedRef
-table="ntYalalagPronominalHierarchy"
-></tablenumberedRef
->.</p
 ><figure
-XeLaTeXSpecial="pagebreak"
 id="fAdhocMorphHowTo"
 ><framedUnit
 framedtype="ftSample"
@@ -13010,6 +13428,26 @@ type="tMenuItem"
 ><caption
 >How to Create a Morpheme-oriented Ad Hoc Rule.</caption
 ></figure
+><p
+><indexedItem
+term="iYalalagZapotec"
+></indexedItem
+>Yalálag Zapotec dependent pronominal suffixes exemplify such a situation (see <citation
+author="yes"
+page="9"
+paren="none"
+ref="rYalalagVerbBook"
+></citation
+>). In Yalálag Zapotec, a verb may have both a subject and an object person suffix on it. Being a <abbrRef
+abbr="vVSO"
+></abbrRef
+> language, the subject occurs before the object. What is different here is that there is a <indexedItem
+term="iPronominalHierarchy"
+></indexedItem
+>pronominal hierarchy among these dependent pronominal suffixes. Given the subject suffix, the only dependent object suffixes which may follow are those that are lower down on the person hierarchy. This is illustrated in <tablenumberedRef
+table="ntYalalagPronominalHierarchy"
+></tablenumberedRef
+>.</p
 ><tablenumbered
 id="ntYalalagPronominalHierarchy"
 ><table
@@ -14124,7 +14562,6 @@ figure="fPhonemesHowTo"
 ></figureRef
 >.</p
 ><figure
-XeLaTeXSpecial="pagebreak"
 id="fPhonemesHowTo"
 ><framedUnit
 framedtype="ftSample"
@@ -14202,7 +14639,7 @@ num="xInitialSetOfPhonemes"
 ></exampleRef
 >,<ol
 ><li
->Edit the name (or "Refer to as"), description, and graphemes if need be.</li
+>Edit the name (or “Refer to as”), description, and graphemes if need be.</li
 ><li
 >Add any new graphemes needed.</li
 ></ol
@@ -14514,7 +14951,6 @@ figure="fEnvironmentsHowTo"
 ></figureRef
 >.</p
 ><figure
-XeLaTeXSpecial="pagebreak"
 id="fEnvironmentsHowTo"
 ><framedUnit
 framedtype="ftSample"
@@ -14594,7 +15030,18 @@ table="ntEnvironmentExamples"
 textBefore="capitalizedSingular"
 ></tablenumberedRef
 > gives some sample environments along with what they mean.</p
+><p
+>A given allomorph may have more than one environment, in which case the various environments are logically ORed with each other. That is, if any one of the environments for the allomorph are found, then the allomorph is considered to be valid (as far as its environments are concerned). For example, if a given allomorph can appear either before a consonant or word finally, then you can list both an environment for “before a consonant” and one for “before a word boundary.” Example <exampleRef
+equal="no"
+letterOnly="no"
+num="xSyllableFinalEnvironment"
+></exampleRef
+> shows what this might look like, assuming that you have a natural class of consonants with an abbreviation of <object
+type="TT"
+>C</object
+>.</p
 ><tablenumbered
+XeLaTeXSpecial="pagebreak"
 id="ntEnvironmentExamples"
 ><table
 border="1"
@@ -14873,16 +15320,6 @@ type="TT"
 ></tr
 ></table
 ></tablenumbered
-><p
->A given allomorph may have more than one environment, in which case the various environments are logically ORed with each other. That is, if any one of the environments for the allomorph are found, then the allomorph is considered to be valid (as far as its environments are concerned). For example, if a given allomorph can appear either before a consonant or word finally, then you can list both an environment for “before a consonant” and one for “before a word boundary.” Example <exampleRef
-equal="no"
-letterOnly="no"
-num="xSyllableFinalEnvironment"
-></exampleRef
-> shows what this might look like, assuming that you have a natural class of consonants with an abbreviation of <object
-type="TT"
->C</object
->.</p
 ><example
 num="xSyllableFinalEnvironment"
 ><table
@@ -16079,7 +16516,8 @@ id="sInfixationEnvironments"
 ><indexedItem
 term="iEnvInfix"
 ></indexedItem
->Infix environments describe the location within the sequence of characters where the infix is to go.<endnote
+>Infix environments describe the location within the sequence of characters where the infix is to go.<comment
+>Footnote leaves a line on next page<endnote
 id="nInfixEnvironments"
 ><p
 >The notation used for these infix environments is the same notation as used for infixes in <indexedItem
@@ -16087,6 +16525,7 @@ term="iXAmple"
 ></indexedItem
 >AMPLE.</p
 ></endnote
+></comment
 > For example, in <exampleRef
 equal="no"
 letterOnly="no"
@@ -17914,22 +18353,6 @@ letter="xAxinincaCutNonFuturePerf1Obj"
 num="xAxinincaCutNonFuturePerf1Obj"
 ></exampleRef
 >.</p
-><p
->How does one model such allomorphy in <object
-type="WordWorks"
-></object
->? Since only allomorphy is available, one must create allomorphs for both forms of the non-future suffix and condition them to co-occur with the appropriate set of features.<endnote
-id="nAffixAlloFeatsEnvironments"
-><p
->In cases like Axininca Campa, merely using environments (see <sectionRef
-sec="sEnvironments"
-></sectionRef
->) will not work properly due to the fact that one must identify the exact morpheme, not merely its surface form. Other morphemes may well share the same form, but the allomorphy of the non-future does not occur with them. It is only with the perfect suffix and the first person object suffix.</p
-></endnote
-> See <figureRef
-figure="fAffixAlloFeats"
-></figureRef
->.</p
 ><figure
 id="fAffixAlloFeats"
 ><framedUnit
@@ -17979,6 +18402,22 @@ type="tMenuItem"
 ><caption
 >How to Create Feature-Dependent Affixes.</caption
 ></figure
+><p
+>How does one model such allomorphy in <object
+type="WordWorks"
+></object
+>? Since only allomorphy is available, one must create allomorphs for both forms of the non-future suffix and condition them to co-occur with the appropriate set of features.<endnote
+id="nAffixAlloFeatsEnvironments"
+><p
+>In cases like Axininca Campa, merely using environments (see <sectionRef
+sec="sEnvironments"
+></sectionRef
+>) will not work properly due to the fact that one must identify the exact morpheme, not merely its surface form. Other morphemes may well share the same form, but the allomorphy of the non-future does not occur with them. It is only with the perfect suffix and the first person object suffix.</p
+></endnote
+> See <figureRef
+figure="fAffixAlloFeats"
+></figureRef
+>.</p
 ><p
 >For the Axininca Campa data above, the verbal inflection features are for perfect aspect and for first person object agreement. We would need to create the appropriate inflectional suffixes and assign perfect aspect to the perfect ‑<langData
 lang="lAxinincaCampa"
@@ -18419,6 +18858,7 @@ figure="fCoalescence"
 ></figureRef
 >.</p
 ><figure
+XeLaTeXSpecial="pagebreak"
 id="fCoalescence"
 ><framedUnit
 framedtype="ftSample"
@@ -18691,14 +19131,6 @@ lang="lEng"
 lang="lEng"
 >molt</langData
 >.</p
-><p
->How does one create an allomorph-oriented ad hoc rule in <object
-type="WordWorks"
-></object
->? See <figureRef
-figure="fAdhocAlloHowTo"
-></figureRef
->.</p
 ><figure
 id="fAdhocAlloHowTo"
 ><framedUnit
@@ -18792,6 +19224,14 @@ type="tMenuItem"
 ><caption
 >How to Create Allomorph-oriented Ad Hoc Rules.</caption
 ></figure
+><p
+>How does one create an allomorph-oriented ad hoc rule in <object
+type="WordWorks"
+></object
+>? See <figureRef
+figure="fAdhocAlloHowTo"
+></figureRef
+>.</p
 ><p
 >By the way, when you are indicating the allomorph, be sure that the particular allomorph is for the correct morpheme, too. <object
 type="WordWorks"
@@ -20939,6 +21379,7 @@ type="TT"
 ><p
 >We could also simplify the inflectional template to look like this:</p
 ><tablenumbered
+XeLaTeXSpecial="pagebreak"
 id="ntSiltiTemplate-1a"
 ><table
 align="center"
@@ -22323,7 +22764,6 @@ abbr="vAV"
 ></lineGroup
 ></listInterlinear
 ><listInterlinear
-XeLaTeXSpecial="pagebreak"
 letter="xIndonesianMengolah"
 ><lineGroup
 ><line
@@ -22674,7 +23114,6 @@ abbr="vAV"
 ></lineGroup
 ></listInterlinear
 ><listInterlinear
-XeLaTeXSpecial="pagebreak"
 letter="xIndonesianMengirim"
 ><lineGroup
 ><line
@@ -23010,7 +23449,10 @@ type="HermitCrab"
 figure="fIndonesianNHowTo"
 ></figureRef
 >.</p
+><p
+>How might we do the first step? Given that there appear to be some orthographic conventions employed in the practical orthography, one way to deal with some of the unusual assimilations is to create a special “orthographic place” feature and assign the phonemes to use the place involved in the practical orthography.</p
 ><figure
+XeLaTeXSpecial="pagebreak"
 id="fIndonesianNHowTo"
 ><framedUnit
 framedtype="ftSample"
@@ -23031,8 +23473,6 @@ sec="sPhonologicalFeatures"
 ><caption
 >How to Handle the Unspecified Nasal in Indonesian.</caption
 ></figure
-><p
->How might we do the first step? Given that there appear to be some orthographic conventions employed in the practical orthography, one way to deal with some of the unusual assimilations is to create a special “orthographic place” feature and assign the phonemes to use the place involved in the practical orthography.</p
 ><p
 >In addition, there is the problem with the segments that delete as illustrated above in <exampleRef
 letter="xIndonesianMengPTK"
@@ -30482,6 +30922,11 @@ color="green"
 id="lGloss"
 ></language
 ><language
+color="red"
+font-family="Courier New"
+id="lGlossCatOnly"
+></language
+><language
 color="blue"
 font-family="Galatia SIL"
 id="lGreek"
@@ -30498,6 +30943,10 @@ id="lIsthmus"
 color="blue"
 font-family="Courier New"
 id="lKaron"
+></language
+><language
+color="blue"
+id="lKet"
 ></language
 ><language
 color="blue"
@@ -31136,6 +31585,11 @@ see="iCompHeaded"
 >Endocentric Compound</term
 ></indexTerm
 ><indexTerm
+id="iCompoundProdRestricts"
+><term
+>Exception “features” in</term
+></indexTerm
+><indexTerm
 id="iComopExocentric"
 see="iCompNonheaded"
 ><term
@@ -31514,6 +31968,12 @@ id="iItemAndArrangement"
 id="iItemAndProcess"
 ><term
 >Item and Process</term
+></indexTerm
+><indexTerm
+id="iKet"
+kind="language"
+><term
+>Ket</term
 ></indexTerm
 ><indexTerm
 id="iLatin"

@@ -38,7 +38,7 @@ type="WordWorks"
 ><author
 >H. Andrew Black</author
 ><date
->19 June 2025</date
+>3 July 2025</date
 ><contents
 bookmarksShowLevel="5"
 showLevel="5"
@@ -17709,14 +17709,26 @@ term="iCategoryInflectableFeatures"
 >So what is this “something” in <object
 type="WordWorks"
 ></object
->? It is what we call Stem Names (see <citation
+>? It is what we call <object
+type="StemName"
+></object
+>s (see <citation
 page="55"
 ref="rBonamiBoye"
 ></citation
 >, <citation
 ref="rHippisleyChCorBrown"
 ></citation
->). Each Stem Name is defined in a particular category. Each Stem Name has one or more sets of inflection features associated with it. Whenever a stem allomorph is tagged with such a Stem Name, then the <object
+> where they are referred to as “stem names”). Each <object
+type="StemName"
+></object
+> is defined in a particular category. Each <object
+type="StemName"
+></object
+> has one or more sets of inflection features associated with it. Whenever a stem allomorph is tagged with such a <object
+type="StemName"
+></object
+>, then the <object
 type="WordWorks"
 ></object
 > parser will only allow that allomorph to be valid if one of the sets of inflection features is present.</p
@@ -17725,7 +17737,10 @@ type="WordWorks"
 letter="xNahuatlStemName"
 num="xNahuatlStemName"
 ></exampleRef
->, we could define a Stem Name of, say, <object
+>, we could define a <object
+type="StemName"
+></object
+> of, say, <object
 type="TT"
 >Truncates</object
 > and then make at least one feature set. But how many feature sets would we need? Remember that the truncated allomorph occurs whenever the word is past tense, pluperfect, durative, or has one of the special aspectuals. Suppose we made one feature set and put all four of these features in it. This would mean that the truncated allomorph would only be valid when the word had all four features. But that never happens because some of these features are mutually exclusive. This means we would need as many feature sets as there are mutually exclusive features. In this Nahuatl case, we would need to give it four feature sets, one each for the past tense, pluperfect, durative, and the special aspectuals. Then in the lexical entry for <langData
@@ -17734,7 +17749,10 @@ lang="lNahuatl"
 > we would add an allomorph of <langData
 lang="lNahuatl"
 >nek</langData
-> and tag it as belonging to the Stem Name <object
+> and tag it as belonging to the <object
+type="StemName"
+></object
+> <object
 type="TT"
 >Truncates</object
 >.</p
@@ -17748,7 +17766,10 @@ lang="lNahuatl"
 > allomorph with the <object
 type="TT"
 >Truncates</object
-> Stem Name so we do not need to do anything to tag the <langData
+> <object
+type="StemName"
+></object
+> so we do not need to do anything to tag the <langData
 lang="lNahuatl"
 >neki</langData
 > allomorph. The <object
@@ -17760,9 +17781,21 @@ lang="lNahuatl"
 > allomorph so that it will not occur with any of the inflection features defined in the <object
 type="TT"
 >Truncates</object
-> Stem Name. Similarly, if a lexical entry has three allomorphs, two of which need to be tagged with distinct Stem Names, then the third, untagged, one will automatically be constrained to never occur with any of the feature sets defined for the other two Stem Names associated with the other two allomorphs in that entry.</p
+> <object
+type="StemName"
+></object
+>. Similarly, if a lexical entry has three allomorphs, two of which need to be tagged with distinct <object
+type="StemName"
+></object
+>s, then the third, untagged, one will automatically be constrained to never occur with any of the feature sets defined for the other two <object
+type="StemName"
+></object
+>s associated with the other two allomorphs in that entry.</p
 ><p
->How does one create and use a Stem Name in <object
+>How does one create and use a <object
+type="StemName"
+></object
+> in <object
 type="WordWorks"
 ></object
 >? See <figureRef
@@ -17782,10 +17815,19 @@ figure="fInflectionFeaturesHowTo"
 ></figureRef
 >.</li
 ><li
->Create a Stem Name in the appropriate category (<indexedItem
+>Create a <object
+type="StemName"
+></object
+> in the appropriate category (<indexedItem
 term="iCategoryHierarchy"
 ></indexedItem
->sub-categories will inherit any Stem Names which their parent categories have, so you will probably want to create the Stem Name on the highest level category).<ol
+>sub-categories will inherit any <object
+type="StemName"
+></object
+>s which their parent categories have, so you will probably want to create the <object
+type="StemName"
+></object
+> on the highest level category).<ol
 ><li
 >Use <object
 type="tMenuItem"
@@ -17797,17 +17839,29 @@ type="tMenuItem"
 ><li
 >Click on <object
 type="tMenuItem"
->Stem Names</object
+><object
+type="StemName"
+></object
+>s</object
 >.</li
 ><li
 >Click on <object
 type="tMenuItem"
->Insert Stem Name</object
+>Insert <object
+type="StemName"
+></object
+></object
 >.</li
 ><li
->Give the Stem Name a name, abbreviation, and description.</li
+>Give the <object
+type="StemName"
+></object
+> a name, abbreviation, and description.</li
 ><li
->Create the sets of inflection features that are relevant to this Stem Name. That is, create one feature set for each mutually exclusive set of features that go on words in which this allomorph occurs.<ol
+>Create the sets of inflection features that are relevant to this <object
+type="StemName"
+></object
+>. That is, create one feature set for each mutually exclusive set of features that go on words in which this allomorph occurs.<ol
 ><li
 >Click in the <object
 type="tMenuItem"
@@ -17822,11 +17876,20 @@ type="tMenuItem"
 ></ol
 ></li
 ><li
->Tag all appropriate stem allomorphs with the Stem Name. (Remember that you do not need to tag the other allomorphs unless they, too, have a limited set of inflection features. In this latter case, you will need to define yet another Stem Name for them.)<ol
+>Tag all appropriate stem allomorphs with the <object
+type="StemName"
+></object
+>. (Remember that you do not need to tag the other allomorphs unless they, too, have a limited set of inflection features. In this latter case, you will need to define yet another <object
+type="StemName"
+></object
+> for them.)<ol
 ><li
 >To see the <object
 type="tMenuItem"
->Stem Name</object
+><object
+type="StemName"
+></object
+></object
 > field, you may have to check the <object
 type="tMenuItem"
 >Show Hidden Fields</object
@@ -17834,25 +17897,37 @@ type="tMenuItem"
 ><li
 >Click on the <object
 type="tMenuItem"
->Stem Name</object
+><object
+type="StemName"
+></object
+></object
 > field.</li
 ><li
 >Click on the chooser button.</li
 ><li
->In the ensuing dialog box, select the stem name.</li
+>In the ensuing dialog box, select the <object
+type="StemName"
+></object
+>.</li
 ></ol
 ></li
 ><li
 >Make sure that you have at least one <indexedItem
 term="iInflectionalTemplate"
 ></indexedItem
->inflectional template defined for the category (or categories) that use stem names.<endnote
+>inflectional template defined for the category (or categories) that use <object
+type="StemName"
+></object
+>s.<endnote
 id="nStemNamesNeedInflectionalTemplate"
 ><p
 >The <object
 type="WordWorks"
 ></object
-> parser will only be able to correctly constrain stem allomorphs tagged with a stem name if an <indexedItem
+> parser will only be able to correctly constrain stem allomorphs tagged with a <object
+type="StemName"
+></object
+> if an <indexedItem
 term="iInflectionalTemplate"
 ></indexedItem
 >inflectional template has been defined which has <indexedItem
@@ -17867,15 +17942,27 @@ sec="sInflectionalAffixes"
 ></ol
 ></framedUnit
 ><caption
->How to Create and Use Stem Names.</caption
+>How to Create and Use <object
+type="StemName"
+></object
+>s.</caption
 ></figure
 ><p
->To summarize, one should use Stem Names to control stem allomorphy that is dependent not on phonological issues, but on the presence of certain inflection features. Note that Stem Names can only be used for stem allomorphs (not affix allomorphs).</p
+>To summarize, one should use <object
+type="StemName"
+></object
+>s to control stem allomorphy that is dependent not on phonological issues, but on the presence of certain inflection features. Note that <object
+type="StemName"
+></object
+>s can only be used for stem allomorphs (not affix allomorphs).</p
 ><p
 >Finally, note that <indexedItem
 term="iDerivationalAffix"
 ></indexedItem
->derivational affixes may also be constrained to only occur with a particular Stem Name.<comment
+>derivational affixes may also be constrained to only occur with a particular <object
+type="StemName"
+></object
+>.<comment
 ><endnote
 id="nStemNamesDerivAffix"
 ><p
@@ -18848,7 +18935,10 @@ type="WordWorks"
 >? Since only allomorphy is available, one must create allomorphs for both the root and the suffixes and condition them to have the correct environments.<endnote
 id="nStemAllomorphyAsStemName"
 ><p
->It may be the case that the stem allomorphy will depend on the morphosyntactic features of the affixes. If so, you may be able to use stem names. See <sectionRef
+>It may be the case that the stem allomorphy will depend on the morphosyntactic features of the affixes. If so, you may be able to use <object
+type="StemName"
+></object
+>s. See <sectionRef
 sec="sStemNames"
 ></sectionRef
 >.</p
@@ -31222,6 +31312,14 @@ xsl-foSpecial="baseline-shift='super'"
 font-size="10pt"
 id="tFootnoteInTable"
 ></type
+><type
+after="Stem Allomorph Label"
+id="StemName"
+></type
+><type
+after="stem allomorph label"
+id="stemname"
+></type
 ></types
 ><framedTypes
 ><framedType
@@ -31385,7 +31483,10 @@ id="iAlloOrder"
 id="iAlloStemNames"
 see="iStemNames"
 ><term
->Stem Allomorphy (Stem Names)</term
+>Stem Allomorphy (<object
+type="StemName"
+></object
+>s)</term
 ></indexTerm
 ></indexTerms
 ></indexTerm
@@ -32412,7 +32513,7 @@ see="iStemNames"
 ><indexTerm
 id="iStemNames"
 ><term
->Stem Names</term
+>Stem Allomorph Labels</term
 ></indexTerm
 ><indexTerm
 id="iStemVariant"
